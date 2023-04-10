@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="true" includeESQL="true">
+  <deployables>
+    <deployable workspaceResource="/LeasingAs400_Flows/mqsi/Error.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1395338967915" workspaceResource="/LeasingAs400_Flows/mqsi/LeerError.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingAs400_Flows\mqsi\LeerError.msgflow&#xA;Successfully added file LeasingAs400_Flows\mqsi\LeerError.msgflow to archive file&#xA;Elapsed time: 0,027 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.LeerError.cmf"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1395339869868" workspaceResource="/LeasingAs400_Flows/mqsi/LeerLog.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingAs400_Flows\mqsi\LeerLog.msgflow&#xA;Successfully added file LeasingAs400_Flows\mqsi\LeerLog.msgflow to archive file&#xA;Elapsed time: 0,038 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.LeerLog.cmf"/>
+    </deployable>
+    <deployable workspaceResource="/LeasingAs400_Flows/mqsi/Log.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1401366279470" workspaceResource="/LeasingAs400_Flows/mqsi/Request.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingAs400_Flows\mqsi\Request.msgflow&#xA;Successfully added file LeasingAs400_Flows\mqsi\Request.msgflow to archive file&#xA;Elapsed time: 0,337 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.Request.cmf"/>
+    </deployable>
+    <deployable workspaceResource="/LeasingAs400_Flows/mqsi/RequestProcessor.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1401366569372" workspaceResource="/LeasingAs400_Flows/mqsi/Response.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingAs400_Flows\mqsi\Response.msgflow&#xA;Successfully added file LeasingAs400_Flows\mqsi\Response.msgflow to archive file&#xA;Elapsed time: 0,482 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.Response.cmf"/>
+    </deployable>
+    <deployable workspaceResource="/LeasingAs400_Flows/mqsi/ResponseProcessor.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1385755003557" workspaceResource="/LeasingAs400_FlowsJava/.classpath">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingAs400_FlowsJava\.classpath.&#xA;Successfully added file LeasingAs400_FlowsJava\.classpath to archive file.&#xA;Elapsed time: 0,152 second(s).&#xA;" severity="0"/>
+      <barEntry name="LeasingAs400_FlowsJava.jar"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

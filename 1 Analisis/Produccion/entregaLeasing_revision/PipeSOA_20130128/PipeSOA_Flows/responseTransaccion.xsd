@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <xs:element name="responseTransaccion">
+  	<xs:complexType>
+  		<xs:sequence>
+  			<xs:element ref="cod_respuesta"/>
+  			<xs:element ref="fecha_hora"/>
+  			<xs:element ref="cod_error"/>
+  			<xs:element ref="mensaje_error"/>
+  			<xs:element ref="cod_warning"/>
+  			<xs:element ref="mensaje_warning"/>
+  			<xs:element ref="control_proceso"/>
+  			<xs:element ref="tramaRespuesta"/>
+  		</xs:sequence>
+  	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="cod_respuesta" type="xs:string"/>
+  <xs:element name="fecha_hora" type="xs:dateTime"/>
+  <xs:element name="cod_error" type="xs:string"/>
+  <xs:element name="mensaje_error" type="xs:string"/>
+  <xs:element name="cod_warning" type="xs:string"/>
+  <xs:element name="mensaje_warning" type="xs:string"/>
+  <xs:element name="control_proceso" type="xs:string"/>
+  <xs:element name="tramaRespuesta" type="TramaResType"/>
+    
+
+    <xs:complexType name="TramaResType">
+    	<xs:sequence>
+    		<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="1"></xs:any>
+    	</xs:sequence></xs:complexType>
+</xs:schema>

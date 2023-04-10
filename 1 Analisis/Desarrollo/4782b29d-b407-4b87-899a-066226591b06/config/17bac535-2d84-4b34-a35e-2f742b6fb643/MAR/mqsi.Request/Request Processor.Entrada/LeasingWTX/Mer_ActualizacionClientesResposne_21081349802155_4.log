@@ -1,0 +1,111 @@
+<MapAudit StartTime="14:46:48 October 9, 2012">
+
+<Platform> Platform API for Windows - Version 8.4(12)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+<ExecutionLog   burstreturn="21" ElapsedSec="0.0082">
+
+<inputstatus    card="1"   bytes="758"   adapterreturn="0"   contentreturn="21"/>
+<outputstatus   card="1"   bytes="758"   adapterreturn="0"   contentreturn="0"/>
+
+</ExecutionLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Warning" mapreturn="21" ElapsedSec="0.0089" BurstRestartCount="0">
+   <Message>Entrada válida aunque se han encontrado datos desconocidos</Message>
+   <CommandLine>'C:\Novatec\BBVA\Leasing\LeasingWTX\ActualizacionClientesResposne.mmc'</CommandLine>
+   <ObjectsFound>8</ObjectsFound>
+   <ObjectsBuilt>19</ObjectsBuilt>
+
+<SourceReport   card="1"   adapter="File"   bytes="3000"   adapterreturn="0">
+   <Message>Datos leídos satisfactoriamente</Message>
+   <Settings>C:\Novatec\BBVA\Leasing\LeasingWTX\entradaRequest.txt</Settings>
+   <TimeStamp>14:29:23 October 9, 2012</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="758"   adapterreturn="0">
+   <Message>Datos escritor satisfactoriamente</Message>
+   <Settings>C:\Novatec\BBVA\Leasing\LeasingWTX\salidaResponse.txt</Settings>
+   <TimeStamp>14:46:48 October 9, 2012</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="C:\Novatec\BBVA\Leasing\LeasingWTX\Mer_ActualizacionClientesResposne_21081349802155_4.I01" TimeStamp="14:46:48 October 9, 2012" bytes="68603"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+<MapSettings>
+
+<MapAudit switch="ON">
+   <Log executionsummary="Always" databurst="Always" databurst_sizevalidation="WrongSize" executionburst="Always" mapsettings="Always" datasettings="Always"/>
+   <Location type="File" action="Create">
+      <Directory type="Map">C:\Novatec\BBVA\Leasing\LeasingWTX</Directory>
+      <FileName type="Custom" prefix="Unique">Mer_ActualizacionClientesResposne_21081349802155_4.log</FileName>
+   </Location>
+</MapAudit>
+
+<MapTrace switch="ON">
+   <Location type="File">
+      <Directory type="Custom">C:</Directory>
+      <FileName type="Custom">log_Tarce.txt</FileName>
+   </Location>
+   <InputTrace switch="ON">
+      <Detail type="All">
+      </Detail>
+   </InputTrace>
+   <OutputTrace switch="ON">
+      <Detail type="All">
+      </Detail>
+   </OutputTrace>
+   <SummaryTrace switch="ON"></SummaryTrace>
+</MapTrace>
+
+<WorkSpace>
+   <Location type="File" action="Delete">
+      <Directory type="Map">C:\Novatec\BBVA\Leasing\LeasingWTX</Directory>
+      <FileName type="Default" prefix="Unique"></FileName>
+   </Location>
+   <Paging>
+      <PageSize>64</PageSize>
+      <PageCount>8</PageCount>
+   </Paging>
+</WorkSpace>
+
+<SlidingCentury switch="OFF"></SlidingCentury>
+
+<CustomValidation switch="OFF"></CustomValidation>
+
+<Retry switch="OFF"></Retry>
+
+<BurstRestart switch="OFF"></BurstRestart>
+
+<Warnings type="Every" action="Warn"></Warnings>
+
+</MapSettings>
+
+<DataSettings>
+
+<InputData card="1"   CardMode="Integral"   WorkArea="!Reuse">
+   <Backup switch="OFF"></Backup>
+   <Source adapter="File" OnSuccess="Keep" OnFailure="Rollback" Scope="Map" Warnings="Ignore">
+      <Resource>C:\Novatec\BBVA\Leasing\LeasingWTX\entradaRequest.txt</Resource>
+      <Retry switch="OFF"></Retry>
+   </Source>
+</InputData>
+
+<OutputData card="1">
+   <Backup switch="OFF"></Backup>
+   <Target adapter="File" OnSuccess="Create" OnFailure="Rollback" Scope="Map" Warnings="Ignore">
+      <Resource>C:\Novatec\BBVA\Leasing\LeasingWTX\salidaResponse.txt</Resource>
+      <Retry switch="OFF"></Retry>
+   </Target>
+</OutputData>
+
+</DataSettings>
+
+</MapAudit>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.etools.mft.unittest.core.models.client="http:///com/ibm/etools/mft/unittest/core/models/client.ecore" xmlns:com.ibm.wbit.comptest.common.models.event="http:///com/ibm/etools/mft/unittest/common/models/event.ecore" xmlns:com.ibm.wbit.comptest.common.models.value="http:///com/ibm/etools/mft/unittest/common/models/value.ecore" xmlns:jms="http:///com/ibm//etools/mft/unittest/common/model2/jms" xmlns:model2="http:///com/ibm//etools/mft/unittest/common/model2" xmlns:mq="http:///com/ibm//etools/mft/unittest/common/model2/mq">
+  <com.ibm.etools.mft.unittest.core.models.client:EclipseClient iD="1358885271653-0" eventTrace="/1" clientID="1358885271653-0">
+    <scopes xsi:type="model2:FlowTestScope" name="Configuration" iD="default">
+      <settings xsi:type="model2:FlowSettings"/>
+      <settings xsi:type="model2:DeploymentSettings"/>
+      <settings xsi:type="mq:MQSettings"/>
+      <settings xsi:type="jms:JMSSettings"/>
+      <settings xsi:type="mq:MQMessageHeaders"/>
+      <settings xsi:type="jms:JMSMessageHeaders"/>
+      <messageHeaders xsi:type="mq:MQHeader" iD="1358885271713-3" headerName="Default Header"/>
+      <messageHeaders xsi:type="jms:JMSHeader" headerName="Default Header"/>
+    </scopes>
+  </com.ibm.etools.mft.unittest.core.models.client:EclipseClient>
+  <com.ibm.wbit.comptest.common.models.event:ExecutionEventTrace iD="1358885271673-1" children="/2 /3"/>
+  <model2:InteractiveInputNodeInvocationEvent iD="1358885271763-4" timestamp="1358885271763" msgFlow="" testScopeID="default"/>
+  <mq:InteractiveMQDequeueEvent iD="1358885284932-5" timestamp="1358885284932" children="/4" host="82.255.80.226" port="1414" queueManager="QMDCSOA1" queue="QL.SOA.PS9.MB.OUT">
+    <request xsi:type="model2:TestMessage" iD="1358885284942-6"/>
+  </mq:InteractiveMQDequeueEvent>
+  <mq:MQQueueMonitorEvent name="MQ Queue Monitor &quot;QL.SOA.PS9.MB.OUT&quot;" iD="1358885320083-7" host="82.255.80.226" port="1414" queueManager="QMDCSOA1" queue="QL.SOA.PS9.MB.OUT" readOnly="true" clientID="1358885271653-0" parentID="1358885284932-5" timestamp="1358885320083">
+    <message xsi:type="model2:TestMessage" iD="1358885320093-8">
+      <properties name="messageSource" stringValue="sourceView"/>
+      <properties name="plainText" stringValue="%3CresponseTransaccion%3E%0A%3Ccod_respuesta%3E1%3C%2Fcod_respuesta%3E%0A%3Cfecha_hora%3E2013-01-22T15%3A04%3A45.554-05%3A00%3C%2Ffecha_hora%3E%0A%3Ccod_error%3E%3C%2Fcod_error%3E%0A%3Cmensaje_error%3E%3C%2Fmensaje_error%3E%0A%3Ccod_warning%3E%3C%2Fcod_warning%3E%0A%3Cmensaje_warning%3E%3C%2Fmensaje_warning%3E%0A%3Ccontrol_proceso%3E0%3C%2Fcontrol_proceso%3E%0A%3CtramaRespuesta%3E230000081500099740++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++000000++++++++++++++++++++++++++++++++++++++000000000000000000000000000000++++++++++++++++++++++++++++++++++10PEDV0101PE9C1000IDENTIF+NO+EXISTE+++0100++++++++++++++++%3C%2FtramaRespuesta%3E%3C%2FresponseTransaccion%3E"/>
+      <properties name="SHOW_HEX_VIEW"/>
+      <properties name="linkedFile"/>
+      <parameters xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="responseTransaccion" iD="1358885320143-9" value="">
+        <elements xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="cod_respuesta" iD="1358885320143-10" value="1"/>
+        <elements xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="fecha_hora" iD="1358885320143-11" value="2013-01-22T15:04:45.554-05:00"/>
+        <elements xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="cod_error" iD="1358885320143-12"/>
+        <elements xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="mensaje_error" iD="1358885320143-13"/>
+        <elements xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="cod_warning" iD="1358885320143-14"/>
+        <elements xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="mensaje_warning" iD="1358885320143-15"/>
+        <elements xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="control_proceso" iD="1358885320143-16" value="0"/>
+        <elements xsi:type="com.ibm.wbit.comptest.common.models.value:ValueStructure" name="tramaRespuesta" iD="1358885320143-17" value="230000081500099740                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              000000                                      000000000000000000000000000000                                  10PEDV0101PE9C1000IDENTIF NO EXISTE   0100"/>
+      </parameters>
+      <headerBeenUsed xsi:type="mq:MQHeader" iD="1358885320143-18" applicationIdData="                                " applicationOriginData="    " characterSet="1208" encoding="273" expiry="1002" format="MQSTR   " messageType="2" persistence="0" priority="5" putApplicationName="QMDCSOA1                    " putApplicationType="26" putDateTime="Tue Jan 22 15:04:45 COT 2013" replyToQueueManagerName="QMDCSOA1                                        " replyToQueueName="                                                " userId="usrdesmqm   " msgId="AMQ+QMDCSOA1++++%C2%ADB%C3%87P%23%236+" correlId="%C3%81%C3%94%C3%98%40%C3%98%C3%94%C3%84%C3%83%C3%93%C3%81%C3%A2%C3%B4%40%40%40%40P%C3%A1%C3%80%C3%9D+%00%C3%89%02" accountingToken="%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00" groupId="%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00">
+        <rfh2>
+          <jms/>
+          <mcd/>
+          <usr/>
+        </rfh2>
+      </headerBeenUsed>
+    </message>
+  </mq:MQQueueMonitorEvent>
+</xmi:XMI>

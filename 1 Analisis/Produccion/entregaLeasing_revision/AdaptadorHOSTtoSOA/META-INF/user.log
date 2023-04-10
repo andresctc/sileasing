@@ -1,0 +1,27 @@
+
+==============================================
+
+!Fri Nov 20 19:28:35 COT 2015
+
+Processing file AdaptadorHOSTtoSOA.
+Application file AdaptadorHOSTtoSOA.appzip successfully added to the broker archive.
+Application compiled contents:
+    
+    Processing file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql.
+    Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql to archive file.
+    
+    
+    Processing file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow
+    Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow to archive file
+    Elapsed time: 0.15 second(s).
+    
+    
+    Processing file AdaptadorHOSTtoSOAJava\.classpath.
+    Successfully added file AdaptadorHOSTtoSOAJava\.classpath to archive file.
+    Elapsed time: 0 second(s).
+    
+
+Elapsed time: 0.16 second(s).

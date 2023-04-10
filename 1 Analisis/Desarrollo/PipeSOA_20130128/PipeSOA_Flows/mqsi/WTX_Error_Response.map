@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="mqsi" version="7.5.0" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="mqsi">
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/BlobMessage.xsd"/>
+    <output path="/responseTransaccion.xsd"/>
+    <namespaces>
+        <namespace kind="extension" prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
+    </namespaces>
+    <generation availableEngines="xquery" engine="xquery"/>
+    <mappingDeclaration name="WTX_Error_Response">
+        <input path="mb:msg(BLOB,assembly,BLOB,Properties)"/>
+        <output path="mb:msg(responseTransaccion,assembly,XMLNSC,Properties)"/>
+        <move>
+            <input path="Properties"/>
+            <output path="Properties"/>
+        </move>
+        <assign value="9">
+            <output path="responseTransaccion/cod_respuesta"/>
+        </assign>
+        <function ref="fn:current-dateTime">
+            <output path="responseTransaccion/fecha_hora"/>
+        </function>
+        <assign value="98">
+            <output path="responseTransaccion/cod_error"/>
+        </assign>
+        <assign value="Error en Pipe SOA en WTX response para mas detalles active las opciones de Audit o Trace en las propiedades del Map">
+            <output path="responseTransaccion/mensaje_error"/>
+        </assign>
+        <assign>
+            <output path="responseTransaccion/cod_warning"/>
+        </assign>
+        <assign>
+            <output path="responseTransaccion/mensaje_warning"/>
+        </assign>
+        <assign value="9">
+            <output path="responseTransaccion/control_proceso"/>
+        </assign>
+        <assign>
+            <output path="responseTransaccion/tramaRespuesta"/>
+        </assign>
+    </mappingDeclaration>
+</mappingRoot>

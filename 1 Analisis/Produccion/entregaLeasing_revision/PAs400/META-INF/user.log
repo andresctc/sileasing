@@ -1,0 +1,35 @@
+
+==============================================
+
+!Thu May 29 07:30:06 COT 2014
+
+Processing file LeasingAs400_Flows.
+Application file LeasingAs400_Flows.appzip successfully added to the broker archive.
+Application compiled contents:
+    
+    Processing file LeasingAs400_FlowsJava\.classpath.
+    Successfully added file LeasingAs400_FlowsJava\.classpath to archive file.
+    Elapsed time: 0,152 second(s).
+    
+    
+    Processing file LeasingAs400_Flows\mqsi\Response.msgflow
+    Successfully added file LeasingAs400_Flows\mqsi\Response.msgflow to archive file
+    Elapsed time: 0,482 second(s).
+    
+    
+    Processing file LeasingAs400_Flows\mqsi\LeerLog.msgflow
+    Successfully added file LeasingAs400_Flows\mqsi\LeerLog.msgflow to archive file
+    Elapsed time: 0,038 second(s).
+    
+    
+    Processing file LeasingAs400_Flows\mqsi\Request.msgflow
+    Successfully added file LeasingAs400_Flows\mqsi\Request.msgflow to archive file
+    Elapsed time: 0,337 second(s).
+    
+    
+    Processing file LeasingAs400_Flows\mqsi\LeerError.msgflow
+    Successfully added file LeasingAs400_Flows\mqsi\LeerError.msgflow to archive file
+    Elapsed time: 0,027 second(s).
+    
+
+Elapsed time: 1,057 second(s).

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" includeSource="true" cleanBrokerArchive="false" overrideConfigurableProperties="true" includeESQL="true" includeDepFromLibs="false">
+  <options name="uteSyncKey" value="20150716_0233_13"/>
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1342455522281" workspaceResource="/LeasingFlows/.project">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingFlows.&#xA;Application file LeasingFlows.appzip successfully added to the broker archive.&#xA;Application compiled contents:&#xA;    Processing MAR file C:\Novatec\BBVA\Leasing\RequestProcessor.Entrada.ActualizacionClientesRequest.mar&#xA;    Compiling ActualizacionClientesRequest a_LE map successful&#xA;    Compiling ActualizacionClientesRequest a_LX map successful&#xA;    Compiling ActualizacionClientesRequest a_BE map successful&#xA;    Compiling ActualizacionClientesRequest e_BE map successful&#xA;    MAR file creation successful&#xA;    MAR file added successfully&#xA;    &#xA;    Processing MAR file C:\Novatec\BBVA\Leasing\ResponseProcessor.Salida.ActualizacionClientesResposne.mar&#xA;    Compiling ActualizacionClientesResposne a_LE map successful&#xA;    Compiling ActualizacionClientesResposne a_LX map successful&#xA;    Compiling ActualizacionClientesResposne a_BE map successful&#xA;    Compiling ActualizacionClientesResposne e_BE map successful&#xA;    MAR file creation successful&#xA;    MAR file added successfully&#xA;    &#xA;    &#xA;    Processing file LeasingFlows\mqsi\Response.msgflow&#xA;    Successfully added file LeasingFlows\mqsi\Response.msgflow to archive file&#xA;    Elapsed time: 1.152 second(s).&#xA;    &#xA;    &#xA;    Processing file LeasingFlows\mqsi\Request.msgflow&#xA;    Successfully added file LeasingFlows\mqsi\Request.msgflow to archive file&#xA;    Elapsed time: 0.19 second(s).&#xA;    &#xA;&#xA;Elapsed time: 1.372 second(s).&#xA;" severity="0"/>
+      <barEntry name="LeasingFlows.appzip"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

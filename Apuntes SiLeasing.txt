@@ -1,0 +1,218 @@
+--1
+no llegan las peticiones de Host a AS400 en ambiente calidad.
+-apuntamiento a QM Manager
+	82.255.42.170 - SOA1 Nodos
+	82.255.42.171 - SOA2 Nodos
+	PAs400.bar - se corrigieron los apuntmientos - 
+	
+	por ejecutar desde maquina citrix
+	\\82.250.88.90\tx\ENVIO_HOST\LEASINGENV
+	
+	TX BLS1 Consulta 
+	- BLS5 las otras requieren autenticacion desde Nacar.
+
+----------------
+
+Accesos QMs Dev    - OK
+Acceso SSH IIB DEv - Ok
+Verificar version IIB Banco - Pendiente
+V MQ9
+Verificar disponibilidad ambiente Sileasing Desarrollo - Pendiente
+Verificacion aplicacion pago ambiente Sileasing IIB Desarrollo - Pendiente
+Obtener definicion de CPYs de mensajeria MQ a transformar - Pendiente
+
+Ingresar a Broker, consultar un log, explicar como hacer un debug
+
+--------------
+
+iib-10.0.0.23
+MQ 9.2
+https://www.ibm.com/support/fixcentral/swg/downloadFixes?parent=ibm%7EWebSphere&product=ibm/WebSphere/Integration+Bus&release=10.0.0.3&platform=Windows+64-bit,+x86&function=fixId&fixids=10.0.0-IIB-WINX64-FP0026&includeRequisites=1&includeSupersedes=0&downloadMethod=http
+
+
+TransaccionesMPG -> de IntraSoa revisar de inter daña bancamovil
+mqadv_dev912_windows.zip
+Windows 7 IIB.vdi
+
+----------------
+mqmq
+mqm1
+
+QMDCLAS4  - 192.168.11.155 1415
+QMLSAS400 - 82.250.88.173 1417
+
+sudo sudo
+
+cd /var
+
+ls -ltr
+cd /log
+de pipePS9
+ls -ltr
+OperacionesPS9.log
+tail -f OperacionesPS9.log
+
+--------------------------
+
+https://www.youtube.com/watch?v=rdKMH5a7Vgk
+https://www.youtube.com/watch?v=70ivOiaQaQc
+https://www.youtube.com/watch?v=neD0fWulXUc
+https://www.youtube.com/watch?v=GJ_VSClMAQg
+https://www.youtube.com/watch?v=plOyjLdEuIk
+https://www.youtube.com/watch?v=9c-X5j7JB_U&list=PLcRAPJ3Hb6yh8k2JVfkcSK0UA08x394Df
+https://www.youtube.com/watch?v=7QkOp9y2UGU
+https://www.youtube.com/watch?v=cLqmSKVhLuM
+https://www.youtube.com/watch?v=1zsEAtbE-uM
+
+-------------------
+
+Descripción de la solicitud: Solicitud accesos a MQs ambiente desarrollo
+
+Aplicativo al que requiere permiso: Leasing, se accedera a las colas MQ para desarrollar una aplicacion a nivel de Middleware que comunique a AS400 con OS390 mejorando la transaccionalidad y trazabilidad de las peticiones.
+
+Tipo de Entorno: Desarrollo
+
+Perfil del usuario: Desarrollador
+
+Gerente del área que Aprueba: Milagros Lastra
+
+/de/instaladores/bar/MBCPSOA1/Leasing_de.bar
+/de/Leasing/Configuracion/AppConfig.xml
+/fe/configPS9/config.properties
+
+	<formato name="PEMCELS">
+			<requestWTXpath>/de/FormatosWTX/Leasing/ActualizacionClientesRequest.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/Leasing/ActualizacionClientesResposne.mmc</responseWTXpath>
+	</formato>
+
+<MQMD><StrucId>MD </StrucId><Version>1</Version><Report>0</Report><MsgType>1</MsgType><Expiry>500</Expiry><Feedback>0</Feedback><Encoding>546</Encoding><CodedCharSetId>819</CodedCharSetId><Format>MQSTR </Format><Priority>5</Priority><Persistence>0</Persistence><MsgId>c1d4d840d8d4c4c3d3c1e2f44040404063e6691e23477ec2</MsgId><CorrelId>000000000000000000000000000000000000000000000000</CorrelId><BackoutCount>0</BackoutCount><ReplyToQ>QL.GATEWAY.OUT </ReplyToQ><ReplyToQMgr>QMDCSOA1 </ReplyToQMgr><UserIdentifier>c808267 </UserIdentifier><AccountingToken>0ff1f4f7f9f7f9f7f24040404040404000000000000000000000000000000008</AccountingToken><ApplIdentityData> </ApplIdentityData><PutApplType>8</PutApplType><PutApplName>289897/C808267/QPADEV00RZ </PutApplName><PutDate>20230303</PutDate><PutTime>21552953</PutTime><ApplOriginData> </ApplOriginData></MQMD>
+
+periodo facturado - 27 al 24 de febrero
+el 15 se paso Leidy
+
+---------------
+
+        200482769
+		.IH>26%008    J050    UCQGLEMD00000001PELS    000083711OPENE./IH>.ME>0758C210000000041371370                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              000000                                      000000000000000000000000000000                                                                                           W./ME>
+		<IH>26%008    J050    UCQGLEMD00000001PELS    000083711OPENE</IH><ME>0758C210000000041371370                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              000000                                      000000000000000000000000000000                                                                                           W</ME>		
+		<IH>26J47A J050 UCQGLEMD00000001PELS 000083711OPENE</IH><ME>0758C210000000001122330 000000 000000000000000000000000000000 W</ME>
+				
+		<MQMD><StrucId>MD </StrucId><Version>1</Version><Report>0</Report><MsgType>1</MsgType><Expiry>500</Expiry><Feedback>0</Feedback><Encoding>546</Encoding><CodedCharSetId>819</CodedCharSetId><Format>MQSTR </Format><Priority>5</Priority><Persistence>0</Persistence><MsgId>c1d4d840d8d4c4c3d3c1e2f44040404063e6691e23477ec2</MsgId><CorrelId>000000000000000000000000000000000000000000000000</CorrelId><BackoutCount>0</BackoutCount><ReplyToQ>QL.GATEWAY.OUT </ReplyToQ><ReplyToQMgr>QMDCSOA1 </ReplyToQMgr><UserIdentifier>c808267 </UserIdentifier><AccountingToken>0ff1f4f7f9f7f9f7f24040404040404000000000000000000000000000000008</AccountingToken><ApplIdentityData> </ApplIdentityData><PutApplType>8</PutApplType><PutApplName>289897/C808267/QPADEV00RZ </PutApplName><PutDate>20230303</PutDate><PutTime>21552953</PutTime><ApplOriginData> </ApplOriginData></MQMD>
+		
+		QueeManagerName=QMDCSOA1
+		QueueName=QL.SOA.PS9.IN
+		Channel=SYSTEM.DEF.SVRCONN
+		HostName=172.17.85.226
+		Port=1415
+		
+		SYSTEM.DEF.SVRCONN/TCP/172.17.82.226(1415)
+		
+-----------
+
+'2023-02-28 16:06:15.836542'|'X'c1d4d840d8d4c4c3d3c1e2f44040404063e6691e233f06c2''|'Request'|        
+<IH>26A53W    J050    UCQGLEMD00000001PELS    000083711OPENE</IH>
+<ME>0758C210000000041371370                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              000000                                      000000000000000000000000000000                                                                                           W</ME>
+'2023-02-28 16:06:15.838820'|'X'c1d4d840d8d4c4c3d3c1e2f44040404063e6691e233f06c2''|'Request'|210000000041371370                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              000000                                      000000000000000000000000000000                                                                                           W
+'2023-02-28 16:06:15.839585'|'X'c1d4d840d8d4c4c3d3c1e2f44040404063e6691e233f06c2''|'Request'|<?xml version="1.0" encoding="UTF-8"?>
+	<requestTransaccion>
+	<Aplicacion>LEASING</Aplicacion>
+	<Operacion>ActualizacionClientesLeasing</Operacion>
+	<trama>210000000041371370                                                                                                                        00000   000                  000                                                                                                                                                                                                                                                                                                                                                                                                                                      000000                                      000000000000000000000000000000                                                                                           WXY                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </trama></requestTransaccion>
+	
+'2023-02-28 16:06:16.126007'|'X'c1d4d840d8d4c4c3d3c1e2f44040404063e6691e233f06c2''|'Response'|<responseTransaccion>
+	 <cod_respuesta>
+	1</cod_respuesta>
+	 <fecha_hora>
+	2023-02-28T16:06:16.120-05:00</fecha_hora>
+	 <cod_error>
+	</cod_error>
+	 <mensaje_error>
+	</mensaje_error>
+	 <cod_warning>
+	</cod_warning>
+	 <mensaje_warning>
+	</mensaje_warning>
+	 <control_proceso>
+	0</control_proceso>
+	 <tramaRespuesta>
+	210000000041371370RUIZ                VALLEJO             ADOLFO                                                       S0073N             00000CLL000                  010AVENIDA CLL 68 A                                  11001                                                                      GIOVANNI APB GMAIL COM                                                                                                                                 MN000000000101980 08 14BOGOTA         EMPLEADO                      1999 02 06                                                                    000000                                      000000000000000000000000000000                                  00                                                       W</tramaRespuesta>
+	</responseTransaccion>
+	
+'2023-02-28 16:06:16.127130'|'X'c1d4d840d8d4c4c3d3c1e2f44040404063e6691e233f06c2''|'Response'|210000000041371370RUIZ                VALLEJO             ADOLFO                                                       S0073N             00000CLL                     010AVENIDA CLL 68 A                                  11001                                                                      GIOVANNI APB GMAIL COM                                                                                                                                 MN000000000101980 08 14BOGOTA         EMPLEADO                      1999 02 06                                                                    000000                                      000000000000000000000000000000                                  00                                                       W                                                                                                                                                                                                                                                                                                                   00      00                                                              00      0                                                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000              
+'2023-02-28 16:06:16.129361'|'X'c1d4d840d8d4c4c3d3c1e2f44040404063e6691e233f06c2''|'Response'|<OH>
+	26100000000101709</OH>
+	<DE>
+	1P  0      E</DE>
+	<OC>
+	C1PEMCSLS 210000000041371370RUIZ                VALLEJO             ADOLFO                                                       S0073N             00000CLL                     010AVENIDA CLL 68 A                                  11001                                                                      GIOVANNI APB GMAIL COM                                                                                                                                 MN000000000101980 08 14BOGOTA         EMPLEADO                      1999 02 06                                                                    000000                                      000000000000000000000000000000                                  00                                                       W                                                                                                                                                                                                                                                                                                                   00      00                                                              00      0                                                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000                       000000000000000000              </OC>ç
+	
+----------------
+AdaptadorHOSTtoSOA
+	Identificar piezas WTX
+		AdaptadorHOSTtoSOA#SelectorWTXaWS
+		AdaptadorHOSTtoSOA#SelectorWTXresp
+	Decompilar AdaptadorHOSTtoSOAJava.jar
+
+Colas QMCPSOA1
+	DEFINE QLOCAL ('QLP.CONLEA.ENVIO') +
+DEFINE QLOCAL ('QLP.CONLEA.ERROR') +
+DEFINE QLOCAL ('QLP.CONLEA.LOG') +
+DEFINE QLOCAL ('QLP.CONLEA.RESP') +
+DEFINE QLOCAL ('QLP.CONLEA.STORE') +
+DEFINE QLOCAL ('QLP.LEASM.ENVIO') +
+DEFINE QLOCAL ('QLP.LEASM.RESP') +
+DEFINE QLOCAL ('QLP.RETIC1.ENVIO') +
+DEFINE QALIAS ('QLP.RETIC1.RESP') +
+DEFINE QLOCAL ('QLP.RETIC2.RESP') +
+DEFINE QLOCAL ('QLP.RETIC3.ENVIO') +
+DEFINE QALIAS ('QLP.RETIC3.RESP') +
+DEFINE QLOCAL ('QLP.SLES.ENVIO.CO') +
+DEFINE QALIAS ('QLP.SLES.RESP.CO') +
+       RNAME('QLP.CONLEA.RESP') +
+       RNAME('QLP.LEASM.ENVIO') +
+       TARGET('QLP.LEASM.RESP') +
+       RNAME('QLP.REQ.LEA') +
+       RNAME('QLP.RETIC1.RESP') +
+       RNAME('QLP.RETIC2.ENVIO') +
+       TARGET('QLP.RETIC2.RESP') +
+       RNAME('QLP.RETIC3.RESP') +
+       RNAME('QLP.SLES.RESP.CO') +
+	   
+Linea  907:        TARGET('QRP.RETIC1.RESP.MQP4') +
+	Linea 1032:        TARGET('QRP.RETIC3.RESP.MQP4') +
+	Linea 1105:        TARGET('QRP.SLES.RESP.QMPCLAS4.CO') +
+	Linea 1218: DEFINE QREMOTE ('QRP.CONLEA.RESP.MQP4') +
+	Linea 1237: DEFINE QREMOTE ('QRP.LEASM.ENVIO.MQP4') +
+	Linea 1256: DEFINE QALIAS ('QRP.LEASM.RESP.QMCPSOA1') +
+	Linea 1277: DEFINE QREMOTE ('QRP.REQ.LEA.QMPCLAS4') +
+	Linea 1296: DEFINE QREMOTE ('QRP.RETIC1.RESP.MQP4') +
+	Linea 1315: DEFINE QREMOTE ('QRP.RETIC2.ENVIO.MQP4') +
+	Linea 1334: DEFINE QALIAS ('QRP.RETIC2.RESP.QMCPSOA1') +
+	Linea 1355: DEFINE QREMOTE ('QRP.RETIC3.RESP.MQP4') +
+	Linea 1374: DEFINE QREMOTE ('QRP.SLES.RESP.QMPCLAS4.CO') +	 
+	
+	
+---------------------
+
+https://www.ibm.com/support/pages/ibm-integration-buswebsphere-message-broker-and-websphere-transformation-extender-integration-frequently-asked-questions-faq
+https://www.ibm.com/support/pages/wtx-map-node-plugin-not-present-iib-toolkit-v100-after-installing-itx-integration-servers-v90
+https://www.ibm.com/support/pages/release-notes-ibm-transformation-extender-integration-servers-v900-9005
+https://www.ibm.com/support/pages/apar/PK81586
+https://www.ibm.com/support/pages/apar/PM69807
+https://www.ibm.com/docs/es/integration-bus/10.0?topic=command-mqsideploy-windows-linux-unix-systems
+https://www.ibm.com/docs/es/integration-bus/10.0?topic=solutions-creating-bar-file
+https://arquitecturaibm.com/ibm-integration-bus-commands/
+
+82.255.80.226 - 4782b29d-b407-4b87-899a-066226591b06
+
+find / -type d -name 4782b29d-b407-4b87-899a-066226591b06
+
+/var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06	
+
+mqsideploy -n b1.broker -e default -a mybar.bar -m -w 600
+mqsideploy -n b1.broker -e default -d top.cmf:bar.dictionary
+
+QLD.SLES.ENVIO.CO
+QMDCSOA1
+
+https://www.ibm.com/support/pages/ibm-integration-bus-failure-load-dtxwmqilil-file-when-deploying-message-flow-containing-wtx-map-node-due-incompatible-mq-icu-version

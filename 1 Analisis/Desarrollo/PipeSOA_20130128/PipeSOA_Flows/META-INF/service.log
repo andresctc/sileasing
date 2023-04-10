@@ -1,0 +1,275 @@
+
+==============================================
+
+!Thu Nov 15 15:42:04 COT 2012
+Message flow PipeSOA_Flows\mqsi\WriteFilesError.msgflow successfully loaded
+Message flow PipeSOA_Flows\mqsi\WriteFilesError.msgflow successfully compiled
+Message flow PipeSOA_Flows\mqsi\WriteFilesError.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+Compute             WriteFilesError     5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+
+Successfully added file PipeSOA_Flows\mqsi\Error.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Error.esql to archive file.
+Message flow PipeSOA_Flows\mqsi\WriteFiles.msgflow successfully loaded
+Message flow PipeSOA_Flows\mqsi\WriteFiles.msgflow successfully compiled
+Message flow PipeSOA_Flows\mqsi\WriteFiles.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+Prepare Msg         WriteFiles          5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+
+Successfully added file PipeSOA_Flows\mqsi\Log.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Log.esql to archive file.
+Message flow PipeSOA_Flows\mqsi\Response.msgflow successfully loaded
+Message flow PipeSOA_Flows\mqsi\Response.msgflow successfully compiled
+Message flow PipeSOA_Flows\mqsi\Response.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+Union Datos         ResponsePaginacion  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Get Indices         ResponsePaginacion                      
+Logging On?         Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Logging On?         Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set reponse         ResponseProcessor   5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Map_To_Response     ResponseProcessor   null                null
+Init Blob           ResponsePaginacion  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Compute             Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Create Trace Data   Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Libera terminal     Error                                   
+WTX Error Response  ResponseProcessor                       
+ErrorLoggingOn?     Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+WTX Error Response PLoopPaginacion                          
+Reply if Request ModError               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Map_To_Response_MultResponseProcessor   null                null
+Libera Terminal     ResponseProcessor                       
+Create Trace Data   Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Formato Resp        ResponseProcessor                       
+Error Respuesta     Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Create Trace Data   Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Compute             Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Missing Stored Msg  Response            5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Build Error Message Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set indicacor pag   SendPaginacion                          
+MQ Warning          Response            5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Compute             Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Initialise          Response            5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set respuesta       ResponsePaginacion  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Valida Error        LoopPaginacion                          
+Compute             Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Logging On?         Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Map Paginacion      LoopPaginacion      null                null
+
+Successfully added file PipeSOA_Flows\mqsi\Paginacion.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Paginacion.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\WTX_Error_Response.map to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Intermediary.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Intermediary.esql to archive file.
+
+Successfully added file PipeSOA_FlowsJava\.classpath to archive file.
+Message flow PipeSOA_Flows\mqsi\RequestSCA.msgflow successfully loaded
+Message flow PipeSOA_Flows\mqsi\RequestSCA.msgflow successfully compiled
+Message flow PipeSOA_Flows\mqsi\RequestSCA.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+PipeSOA To SCA      RequestSCA                              
+Set Vars            RequestSCA          5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Map To PipeSOA      RequestSCA                              
+
+Successfully added file PipeSOA_Flows\mqsi\RequestSCA_PipeSOA_To_SCA.map to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Set_Vars.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Set_Vars.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Map_To_PipeSOA.map to archive file.
+Message flow PipeSOA_Flows\mqsi\Request.msgflow successfully loaded
+Message flow PipeSOA_Flows\mqsi\Request.msgflow successfully compiled
+Message flow PipeSOA_Flows\mqsi\Request.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+Store Indice        RequestProcessor                        
+Error Respuesta     Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set Variables       RequestProcessor                        
+Build Error Message Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Reply if Request ModError               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set Trama           RequestProcessor    5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Extract Original MQMRequest             5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Compute             Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set Terminal        RequestProcessor                        
+Create Trace Data   Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Compute             Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set TimeOut         Request                                 
+Libera terminal     Error                                   
+Logging On?         Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+WTX Error Request   RequestProcessor                        
+Create Trace Data   Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Compute             Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Put cabecera        RequestProcessor    5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Map_PS9             RequestProcessor    null                null
+Logging On?         Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Logging On?         Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Compute             Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+ErrorLoggingOn?     Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+isXMLOrBinary       RequestProcessor    5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set Request Mode    Request             5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Create Trace Data   Log                 5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+
+Successfully added file PipeSOA_Flows\mqsi\isXMLOrBinary.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\isXMLOrBinary.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\WTX_Error_Request.map to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\RequestProcessor_Set_Trama.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\RequestProcessor_Set_Trama.esql to archive file.
+
+Successfully added file PipeSOA_Flows\input-to-output.xsl to archive file.
+Message flow PipeSOA_Flows\mqsi\AdminTerminal.msgflow successfully loaded
+Message flow PipeSOA_Flows\mqsi\AdminTerminal.msgflow successfully compiled
+Message flow PipeSOA_Flows\mqsi\AdminTerminal.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+End Terminal        AdminTerminal                           
+Message flow PipeSOA_Flows\mqsi\AdminPaginacion.msgflow successfully loaded
+Message flow PipeSOA_Flows\mqsi\AdminPaginacion.msgflow successfully compiled
+Message flow PipeSOA_Flows\mqsi\AdminPaginacion.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+Write Log           AdminPaginacion                         
+Delete Colas        AdminPaginacion                         
+End Paginacion      AdminPaginacion                         
+
+Successfully added file PipeSOA_Flows\LimpiarXML.xsl to archive file.
+
+Successfully added file PipeSOA_Flows\Operacion.xsd to archive file.
+
+Successfully added file PipeSOA_Flows\Operacion.xsd to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\AdminTerminal_del_mensajes.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\AdminTerminal_del_mensajes.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Error_Compute.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Error_Compute.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Error_Filter.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Error_Filter.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Error_Map_Errorwe.map to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Request_Compute.esql to archive file.
+
+Successfully added file PipeSOA_Flows\mqsi\Request_Compute.esql to archive file.
+
+Successfully added file PipeSOA_Flows\requestTransaccion.xsd to archive file.
+
+Successfully added file PipeSOA_Flows\requestTransaccion.xsd to archive file.
+
+Successfully added file PipeSOA_Flows\responsePaginacion.xsd to archive file.
+
+Successfully added file PipeSOA_Flows\responsePaginacion.xsd to archive file.
+
+Successfully added file PipeSOA_Flows\responseTransaccion.xsd to archive file.
+
+Successfully added file PipeSOA_Flows\responseTransaccion.xsd to archive file.

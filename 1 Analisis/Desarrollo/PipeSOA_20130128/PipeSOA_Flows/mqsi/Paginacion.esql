@@ -1,0 +1,107 @@
+BROKER SCHEMA mqsi
+
+
+CREATE COMPUTE MODULE BuildOutputMessage
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- fix the aggregate reply message for output to a queue
+		SET OutputRoot.Properties = InputRoot.Properties;
+		CREATE NEXTSIBLING OF OutputRoot.Properties DOMAIN 'MQMD';
+		SET OutputRoot.MQMD.StrucId = MQMD_STRUC_ID;
+		SET OutputRoot.MQMD.Version = MQMD_CURRENT_VERSION;
+
+		DECLARE paginas REFERENCE TO InputRoot.ComIbmAggregateReplyBody.paginacion;
+		
+		DECLARE Dato BLOB;
+		DECLARE Text CHARACTER;
+		
+		
+		
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER CARDINALITY(paginas.*[]);
+		SET Dato =''; 
+		WHILE I <= J DO
+			SET Dato = Dato || paginas.BLOB.BLOB;
+			SET Text = CAST(Dato as char CCSID 1208 Encoding 815);
+		MOVE paginas NEXTSIBLING;
+		SET I = I + 1;
+		
+		END WHILE;
+		
+		SET OutputRoot.BLOB.BLOB = Dato;
+				
+	RETURN TRUE;
+	END;
+END MODULE;
+
+
+CREATE COMPUTE MODULE Put_respuesta
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot = InputRoot;
+		
+		DECLARE cabeza BLOB CAST(InputLocalEnvironment.Variables.cabecera_respuesta_host AS BLOB CCSID OutputRoot.Properties.CodedCharSetId ENCODING OutputRoot.Properties.Encoding);
+		
+		IF(InputLocalEnvironment.Variables.error_paginacion_pg = 'ERROR') THEN
+			
+			SET OutputRoot.BLOB.BLOB = cabeza;		
+					
+		ELSE
+			
+			DECLARE pie BLOB CAST('</tramaRespuesta></responseTransaccion>' AS BLOB CCSID OutputRoot.Properties.CodedCharSetId ENCODING OutputRoot.Properties.Encoding);		
+			SET OutputRoot.BLOB.BLOB = cabeza || InputLocalEnvironment.Variables.blob_response || pie;						
+									
+		END IF;
+		
+		
+				
+		RETURN TRUE;
+	END;
+
+END MODULE;
+
+CREATE COMPUTE MODULE Set_indice
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot = InputRoot;
+		SET InputLocalEnvironment.Variables.Indice_pag_input = InputRoot.XMLNSC.responsePaginacion.pg_indicador_mas_registros;
+		RETURN TRUE;
+	END;
+
+	
+END MODULE;
+
+
+CREATE COMPUTE MODULE Union_Datos
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		SET OutputRoot = InputRoot;
+		
+		DECLARE newBlob BLOB InputRoot.BLOB.BLOB;
+				
+		SET InputLocalEnvironment.Variables.blob_response = InputLocalEnvironment.Variables.blob_response  || newBlob;
+		
+		
+		
+		RETURN TRUE;
+	END;	
+END MODULE;
+
+CREATE COMPUTE MODULE Init_Blob
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot = InputRoot;
+		
+		DECLARE newBlob BLOB CAST('' AS BLOB CCSID OutputRoot.Properties.CodedCharSetId ENCODING OutputRoot.Properties.Encoding);
+		
+				
+		SET InputLocalEnvironment.Variables.blob_response = newBlob;
+		SET InputLocalEnvironment.Variables.paginaMsgId = '--';
+		
+		
+		
+		RETURN TRUE;
+	END;
+		
+END MODULE;

@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApplicationConfig>
+	<!-- Apagar las opciones de log para produccion -->
+	<Application name="GIROS_BTS">
+		<Operacion name="ValidarCta">
+			<transaccion>ED41</transaccion>
+			<terminalContable>H00C</terminalContable>
+			<usuario>UCQGEDCP</usuario>
+			<canal>E1</canal>
+			<formato>fmt_giros_BTS_validaCta</formato>
+			<log>false</log>
+		</Operacion>
+		<Operacion name="RealizarOper">
+			<transaccion>ED41</transaccion>
+			<terminalContable>H00C</terminalContable>
+			<usuario>UCQGEDCP</usuario>
+			<canal>E1</canal>
+			<formato>fmt_giros_BTS_realizarOper</formato>
+			<log>false</log>
+		</Operacion>
+	</Application>
+	<Application name="BANCA_MOVIL">
+	<!-- GP14520 CMC -->
+<Operacion name="ListadoBancos">
+	<transaccion>OZRK</transaccion>
+	<terminalContable>J40A</terminalContable>
+	<usuario>UCQGBSCP</usuario>
+	<canal>OZ</canal>
+	<formato>fmt_bm_Listado_Bancos</formato>
+	<log>true</log>
+</Operacion>	   
+<!-- GP14520 CMC -->
+		<!-- GP11259 NOVATEC INICIO -->
+		<Operacion name="TransferenciasEntreCuentaBBVA">
+			<transaccion>OZTS</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>transferenciasentrecuentabbva</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- GP11259 NOVATEC FIN -->
+		<Operacion name="PruebaPaginacion">
+			<transaccion>OZ01</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Pruebas</formato>
+			<log>true</log>
+		</Operacion>
+				<!-- GP11115 PERSCANALES INICIO -->
+		<Operacion name="PersCanalesGetDefault">
+			<transaccion>OZCC</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Personalizacion_Get_Default</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ListadorPersCanales">
+			<transaccion>OZCS</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Listador_Personalizacion_Canales</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PersCanalesModificacion">
+			<transaccion>OZCV</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Personalizacion_Modificacion</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- PERSCANALES FIN -->
+	<!-- PREAPROBADOS F2 GP13541 -->
+		<Operacion name="ListadoCuentasPreaprobados">
+		       <transaccion>OZVC</transaccion>
+		       <terminalContable>J40A</terminalContable>
+		       <usuario>UCQGBSCP</usuario>
+		       <canal>OZ</canal>
+		       <formato>fmt_bm_ListadoCuentas_Preaprobados</formato>
+		       <log>true</log>
+		</Operacion>
+		<Operacion name="ListadoPreaprobados">
+		       <transaccion>OZVF</transaccion>
+		       <terminalContable>J40A</terminalContable>
+		       <usuario>UCQGBSCP</usuario>
+		       <canal>OZ</canal>
+		       <formato>fmt_bm_Listado_Preaprobados</formato>
+		       <log>true</log>
+		</Operacion>
+		<Operacion name="ActivacionPreaprobados">
+			<transaccion>OZVD</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Activacion_Preaprobados</formato>
+			<log>true</log>
+		</Operacion>
+
+		<Operacion name="SimulacionPreaprobados">
+			<transaccion>OZVE</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Simulacion_Preaprobados</formato>
+			<log>true</log>
+		</Operacion>
+
+	<!-- PREAPROBADOS F2 GP13541 -->
+		<Operacion name="PosicionGlobal">
+			<transaccion>OZP2</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Posicion_Global</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ListadorTarjetas">
+			<transaccion>OZ04</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Listador_Tarjetas</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="MovimientosTarjetas">
+			<transaccion>OZ08</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Movimientos_Tarjetas</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ListadorCuentas">
+			<transaccion>OZ01</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Listador_Cuentas</formato>
+			<!-- Campo del xml de entrada que indica la pagina a consultar-->
+			<campoPaginacion>/entrada_prueba/indicadorPaginacion</campoPaginacion>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="MovimientosCuentas">
+			<transaccion>OZ07</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Movimientos_Cuentas</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="TransferenciaCuentasInternas">
+			<transaccion>OZ13</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Transferencia_Cuentas_Internas</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="TransferenciaCuentasPropias">
+			<transaccion>OZ09</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Transferencia_Cuentas_Propias</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="TransferenciaCuentasExternas">
+			<transaccion>OZ0D</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Transferencia_Cuentas_Externas</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ListadoPrestamos">
+			<transaccion>OZ03</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Listado_Prestamos</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ListadoCDTs">
+			<transaccion>OZ02</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Listado_CDTs</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaModuloComision">
+			<transaccion>OZ32</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Consulta_Modulo_Comision</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="AliasProducto">
+			<transaccion>OZ06</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Consulta_Alias_Producto</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="Favoritos">
+			<transaccion>OZS4</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Consulta_Favoritos</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PagoFacturas">
+			<transaccion>OZ0H</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Pago_Factura</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="CuentasInscritaslis">
+			<transaccion>OZD7</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Cuentas_Pre_Inscritas_Listado</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="CuentasPreInscritasAlta">
+			<transaccion>OZ0A</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Cuentas_Pre_Inscritas_Alta</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="CuentasPreInscritasBaja">
+			<transaccion>OZD5</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Cuentas_Pre_Inscritas_Baja</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="AutenticarPrimerFactor">
+			<transaccion>OZS1</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Autenticar_Primer_Factor</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="AltaCanalOperaciones">
+			<transaccion>OZAU</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Alta_Canal_Operaciones</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="XM16">
+			<transaccion>OZY1</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Alta_XM16</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="XM07">
+			<transaccion>OZY4</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Alta_XM07</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="XM03">
+			<transaccion>OZY3</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Alta_XM03</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="XM04">
+			<transaccion>OZY2</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Alta_XM04</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="XM13">
+			<transaccion>OZY5</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Alta_XM13</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ListadorBancos">
+			<transaccion>OZPD</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Listador_Bancos</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- Inicio fase 2 -->
+		<Operacion name="PagoTC">
+			<transaccion>OZTC</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_PagoTC</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PagoTcTerceros">
+			<transaccion>OZTT</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_PagoTT</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PagoTcOtrasEntidades">
+			<transaccion>OZTE</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_PagoTE</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="InscripcionTCTerceros">
+			<transaccion>KNIP</transaccion>
+			<terminalContable>A02S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>fmt_bm_InsTCT</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="InscripcionTCOtroBanco">
+			<transaccion>KNIP</transaccion>
+			<terminalContable>A02S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>fmt_bm_InsTCOtroBanco</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PagoComprasTc">
+			<transaccion>KNST</transaccion>
+			<terminalContable>A02S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>fmt_bm_PagoComprasTc</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="GetInfoClient">
+			<transaccion>OZSE</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_GetInfoClient</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="CuentasInscritaslisTC">
+			<transaccion>OZD7</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Cuentas_Pre_Inscritas_Listado_TC</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="AvanceTC">
+			<transaccion>OZAT</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_AvanceTC</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaModuloComision1">
+			<transaccion>OZ32</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Consulta_Modulo_Comision1</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- GP8887 VYG 24/10/2014 INICIO -->
+		<Operacion name="PagoPrestamos">
+			<transaccion>OZQP</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_PagoPrestamos</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ListadorPrestamos1">
+			<transaccion>OZ03</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Listado_Prestamos1</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- GP8887 VYG 24/10/2014 FIN -->
+		<!-- Canales Transaccionales GP10031 -->
+		<Operacion name="Agendamiento">
+			<transaccion>OZVA</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Agendamiento</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="AlianzasPromociones">
+			<transaccion>OZCD</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Alianzas_Promociones</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConfirmacionPreaprobados">
+			<transaccion>OZCC</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Confirmacion_Preaprobados</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaPreaprobados">
+			<transaccion>OZVB</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Consulta_Preaprobados</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- Canales Transaccionales GP10031 -->
+		<!-- Inicio CUPO ROTATIVO 10534-->
+		<Operacion name="AbonoCupoRotativo">
+			<transaccion>OZRP</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Abono_CR</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PagoMinimoCupoRotativo">
+			<transaccion>OZRP</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Pago_Minimo_CR</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PagoTotalCupoRotativo">
+			<transaccion>OZRP</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Pago_Total_CR</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="TransferenciaCupoRotativo">
+			<transaccion>OZRD</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Transferencia_CR</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaCupoRotativo">
+			<transaccion>OZRL</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Consulta_CR</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- Fin CUPO ROTATIVO 10534 -->
+		<!-- Fin Fase 2 -->
+		<!-- GP14583 INICIO Banca Digital CDT Online -->
+		<Operacion name="AltaCDTOnline">
+			<transaccion>OZ51</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_CDT_Online_Alta</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ModificacionCDTOnline">
+			<transaccion>OZ52</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_CDT_Online_Modificacion</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaTasaCDTOnline">
+			<transaccion>OZ53</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_CDT_Online_ConsultaTasa</formato>
+			<log>true</log>
+		</Operacion>
+        <!-- GP14583 FIN    Banca Digital CDT Online -->
+		<!-- GP14991 - INI - ADELANTO DE NOMINA (ADN) -->
+		<Operacion name="ADNconsultaAC">
+			<transaccion>OZY8</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ADNconsultaAC</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ADNdisposicion">
+			<transaccion>OZY9</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ADNdisposicion</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ADNlistarActivos">
+			<transaccion>OZYB</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ADNlistarActivos</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ADNconsultaMovimientos">
+			<transaccion>OZYC</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ADNconsultaMovimientos</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ADNconsultaPF">
+			<transaccion>OZY6</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ADNconsultaPF</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ADNactivacion">
+			<transaccion>OZY7</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ADNactivacion</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ADNconsultaInfoPago">
+			<transaccion>OZY0</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ADNconsultaInfoPago</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ADNpago">
+			<transaccion>OZYA</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ADNpago</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- GP14991 - FIN - ADELANTO DE NOMINA (ADN) -->		
+		<!-- GP14625 INICIO Banca Digital Pagatiempo 2.0 -->
+		<Operacion name="ListadorTarjetasPANEncript">
+			<transaccion>OZ54</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Listado_tarjeta_PAN</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- GP14625 FIN    Banca Digital Pagatiempo 2.0-->		
+	</Application>
+	<!-- GP10578 Deposito dinero electronico -->
+	<Application name="DepositoElectronico">
+		<Operacion name="validarClienteDE">
+			<transaccion>OZDM</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>validarClienteDE</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="altaProdNoClienteDE">
+			<transaccion>OZDN</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>altaProdNoClienteDE</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="altaProdClienteDE">
+			<transaccion>OZDO</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>altaProdClienteDE</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="bajaProdDE">
+			<transaccion>OZDP</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>bajaProdDE</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="modificaCelularDE">
+			<transaccion>OZDQ</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>modificaCelularDE</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- Fin GP10578 Deposito dinero electronico -->
+	<Application name="RECAUDOS">
+		<Operacion name="ValidarFactura">
+			<transaccion>OZW2</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>VALIDARFACTURAS</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="Abonos">
+			<transaccion>KNW0</transaccion>
+			<terminalContable>A02S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>ABONOS</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="Cargos">
+			<transaccion>OZRC</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>CARGOS</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaSaldo">
+			<transaccion>OZW5</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>CONSULTASALDO</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="Consolidado">
+			<transaccion>OZW5</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>CONSOLIDADO</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="anulacion">
+			<transaccion>OZW1</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>ANULACION</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<Application name="apSeguridadBase">
+		<Operacion name="validaCoordenadas(KYS4)">
+			<transaccion>OZY2</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>validaCoordenadas(KYS4)</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="altaBajaOlvidoClave(KNT0)">
+			<transaccion>OZAU</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>altaBajaOlvidoClave(KNT0)</formato>
+			<log>false</log>
+		</Operacion>
+		<Operacion name="altaBajaOlvidoClave(KNT9)">
+			<transaccion>OZS1</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>altaBajaOlvidoClave(KNT9)</formato>
+			<log>false</log>
+		</Operacion>
+		<Operacion name="cambioEstadoADS(KYS3)">
+			<transaccion>OZY3</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>cambioEstadoADS(KYS3)</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="cambioEstadoADS(KYT7)">
+			<transaccion>OZY4</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>cambioEstadoADS(KYT7)</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="validaActivacionyCambioEstado(KYT3)">
+			<transaccion>OZY5</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>validaActivacionyCambioEstado(KYT3)</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="validaEstadoTarjeta(KYS6)">
+			<transaccion>OZY1</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>validaEstadoTarjeta(KYS6)</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="validarCoordenadas(KYS4)-CopyToXml">
+			<transaccion>OZY2</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>validarCoordenadas(KYS4)-CopyToXml</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="consultaDatosCliente(KNEM)">
+			<transaccion>OZWD</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>consultaDatosCliente</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP6743 - Novatec Solutions - Inicio -->
+	<Application name="LEASING">
+		<Operacion name="ActualizacionClientesLeasing">
+			<transaccion>PELS</transaccion>
+			<terminalContable>J05Q</terminalContable>
+			<usuario>UCQGLECP</usuario>
+			<canal>BG</canal>
+			<formato>PEMCELS</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP6743 - Novatec Solutions - Fin -->
+	<!-- GP10683 NOVATEC INICIO-->
+	<Application name="BilleteraElectronica">
+		<Operacion name="AdminCtasBilletera">
+			<transaccion>OZD0</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGLSCP</usuario>
+			<canal>OZ</canal>
+			<formato>adminctasbilletera</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP10683 NOVATEC FIN-->
+	<Application name="apMultiSeguros">
+		<Operacion name="consultaBasicos">
+			<transaccion>ICDC</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGICCP</usuario>
+			<canal>01</canal>
+			<formato>consultaBasicos</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="consultaAsuntos">
+			<transaccion>ICDC</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGICCP</usuario>
+			<canal>01</canal>
+			<formato>consultaAsuntos</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="notificaPoliza">
+			<transaccion>ICDM</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGICCP</usuario>
+			<canal>01</canal>
+			<formato>notificaPoliza</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP9245 EFRON CONSULTING 12/03/2015 INICIO-->
+	<Application name="RecaudoOnLine">
+		<Operacion name="ConsultaCliente">
+			<transaccion>IC09</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGICCP</usuario>
+			<canal>I1</canal>
+			<formato>ConsultaCliente</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="RecaudoCliente">
+			<transaccion>IC10</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGICCP</usuario>
+			<canal>I1</canal>
+			<formato>RecaudoCliente</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="AltasPoliza">
+			<transaccion>IC11</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGICCP</usuario>
+			<canal>I1</canal>
+			<formato>AltasPoliza</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP9245 EFRON CONSULTING 12/03/2015 FIN   -->
+	<!-- GP7824 VYG INICIO-->
+	<Application name="VENTASWEB">
+		<Operacion name="Baep">
+			<transaccion>KNBA</transaccion>
+			<terminalContable>A02S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>BAEP</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="Calificacion">
+			<transaccion>KNVE</transaccion>
+			<terminalContable>A02S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>CALIFICAR</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="Generar">
+			<transaccion>KNEV</transaccion>
+			<terminalContable>A02S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>GENERAR</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="Simulador">
+			<transaccion>KNBA</transaccion>
+			<terminalContable>A02S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>SIMULADOR</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP7824 VYG FIN-->
+	<!-- GP11087 CBS II Inicio -->
+	<Application name="DEPOSITOS">
+		<Operacion name="Depositos">
+			<transaccion>KNW6</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>DEPOSITOS</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<Application name="COMISION">
+		<Operacion name="Comision">
+			<transaccion>KNWC</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>COMISION</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<Application name="PRESTAMOS">
+		<Operacion name="ConsultaPrestamos">
+			<transaccion>KNW7</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>PRESTAMOS</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PagoPrestamos">
+			<transaccion>KNWA</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>PRESTAMOSP</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<Application name="TARJETAS">
+		<Operacion name="ConsultaTarjetas">
+			<transaccion>KNW8</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>TARJETAS</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PagoTarjetas">
+			<transaccion>KNW9</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>TARJETASP</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<Application name="REVERSOS">
+		<Operacion name="RPrestamos">
+			<transaccion>KNRA</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>REVERSOSP</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="RTarjetas">
+			<transaccion>KNR9</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>REVERSOST</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="RDepositos">
+			<transaccion>OZR6</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>OZ</canal>
+			<formato>REVERSOSD</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="RComision">
+			<transaccion>KNRC</transaccion>
+			<terminalContable>A99S</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>03</canal>
+			<formato>REVERSOSC</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP11087 CBS II Fin -->
+	<Application name="CorresponsalesCB">
+		<Operacion name="ConsultaXtransRecaudoCB">
+			<transaccion>OZWP</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>consultaxtransrecaudocb</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- GP9960 NOVATEC INICIO -->
+		<Operacion name="AnulacionCB">
+			<transaccion>OZD8</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>anulacioncb</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="CompensacionCB">
+			<transaccion>OZD9</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>compensacioncb</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="RetirosCB">
+			<transaccion>OZH3</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>retiroscb</formato>
+			<log>true</log>
+		</Operacion>
+		<!-- GP9960 NOVATEC FIN -->
+	</Application>
+	<!-- INICIO UNOMASUNO GP10318 -->
+	<Application name="UNOMASUNO">
+		<Operacion name="CLIENTESUNO">
+			<transaccion>OZO0</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_reportes</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="CLIENTESUNO2">
+			<transaccion>OZO0</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_reportes2</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- FIN UNOMASUNOGP10318 -->
+	<!-- GP12166 NOVATEC SOLUTIONS INICIO -->
+	<Application name="ClubNomina">
+		<Operacion name="VerificarClubNomina">
+			<transaccion>OZDE</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_clubnomina_ozde</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaProductosElegibles">
+			<transaccion>OZD9</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_clubnomina_ozdf</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="GastosCategorias">
+			<transaccion>OZDG</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_clubnomina_ozdg</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="Ingresos">
+			<transaccion>OZDA</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBNCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_clubnomina_ozdh</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP12166 NOVATEC SOLUTIONS FIN -->
+	<!-- INICIO Everilion GP11190 -->
+	<Application name="EVERILION">
+		<Operacion name="Consultar">
+			<transaccion>OZ18</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_everilion_consulta</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- FIN  Everilion GP11190 -->
+	<!-- GP10745 NOVATEC INICIO -->
+	<Application name="Perfilamiento">
+		<Operacion name="ConsultaTECOM">
+			<transaccion>OZA1</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>perfila_oza1</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaBasicaPersonas">
+			<transaccion>OZA2</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>perfila_oza2</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PerfilamientoPosicionGlobal">
+			<transaccion>OZA3</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>perfila_oza3</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP10745 NOVATEC FIN -->
+	
+	<!-- GP11635 EFRON CONSULTING INICIO -->
+	<Application name="PFDLITE">
+		<Operacion name="EvaluarPoliticas">
+			<transaccion>OZUP</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_PFDLITE_EvaluarPoliticas</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	
+	<Application name="PFDLITE">
+		<Operacion name="ObtenerBuro">
+			<transaccion>OZUB</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_PFDLITE_ObtenerBuro</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	
+		<Application name="PFDLITE">
+		<Operacion name="FinanciaRisk">
+			<transaccion>OZUF</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_PFDLITE_FinanciaRisk</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	
+		<Application name="PFDLITE">
+		<Operacion name="GruposEconomicos">
+			<transaccion>OZUG</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_PFDLITE_GruposEconomicos</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP11635 EFRON CONSULTING FIN -->
+	<!-- PSE GP13990 -->
+	<Application name="PSE">
+		<Operacion name="ActualizarPayment">
+			<transaccion>OZU7</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_bm_Actualizar_Payment</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+<!-- PSE GP13990 -->
+	<!-- GP11382 MAQUINA RECAUDADORA EFRON INICIO  -->
+	<Application name="MAQUINARECAUDADORA">	
+			<Operacion name="ValidarFactura">
+			<transaccion>OZQX</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_consultaFacturaMaquinaRecaudadora</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="GenerarCargo">
+			<transaccion>OZQY</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_pagoFacturaMaquinaRecaudadora</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP11382 MAQUINA RECAUDADORA FIN  -->
+	<!-- CDA -->
+	<Application name="CDA">
+		<Operacion name="ValidarCliente">
+			<transaccion>OZC0</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_Validar_Cliente</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ActualizarDatos">
+			<transaccion>OZC2</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_Actualizar_Datos</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="SarlaftConsulta">
+			<transaccion>OZC3</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_Sarlaft_Consulta</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PersonasConsulta">
+			<transaccion>OZC5</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_Personas_Consulta</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="PersonasModificacion">
+			<transaccion>OZC4</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_Alta_Modificacion_Personas</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ConsultaComercial">
+			<transaccion>OZVH</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_Consulta_Comercial</formato>
+			<log>true</log>
+		</Operacion>
+		<Operacion name="ActualizacionComercial">
+			<transaccion>OZC7</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_Actualizacion_Comercial</formato>
+			<log>true</log>
+		</Operacion>		
+	</Application>
+	<!-- CDA -->
+	<!-- GP10992 EFRON CONSULTING INICIO -->
+	<Application name="RAR">
+		<Operacion name="ConsultaRar">
+			<transaccion>OZC9</transaccion>
+			<terminalContable>J40A</terminalContable>
+			<usuario>UCQGBSCP</usuario>
+			<canal>OZ</canal>
+			<formato>fmt_RAR_ConsultaRar</formato>
+			<log>true</log>
+		</Operacion>
+	</Application>
+	<!-- GP10992 EFRON CONSULTING FIN -->
+</ApplicationConfig>

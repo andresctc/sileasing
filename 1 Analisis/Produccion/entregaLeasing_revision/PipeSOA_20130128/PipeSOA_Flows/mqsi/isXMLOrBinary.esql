@@ -1,0 +1,23 @@
+BROKER SCHEMA mqsi
+
+
+CREATE COMPUTE MODULE isXMLOrBinary
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot = InputRoot;
+		DECLARE J INTEGER;
+		
+		SET J = CARDINALITY(InputRoot.XMLNSC.requestTransaccion.trama.*[]);
+    
+    	IF J > 0 THEN 
+    		PROPAGATE TO TERMINAL 'out' DELETE NONE;
+    		
+    	ELSE
+    		PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+    	END IF;
+    	
+		RETURN FALSE;
+	END;
+
+	
+END MODULE;

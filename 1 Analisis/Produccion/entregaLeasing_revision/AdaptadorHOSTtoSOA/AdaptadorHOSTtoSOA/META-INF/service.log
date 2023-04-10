@@ -1,0 +1,42 @@
+
+==============================================
+
+!Fri Nov 20 19:28:35 COT 2015
+Message flow AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow successfully loaded
+Message flow AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow successfully compiled
+Message flow AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+QuitarHeader        AdaptadorHOSTtoSOA  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+VarGlobal           AdaptadorHOSTtoSOA  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+AsignarVar          AdaptadorHOSTtoSOA  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+AgregarHeader       AdaptadorHOSTtoSOA  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+RemoverEncabezado   AdaptadorHOSTtoSOA  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+SelectorWTXaWS      AdaptadorHOSTtoSOA  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+CargarDatos         AdaptadorHOSTtoSOA                      
+MensError           AdaptadorHOSTtoSOA  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+SelectorWTXresp     AdaptadorHOSTtoSOA  5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+
+Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql to archive file.
+
+Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql to archive file.
+
+Successfully added file AdaptadorHOSTtoSOAJava\.classpath to archive file.
+

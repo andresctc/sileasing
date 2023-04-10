@@ -1,0 +1,154 @@
+-- NOVATEC SOLUTIONS - ADAPTADOR HOST TO SOA
+-- GP 10645 - BILLETERA ELECTRONICA
+-- AUTOR: CDRQ
+
+-- Metodo: CAptura para consultar parametria
+CREATE COMPUTE MODULE AdaptadorHOSTtoSOA_GlobalVars
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- Definicion de variables necesarias
+		DECLARE mensaje CHARACTER;
+		DECLARE idCanal ROW;
+		DECLARE idOperacion ROW;
+		DECLARE parametria ROW;
+		
+		-- Convertir BLOB a caracteres legibles
+		SET mensaje=CAST(InputRoot."BLOB"."BLOB" AS CHARACTER CCSID 437);
+		
+		-- Captura datos para consulta de parametria
+		SET Environment.Variables.codCanal=SUBSTRING(mensaje FROM 1 FOR 4);
+		SET Environment.Variables.codOperacion=SUBSTRING(mensaje FROM 5 FOR 4);	
+		SET Environment.Variables.MENSAJE=InputRoot."BLOB";
+		SET Environment.Variables.PROP=InputRoot.Properties;
+		SET Environment.Variables.MQMD=InputRoot.MQMD;
+		SET Environment.Variables.mens=InputRoot;
+		
+		RETURN TRUE;
+	END;
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;
+
+
+-- Metodo: Asignacion variables globales
+CREATE COMPUTE MODULE AdaptadorHOSTtoSOA_AsignarVar
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- Definir datos de parametria en la variable de entorno	
+		SET Environment.Variables.urlWS=InputRoot.XMLNSC.urlWS;		
+		SET Environment.Variables.peticionWTX=InputRoot.XMLNSC.peticionWTX;
+		SET Environment.Variables.respuestaWTX=InputRoot.XMLNSC.respuestaWTX;
+		SET Environment.Variables.host=InputRoot.XMLNSC.host;
+		SET Environment.Variables.contenido=InputRoot.XMLNSC.contenido;
+		SET Environment.Variables.soapaction=InputRoot.XMLNSC.soapaction;
+
+		-- Copiar cuerpo del mensaje
+		CALL CopyMessageHeaders();
+		
+		SET OutputRoot.MQMD = Environment.Variables.MQMD;
+		SET OutputRoot.BLOB = Environment.Variables.MENSAJE;
+		
+	END;
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+END MODULE;
+
+-- Metodo: Asignacion de la transformacion de la respuesta
+CREATE COMPUTE MODULE AdaptadorHOSTtoSOA_WTXresp
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- Define transformacion WTX para la respuesta
+		SET OutputLocalEnvironment.WTX.MapServerLocation=Environment.Variables.respuestaWTX;
+		-- Copiar cuerpo del mensaje
+		CALL CopyEntireMessage();
+		RETURN TRUE;
+	END;
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;
+
+-- Metodo: Asignacion de la transformacion de la peticion
+CREATE COMPUTE MODULE AdaptadorHOSTtoSOA_WTXaWS
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET Environment.Variables.mensaje=CAST(InputRoot."BLOB"."BLOB" AS CHARACTER CCSID 437);
+		-- Define transformacion WTX para la peticion
+		SET OutputLocalEnvironment.WTX.MapServerLocation=Environment.Variables.peticionWTX;
+		-- Copiar cuerpo del mensaje
+		CALL CopyEntireMessage();
+		RETURN TRUE;
+	END;
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;
+
+-- Metodo: Asignacion del header
+CREATE COMPUTE MODULE AdaptadorHOSTtoSOA_AgregarHeader
+
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- Copiar cuerpo del mensaje
+		CALL CopyMessageHeaders();
+		-- Define datos de la parametria en los encabezados
+		SET OutputRoot.HTTPRequestHeader."Content-Type" = Environment.Variables.contenido;
+		SET OutputRoot.HTTPRequestHeader."SOAPAction" = Environment.Variables.soapaction;
+		SET OutputRoot.HTTPRequestHeader."Host" = Environment.Variables.host;
+		SET OutputLocalEnvironment.Destination.HTTP.RequestURL = Environment.Variables.urlWS;
+		SET OutputRoot.XMLNSC = InputRoot.XMLNSC;
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+END MODULE;
+
+-- Metodo: remueve el encabezado
+CREATE COMPUTE MODULE AdaptadorHOSTtoSOA_RemoverHeader
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- Define la salida del nodo
+		--SET OutputRoot = Environment.Variables.mens;
+		--SET OutputRoot.Properties = Environment.Variables.PROP;
+		--SET OutputRoot.MQMD = Environment.Variables.MQMD;
+		--SET OutputRoot.MQMD.CorrelId = Environment.Variables.MQMD.MsgId;
+		--SET OutputRoot.MQMD.MsgId = Environment.Variables.MQMD.MsgId;
+		
+		SET OutputRoot."BLOB"."BLOB" = InputRoot."BLOB"."BLOB";
+		RETURN TRUE;
+	END;
+END MODULE;
+
+-- Metodo: Mensaje de respuesta de ERROR
+CREATE COMPUTE MODULE AdaptadorHOSTtoSOA_CrearError
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- Define la salida del nodo
+		DECLARE error CHARACTER;
+		SET error = 'ERROR ADAPTADOR HOST TO SOA VER LOG  FIN';
+		SET OutputRoot."BLOB"."BLOB" = CAST(error AS BLOB CCSID 1208);
+		RETURN TRUE;
+	END;
+END MODULE;

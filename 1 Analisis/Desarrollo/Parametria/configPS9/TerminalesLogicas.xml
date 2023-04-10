@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terminales_logicas>
+	<terminal name="J40A">
+		<codigo>J40A</codigo>
+	</terminal>
+	<terminal name="J41A">
+		<codigo>J41A</codigo>
+	</terminal>
+	<terminal name="J42A">
+		<codigo>J42A</codigo>
+	</terminal>
+	<terminal name="J43A">
+		<codigo>J43A</codigo>
+	</terminal>
+	<terminal name="J44A">
+		<codigo>J44A</codigo>
+	</terminal>
+	<terminal name="J45A">
+		<codigo>J45A</codigo>
+	</terminal>
+	<terminal name="J46A">
+		<codigo>J46A</codigo>
+	</terminal>
+	<terminal name="J47A">
+		<codigo>J47A</codigo>
+	</terminal>
+	<terminal name="J48A">
+		<codigo>J48A</codigo>
+	</terminal>
+	<terminal name="J49A">
+		<codigo>J49A</codigo>
+	</terminal>
+	<terminal name="A53W">
+		<codigo>A53W</codigo>
+	</terminal>
+	<terminal name="%006">
+		<codigo>%006</codigo>
+	</terminal>
+	<terminal name="%007">
+		<codigo>%007</codigo>
+	</terminal>
+	<terminal name="%008">
+		<codigo>%008</codigo>
+	</terminal>
+	<terminal name="%009">
+		<codigo>%009</codigo>
+	</terminal>
+	<terminal name="%010">
+		<codigo>%010</codigo>
+	</terminal>
+	<terminal name="%011">
+		<codigo>%011</codigo>
+	</terminal>
+	<terminal name="%012">
+		<codigo>%012</codigo>
+	</terminal>
+	<terminal name="%013">
+		<codigo>%013</codigo>
+	</terminal>
+	<terminal name="%014">
+		<codigo>%014</codigo>
+	</terminal>
+	<terminal name="%015">
+		<codigo>%015</codigo>
+	</terminal>
+	<terminal name="%016">
+		<codigo>%016</codigo>
+	</terminal>
+	<terminal name="%017">
+		<codigo>%017</codigo>
+	</terminal>
+	<terminal name="%018">
+		<codigo>%018</codigo>
+	</terminal>
+	<terminal name="%019">
+		<codigo>%019</codigo>
+	</terminal>
+	<terminal name="%020">
+		<codigo>%020</codigo>
+	</terminal>
+	<terminal name="%021">
+		<codigo>%021</codigo>
+	</terminal>
+	<terminal name="%022">
+		<codigo>%022</codigo>
+	</terminal>
+	<terminal name="%023">
+		<codigo>%023</codigo>
+	</terminal>
+	<terminal name="%024">
+		<codigo>%024</codigo>
+	</terminal>
+	<terminal name="%025">
+		<codigo>%025</codigo>
+	</terminal>	
+</terminales_logicas>

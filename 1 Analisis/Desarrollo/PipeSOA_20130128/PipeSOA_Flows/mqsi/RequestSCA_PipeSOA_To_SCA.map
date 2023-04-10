@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="mqsi" version="7.5.0" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="mqsi">
+    <input path="/responseTransaccion.xsd"/>
+    <output path="/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost_InlineSchema1.mxsd"/>
+    <generation availableEngines="xquery" engine="xquery"/>
+    <mappingDeclaration name="RequestSCA_PipeSOA_To_SCA">
+        <input path="mb:msg(responseTransaccion,assembly,XMLNSC,Properties)"/>
+        <output namespace="http://www.bbva.com/ServicioHost/" path="mb:msg(responseTransaccion,assembly,XMLNSC,Properties)"/>
+        <move>
+            <input path="Properties"/>
+            <output path="Properties"/>
+            <override>
+                <assign value="PipeSOA_MS">
+                    <output path="Properties/MessageSet"/>
+                </assign>
+            </override>
+        </move>
+        <move>
+            <input path="responseTransaccion/fecha_hora"/>
+            <output path="responseTransaccion/fecha_hora"/>
+        </move>
+        <move>
+            <input path="responseTransaccion/cod_respuesta"/>
+            <output path="responseTransaccion/cod_respuesta"/>
+        </move>
+        <move>
+            <input path="responseTransaccion/cod_error"/>
+            <output path="responseTransaccion/cod_error"/>
+        </move>
+        <move>
+            <input path="responseTransaccion/mensaje_error"/>
+            <output path="responseTransaccion/mensaje_error"/>
+        </move>
+        <move>
+            <input path="responseTransaccion/cod_warning"/>
+            <output path="responseTransaccion/cod_warning"/>
+        </move>
+        <move>
+            <input path="responseTransaccion/mensaje_warning"/>
+            <output path="responseTransaccion/mensaje_warning"/>
+        </move>
+        <move>
+            <input path="responseTransaccion/control_proceso"/>
+            <output path="responseTransaccion/control_proceso"/>
+        </move>
+        <move>
+            <input path="responseTransaccion/tramaRespuesta/any"/>
+            <output path="responseTransaccion/tramaRespuesta/any"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

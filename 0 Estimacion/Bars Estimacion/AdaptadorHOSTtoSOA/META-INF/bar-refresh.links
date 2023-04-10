@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" includeDepFromLibs="false">
+  <options name="uteSyncKey" value="20151120_0810_35"/>
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1447289040000" workspaceResource="/AdaptadorHOSTtoSOA/.project">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file AdaptadorHOSTtoSOA.&#xA;Application file AdaptadorHOSTtoSOA.appzip successfully added to the broker archive.&#xA;Application compiled contents:&#xA;    &#xA;    Processing file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql.&#xA;    Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql to archive file.&#xA;    Elapsed time: 0 second(s).&#xA;    &#xA;    Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql to archive file.&#xA;    &#xA;    &#xA;    Processing file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow&#xA;    Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow to archive file&#xA;    Elapsed time: 0.15 second(s).&#xA;    &#xA;    &#xA;    Processing file AdaptadorHOSTtoSOAJava\.classpath.&#xA;    Successfully added file AdaptadorHOSTtoSOAJava\.classpath to archive file.&#xA;    Elapsed time: 0 second(s).&#xA;    &#xA;&#xA;Elapsed time: 0.16 second(s).&#xA;" severity="0"/>
+      <barEntry name="AdaptadorHOSTtoSOA.appzip"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

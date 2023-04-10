@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" includeESQL="true" includeDepFromLibs="false">
+  <options name="uteSyncKey" value="20140529_0730_06"/>
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1385754987723" workspaceResource="/LeasingAs400_Flows/.project">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingAs400_Flows.&#xA;Application file LeasingAs400_Flows.appzip successfully added to the broker archive.&#xA;Application compiled contents:&#xA;    &#xA;    Processing file LeasingAs400_FlowsJava\.classpath.&#xA;    Successfully added file LeasingAs400_FlowsJava\.classpath to archive file.&#xA;    Elapsed time: 0,152 second(s).&#xA;    &#xA;    &#xA;    Processing file LeasingAs400_Flows\mqsi\Response.msgflow&#xA;    Successfully added file LeasingAs400_Flows\mqsi\Response.msgflow to archive file&#xA;    Elapsed time: 0,482 second(s).&#xA;    &#xA;    &#xA;    Processing file LeasingAs400_Flows\mqsi\LeerLog.msgflow&#xA;    Successfully added file LeasingAs400_Flows\mqsi\LeerLog.msgflow to archive file&#xA;    Elapsed time: 0,038 second(s).&#xA;    &#xA;    &#xA;    Processing file LeasingAs400_Flows\mqsi\Request.msgflow&#xA;    Successfully added file LeasingAs400_Flows\mqsi\Request.msgflow to archive file&#xA;    Elapsed time: 0,337 second(s).&#xA;    &#xA;    &#xA;    Processing file LeasingAs400_Flows\mqsi\LeerError.msgflow&#xA;    Successfully added file LeasingAs400_Flows\mqsi\LeerError.msgflow to archive file&#xA;    Elapsed time: 0,027 second(s).&#xA;    &#xA;&#xA;Elapsed time: 1,057 second(s).&#xA;" severity="0"/>
+      <barEntry name="LeasingAs400_Flows.appzip"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

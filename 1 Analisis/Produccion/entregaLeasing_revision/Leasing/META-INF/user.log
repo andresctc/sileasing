@@ -1,0 +1,37 @@
+
+==============================================
+
+!Thu Jul 16 12:10:50 COT 2015
+
+Processing file LeasingFlows.
+Application file LeasingFlows.appzip successfully added to the broker archive.
+Application compiled contents:
+    Processing MAR file C:\Novatec\BBVA\Leasing\RequestProcessor.Entrada.ActualizacionClientesRequest.mar
+    Compiling ActualizacionClientesRequest a_LE map successful
+    Compiling ActualizacionClientesRequest a_LX map successful
+    Compiling ActualizacionClientesRequest a_BE map successful
+    Compiling ActualizacionClientesRequest e_BE map successful
+    MAR file creation successful
+    MAR file added successfully
+    
+    Processing MAR file C:\Novatec\BBVA\Leasing\ResponseProcessor.Salida.ActualizacionClientesResposne.mar
+    Compiling ActualizacionClientesResposne a_LE map successful
+    Compiling ActualizacionClientesResposne a_LX map successful
+    Compiling ActualizacionClientesResposne a_BE map successful
+    Compiling ActualizacionClientesResposne e_BE map successful
+    MAR file creation successful
+    MAR file added successfully
+    
+    
+    Processing file LeasingFlows\mqsi\Response.msgflow
+    Successfully added file LeasingFlows\mqsi\Response.msgflow to archive file
+    Elapsed time: 1.152 second(s).
+    
+    
+    Processing file LeasingFlows\mqsi\Request.msgflow
+    Successfully added file LeasingFlows\mqsi\Request.msgflow to archive file
+    Elapsed time: 0.19 second(s).
+    
+
+Elapsed time: 1.372 second(s).
+

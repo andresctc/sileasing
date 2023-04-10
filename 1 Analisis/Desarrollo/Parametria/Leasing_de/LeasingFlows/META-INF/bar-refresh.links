@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0">
+  <deployables>
+    <deployable workspaceResource="/LeasingFlows/.settings/org.eclipse.core.resources.prefs"/>
+    <deployable workspaceResource="/LeasingFlows/Prueba.mbtest"/>
+    <deployable deployed="true" barResourceTimeStamp="1437066650049" workspaceResource="/LeasingFlows/RequestProcessor.Entrada.ActualizacionClientesRequest.mar">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="Processing MAR file C:\Novatec\BBVA\Leasing\RequestProcessor.Entrada.ActualizacionClientesRequest.mar&#xA;Compiling ActualizacionClientesRequest a_LE map successful&#xA;Compiling ActualizacionClientesRequest a_LX map successful&#xA;Compiling ActualizacionClientesRequest a_BE map successful&#xA;Compiling ActualizacionClientesRequest e_BE map successful&#xA;MAR file creation successful&#xA;MAR file added successfully&#xA;" severity="0"/>
+      <barEntry name="RequestProcessor.Entrada.ActualizacionClientesRequest.mar"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1437066649839" workspaceResource="/LeasingFlows/ResponseProcessor.Salida.ActualizacionClientesResposne.mar">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="Processing MAR file C:\Novatec\BBVA\Leasing\ResponseProcessor.Salida.ActualizacionClientesResposne.mar&#xA;Compiling ActualizacionClientesResposne a_LE map successful&#xA;Compiling ActualizacionClientesResposne a_LX map successful&#xA;Compiling ActualizacionClientesResposne a_BE map successful&#xA;Compiling ActualizacionClientesResposne e_BE map successful&#xA;MAR file creation successful&#xA;MAR file added successfully&#xA;" severity="0"/>
+      <barEntry name="ResponseProcessor.Salida.ActualizacionClientesResposne.mar"/>
+    </deployable>
+    <deployable workspaceResource="/LeasingFlows/mqsi/Error.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1359471769442" workspaceResource="/LeasingFlows/mqsi/Request.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingFlows\mqsi\Request.msgflow&#xA;Successfully added file LeasingFlows\mqsi\Request.msgflow to archive file&#xA;Elapsed time: 0.19 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.Request.cmf"/>
+    </deployable>
+    <deployable workspaceResource="/LeasingFlows/mqsi/RequestProcessor.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1437066546881" workspaceResource="/LeasingFlows/mqsi/Response.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LeasingFlows\mqsi\Response.msgflow&#xA;Successfully added file LeasingFlows\mqsi\Response.msgflow to archive file&#xA;Elapsed time: 1.152 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.Response.cmf"/>
+    </deployable>
+    <deployable workspaceResource="/LeasingFlows/mqsi/ResponseProcessor.msgflow"/>
+    <deployable workspaceResource="/LeasingFlows"/>
+  </deployables>
+</deploy:Deploy>

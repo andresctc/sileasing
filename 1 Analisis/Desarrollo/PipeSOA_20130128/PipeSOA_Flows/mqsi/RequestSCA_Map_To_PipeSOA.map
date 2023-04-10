@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="mqsi" version="7.5.0" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="mqsi">
+    <input path="/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost_InlineSchema1.mxsd"/>
+    <output path="/requestTransaccion.xsd"/>
+    <generation availableEngines="xquery" engine="xquery"/>
+    <mappingDeclaration name="RequestSCA_Map_To_PipeSOA">
+        <input namespace="http://www.bbva.com/ServicioHost/" path="mb:msg(requestTransaccion,assembly,,Properties)"/>
+        <output path="mb:msg(requestTransaccion,assembly,XMLNSC,Properties)"/>
+        <move>
+            <input path="Properties"/>
+            <output path="Properties"/>
+        </move>
+        <move>
+            <input path="requestTransaccion/Aplicacion"/>
+            <output path="requestTransaccion/Aplicacion"/>
+        </move>
+        <move>
+            <input path="requestTransaccion/Operacion"/>
+            <output path="requestTransaccion/Operacion"/>
+        </move>
+        <move>
+            <input path="requestTransaccion/trama/any"/>
+            <output path="requestTransaccion/trama/any"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

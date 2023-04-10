@@ -1,0 +1,61 @@
+
+==============================================
+
+!Thu Jul 16 12:10:50 COT 2015
+Message flow LeasingFlows\mqsi\Response.msgflow successfully loaded
+Message flow LeasingFlows\mqsi\Response.msgflow successfully compiled
+Message flow LeasingFlows\mqsi\Response.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+MQ Warning          Response            5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+ErrorLoggingOn?     Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Missing Stored Msg  Response            5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Reply if Request ModError               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Create Error ResponsError               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+SaveMQMD            Response            5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Build Error Message Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+RestoreMQMD         Response            5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Compute             Response            5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Salida              ResponseProcessor   null                null
+Message flow LeasingFlows\mqsi\Request.msgflow successfully loaded
+Message flow LeasingFlows\mqsi\Request.msgflow successfully compiled
+Message flow LeasingFlows\mqsi\Request.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+Create Error ResponsError               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Entrada             RequestProcessor    null                null
+Build Error Message Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+ErrorLoggingOn?     Error               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Reply if Request ModError               5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Set Request Mode    Request             5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+

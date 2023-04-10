@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1351631020440" workspaceResource="/PipeSOA_Flows/LimpiarXML.xsl">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\LimpiarXML.xsl.&#xA;Successfully added file PipeSOA_Flows\LimpiarXML.xsl to archive file.&#xA;" severity="0"/>
+      <barEntry name="LimpiarXML.xsl"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1353012122429" workspaceResource="/PipeSOA_Flows/LoopPaginacion.Map Paginacion.PS9_TO_MULTI_PAG.mar">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="Processing MAR file C:\Users\c783679\Documents\workspace\MB8\PS9\LoopPaginacion.Map Paginacion.PS9_TO_MULTI_PAG.mar&#xA;Compiling PS9_TO_MULTI_PAG a_LE map successful&#xA;Compiling PS9_TO_MULTI_PAG a_LX map successful&#xA;Compiling PS9_TO_MULTI_PAG a_BE map successful&#xA;Compiling PS9_TO_MULTI_PAG e_BE map successful&#xA;MAR file creation successful&#xA;MAR file added successfully&#xA;" severity="0"/>
+      <barEntry name="LoopPaginacion.Map Paginacion.PS9_TO_MULTI_PAG.mar"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1334307712000" workspaceResource="/PipeSOA_Flows/Operacion.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\Operacion.xsd.&#xA;Successfully added file PipeSOA_Flows\Operacion.xsd to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\Operacion.xsd to archive file.&#xA;" severity="0"/>
+      <barEntry name="Operacion.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1353012123507" workspaceResource="/PipeSOA_Flows/RequestProcessor.Map_PS9.TRAMA_TO_PS9.mar">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="Processing MAR file C:\Users\c783679\Documents\workspace\MB8\PS9\RequestProcessor.Map_PS9.TRAMA_TO_PS9.mar&#xA;Compiling TRAMA_TO_PS9 a_LE map successful&#xA;Compiling TRAMA_TO_PS9 a_LX map successful&#xA;Compiling TRAMA_TO_PS9 a_BE map successful&#xA;Compiling TRAMA_TO_PS9 e_BE map successful&#xA;MAR file creation successful&#xA;MAR file added successfully&#xA;" severity="0"/>
+      <barEntry name="RequestProcessor.Map_PS9.TRAMA_TO_PS9.mar"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1353012121866" workspaceResource="/PipeSOA_Flows/ResponseProcessor.Map_To_Response.PS9_TO_XML.mar">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="Processing MAR file C:\Users\c783679\Documents\workspace\MB8\PS9\ResponseProcessor.Map_To_Response.PS9_TO_XML.mar&#xA;Compiling PS9_TO_XML a_LE map successful&#xA;Compiling PS9_TO_XML a_LX map successful&#xA;Compiling PS9_TO_XML a_BE map successful&#xA;Compiling PS9_TO_XML e_BE map successful&#xA;MAR file creation successful&#xA;MAR file added successfully&#xA;" severity="0"/>
+      <barEntry name="ResponseProcessor.Map_To_Response.PS9_TO_XML.mar"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1353012122288" workspaceResource="/PipeSOA_Flows/ResponseProcessor.Map_To_Response_MultiReg.PS9_TO_XML_PG.mar">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="Processing MAR file C:\Users\c783679\Documents\workspace\MB8\PS9\ResponseProcessor.Map_To_Response_MultiReg.PS9_TO_XML_PG.mar&#xA;Compiling PS9_TO_XML_PG a_LE map successful&#xA;Compiling PS9_TO_XML_PG a_LX map successful&#xA;Compiling PS9_TO_XML_PG a_BE map successful&#xA;Compiling PS9_TO_XML_PG e_BE map successful&#xA;MAR file creation successful&#xA;MAR file added successfully&#xA;" severity="0"/>
+      <barEntry name="ResponseProcessor.Map_To_Response_MultiReg.PS9_TO_XML_PG.mar"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1336890049979" workspaceResource="/PipeSOA_Flows/input-to-output.xsl">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\input-to-output.xsl.&#xA;Successfully added file PipeSOA_Flows\input-to-output.xsl to archive file.&#xA;" severity="0"/>
+      <barEntry name="input-to-output.xsl"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1339091515617" workspaceResource="/PipeSOA_Flows/mqsi/AdminPaginacion.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\AdminPaginacion.msgflow&#xA;Successfully added file PipeSOA_Flows\mqsi\AdminPaginacion.msgflow to archive file&#xA;Elapsed time: 0.11 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.AdminPaginacion.cmf"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1339090910714" workspaceResource="/PipeSOA_Flows/mqsi/AdminTerminal.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\AdminTerminal.msgflow&#xA;Successfully added file PipeSOA_Flows\mqsi\AdminTerminal.msgflow to archive file&#xA;Elapsed time: 0.047 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.AdminTerminal.cmf"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1339003889927" workspaceResource="/PipeSOA_Flows/mqsi/AdminTerminal_del_mensajes.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\AdminTerminal_del_mensajes.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\AdminTerminal_del_mensajes.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\AdminTerminal_del_mensajes.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\AdminTerminal_del_mensajes.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1339086737029" workspaceResource="/PipeSOA_Flows/mqsi/Error.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Error.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\Error.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\Error.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\Error.esql"/>
+    </deployable>
+    <deployable workspaceResource="/PipeSOA_Flows/mqsi/Error.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1334307712000" workspaceResource="/PipeSOA_Flows/mqsi/Error_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Error_Compute.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\Error_Compute.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\Error_Compute.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\Error_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1334307712000" workspaceResource="/PipeSOA_Flows/mqsi/Error_Filter.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Error_Filter.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\Error_Filter.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\Error_Filter.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\Error_Filter.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351709951437" workspaceResource="/PipeSOA_Flows/mqsi/Error_Map_Errorwe.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Error_Map_Errorwe.map.&#xA;Successfully added file PipeSOA_Flows\mqsi\Error_Map_Errorwe.map to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi/Error_Map_Errorwe.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351824759188" workspaceResource="/PipeSOA_Flows/mqsi/Intermediary.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Intermediary.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\Intermediary.esql to archive file.&#xA;Elapsed time: 0.016 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\Intermediary.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\Intermediary.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1336896568171" workspaceResource="/PipeSOA_Flows/mqsi/Log.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Log.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\Log.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\Log.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\Log.esql"/>
+    </deployable>
+    <deployable workspaceResource="/PipeSOA_Flows/mqsi/Log.msgflow"/>
+    <deployable workspaceResource="/PipeSOA_Flows/mqsi/LoopPaginacion.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1338910997532" workspaceResource="/PipeSOA_Flows/mqsi/Paginacion.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Paginacion.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\Paginacion.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\Paginacion.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\Paginacion.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351985403386" workspaceResource="/PipeSOA_Flows/mqsi/Request.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Request.msgflow&#xA;Successfully added file PipeSOA_Flows\mqsi\Request.msgflow to archive file&#xA;Elapsed time: 0.719 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.Request.cmf"/>
+    </deployable>
+    <deployable workspaceResource="/PipeSOA_Flows/mqsi/RequestProcessor.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1351654829461" workspaceResource="/PipeSOA_Flows/mqsi/RequestProcessor_Set_Trama.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\RequestProcessor_Set_Trama.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\RequestProcessor_Set_Trama.esql to archive file.&#xA;Elapsed time: 0.015 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\RequestProcessor_Set_Trama.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\RequestProcessor_Set_Trama.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1353008695446" workspaceResource="/PipeSOA_Flows/mqsi/RequestSCA.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\RequestSCA.msgflow&#xA;Successfully added file PipeSOA_Flows\mqsi\RequestSCA.msgflow to archive file&#xA;Elapsed time: 0.125 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.RequestSCA.cmf"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351798643434" workspaceResource="/PipeSOA_Flows/mqsi/RequestSCA_Map_To_PipeSOA.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\RequestSCA_Map_To_PipeSOA.map.&#xA;Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Map_To_PipeSOA.map to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi/RequestSCA_Map_To_PipeSOA.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351814164730" workspaceResource="/PipeSOA_Flows/mqsi/RequestSCA_PipeSOA_To_SCA.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\RequestSCA_PipeSOA_To_SCA.map.&#xA;Successfully added file PipeSOA_Flows\mqsi\RequestSCA_PipeSOA_To_SCA.map to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi/RequestSCA_PipeSOA_To_SCA.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1353008630477" workspaceResource="/PipeSOA_Flows/mqsi/RequestSCA_Set_Vars.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\RequestSCA_Set_Vars.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Set_Vars.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Set_Vars.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\RequestSCA_Set_Vars.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1336929455774" workspaceResource="/PipeSOA_Flows/mqsi/Request_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Request_Compute.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\Request_Compute.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\Request_Compute.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\Request_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351792100080" workspaceResource="/PipeSOA_Flows/mqsi/Response.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\Response.msgflow&#xA;Successfully added file PipeSOA_Flows\mqsi\Response.msgflow to archive file&#xA;Elapsed time: 1.5 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.Response.cmf"/>
+    </deployable>
+    <deployable workspaceResource="/PipeSOA_Flows/mqsi/ResponsePaginacion.msgflow"/>
+    <deployable workspaceResource="/PipeSOA_Flows/mqsi/ResponseProcessor.msgflow"/>
+    <deployable workspaceResource="/PipeSOA_Flows/mqsi/SendPaginacion.msgflow"/>
+    <deployable deployed="true" barResourceTimeStamp="1334307712000" workspaceResource="/PipeSOA_Flows/mqsi/WTX_Error_Request.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\WTX_Error_Request.map.&#xA;Successfully added file PipeSOA_Flows\mqsi\WTX_Error_Request.map to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi/WTX_Error_Request.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1334307712000" workspaceResource="/PipeSOA_Flows/mqsi/WTX_Error_Response.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\WTX_Error_Response.map.&#xA;Successfully added file PipeSOA_Flows\mqsi\WTX_Error_Response.map to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi/WTX_Error_Response.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1336896489181" workspaceResource="/PipeSOA_Flows/mqsi/WriteFiles.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\WriteFiles.msgflow&#xA;Successfully added file PipeSOA_Flows\mqsi\WriteFiles.msgflow to archive file&#xA;Elapsed time: 0.047 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.WriteFiles.cmf"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1336518642172" workspaceResource="/PipeSOA_Flows/mqsi/WriteFilesError.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\WriteFilesError.msgflow&#xA;Successfully added file PipeSOA_Flows\mqsi\WriteFilesError.msgflow to archive file&#xA;Elapsed time: 0.14 second(s).&#xA;" severity="0"/>
+      <barEntry name="mqsi.WriteFilesError.cmf"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351654608836" workspaceResource="/PipeSOA_Flows/mqsi/isXMLOrBinary.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\mqsi\isXMLOrBinary.esql.&#xA;Successfully added file PipeSOA_Flows\mqsi\isXMLOrBinary.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\mqsi\isXMLOrBinary.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="mqsi\isXMLOrBinary.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351710304174" workspaceResource="/PipeSOA_Flows/requestTransaccion.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\requestTransaccion.xsd.&#xA;Successfully added file PipeSOA_Flows\requestTransaccion.xsd to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\requestTransaccion.xsd to archive file.&#xA;" severity="0"/>
+      <barEntry name="requestTransaccion.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1337667338756" workspaceResource="/PipeSOA_Flows/responsePaginacion.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\responsePaginacion.xsd.&#xA;Successfully added file PipeSOA_Flows\responsePaginacion.xsd to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\responsePaginacion.xsd to archive file.&#xA;" severity="0"/>
+      <barEntry name="responsePaginacion.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1351710415608" workspaceResource="/PipeSOA_Flows/responseTransaccion.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_Flows\responseTransaccion.xsd.&#xA;Successfully added file PipeSOA_Flows\responseTransaccion.xsd to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file PipeSOA_Flows\responseTransaccion.xsd to archive file.&#xA;" severity="0"/>
+      <barEntry name="responseTransaccion.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1334307712000" workspaceResource="/PipeSOA_FlowsJava/.classpath">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file PipeSOA_FlowsJava\.classpath.&#xA;Successfully added file PipeSOA_FlowsJava\.classpath to archive file.&#xA;Elapsed time: 0.265 second(s).&#xA;" severity="0"/>
+      <barEntry name="PipeSOA_FlowsJava.jar"/>
+    </deployable>
+    <deployable workspaceResource="/PipeSOA_MS/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost.wsdl"/>
+    <deployable barResourceTimeStamp="1351797887069" workspaceResource="/PipeSOA_MS/PipeSOA_MS/messageSet.mset">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="Generating .xsdzip file for message set &quot;PipeSOA_MS&quot; &#xA;&#xD;&#xA;Generating schema for no XML Wire format&#xD;&#xA;Generating schema using the lax option&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Processing File : &quot;/PipeSOA_MS/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost.mxsd&quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Processing File : &quot;/PipeSOA_MS/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost_InlineSchema1.mxsd&quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Processing File : &quot;/PipeSOA_MS/PipeSOA_MS/org/xmlsoap/schemas/soap/envelope/soapenv11.mxsd&quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Processing File : &quot;/PipeSOA_MS/PipeSOA_MS/soap.mxsd&quot;&#xD;&#xA;&#xD;&#xA;Saving File : &quot;/PipeSOA_MS/.GeneratedSchemas/com/bbva/www/serviciohost/ServicioHost.xsd&quot; &#xA;&#xD;&#xA;Saving File : &quot;/PipeSOA_MS/.GeneratedSchemas/com/bbva/www/serviciohost/ServicioHost_InlineSchema1.xsd&quot; &#xA;&#xD;&#xA;Saving File : &quot;/PipeSOA_MS/.GeneratedSchemas/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd&quot; &#xA;&#xD;&#xA;Saving File : &quot;/PipeSOA_MS/.GeneratedSchemas/soap.xsd&quot; &#xA;&#xD;&#xA;Saving file &quot;/PipeSOA_MS/.GeneratedSchemas/org/w3/www/xml/_1998/namespace/xml.xsd&quot; &#xA;&#xD;&#xA;Processing file &quot;/PipeSOA_MS/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost.wsdl&quot; &#xA;&#xD;&#xA;Saving file &quot;/PipeSOA_MS/.ModifiedWSDLs/com/bbva/www/serviciohost/ServicioHost.wsdl&quot; &#xA;&#xD;&#xA;Saving file &quot;/PipeSOA_MS/.KeywordsFile/meta-inf/keywords.txt&quot; &#xA;&#xD;&#xA;Saving file &quot;/PipeSOA_MS/PipeSOA_MS/messageSet.mset&quot; &#xA;&#xD;&#xA;&#xD;&#xA;Elapsed time: 0.359 seconds&#xD;&#xA;Warnings: 0&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Operation complete&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" severity="0"/>
+      <barEntry name="PipeSOA_MS.xsdzip"/>
+    </deployable>
+    <deployable workspaceResource="/PipeSOA_MS/importFiles/ServicioHost.wsdl"/>
+  </deployables>
+</deploy:Deploy>

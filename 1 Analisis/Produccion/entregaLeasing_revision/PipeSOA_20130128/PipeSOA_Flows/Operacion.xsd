@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="operacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="transaccion"/>
+        <xs:element ref="terminal_contable"/> 
+        <xs:element ref="terminal_logica"/>
+        <xs:element ref="usuario_send"/>
+        <xs:element ref="canal_send"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="transaccion" type="xs:string"/>
+  <xs:element name="terminal_contable" type="xs:string"/>
+  <xs:element name="terminal_logica" type="xs:string"/>
+  <xs:element name="usuario_send" type="xs:string"/>
+  <xs:element name="canal_send" type="xs:string"/>
+    
+</xs:schema>

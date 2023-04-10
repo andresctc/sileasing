@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0">
+  <deployables>
+    <deployable workspaceResource="/AdaptadorHOSTtoSOA/.settings/org.eclipse.ltk.core.refactoring.prefs"/>
+    <deployable deployed="true" barResourceTimeStamp="1448060525503" workspaceResource="/AdaptadorHOSTtoSOA/AdaptadorHOSTtoSOA.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow&#xA;Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA.msgflow to archive file&#xA;Elapsed time: 0.15 second(s).&#xA;" severity="0"/>
+      <barEntry name="AdaptadorHOSTtoSOA.cmf"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1447289040000" workspaceResource="/AdaptadorHOSTtoSOA/AdaptadorHOSTtoSOA_Metodos.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql.&#xA;Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql to archive file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file AdaptadorHOSTtoSOA\AdaptadorHOSTtoSOA_Metodos.esql to archive file.&#xA;" severity="0"/>
+      <barEntry name="AdaptadorHOSTtoSOA_Metodos.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1448027657214" workspaceResource="/AdaptadorHOSTtoSOAJava/.classpath">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file AdaptadorHOSTtoSOAJava\.classpath.&#xA;Successfully added file AdaptadorHOSTtoSOAJava\.classpath to archive file.&#xA;Elapsed time: 0 second(s).&#xA;" severity="0"/>
+      <barEntry name="AdaptadorHOSTtoSOAJava.jar"/>
+    </deployable>
+    <deployable workspaceResource="/AdaptadorHOSTtoSOA"/>
+  </deployables>
+</deploy:Deploy>

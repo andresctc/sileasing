@@ -1,0 +1,262 @@
+
+==============================================
+
+!Thu Nov 15 15:42:04 COT 2012
+
+Processing file PipeSOA_Flows.
+Application file PipeSOA_Flows.appzip successfully added to the broker archive.
+Application compiled contents:
+    
+    Processing file PipeSOA_Flows\LimpiarXML.xsl.
+    Successfully added file PipeSOA_Flows\LimpiarXML.xsl to archive file.
+    
+    Processing MAR file C:\Users\c783679\Documents\workspace\MB8\PS9\LoopPaginacion.Map Paginacion.PS9_TO_MULTI_PAG.mar
+    Compiling PS9_TO_MULTI_PAG a_LE map successful
+    Compiling PS9_TO_MULTI_PAG a_LX map successful
+    Compiling PS9_TO_MULTI_PAG a_BE map successful
+    Compiling PS9_TO_MULTI_PAG e_BE map successful
+    MAR file creation successful
+    MAR file added successfully
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Intermediary.esql.
+    Successfully added file PipeSOA_Flows\mqsi\Intermediary.esql to archive file.
+    Elapsed time: 0.016 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\Intermediary.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\responsePaginacion.xsd.
+    Successfully added file PipeSOA_Flows\responsePaginacion.xsd to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\responsePaginacion.xsd to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\isXMLOrBinary.esql.
+    Successfully added file PipeSOA_Flows\mqsi\isXMLOrBinary.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\isXMLOrBinary.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Request.msgflow
+    Successfully added file PipeSOA_Flows\mqsi\Request.msgflow to archive file
+    Elapsed time: 0.719 second(s).
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Paginacion.esql.
+    Successfully added file PipeSOA_Flows\mqsi\Paginacion.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\Paginacion.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\WriteFilesError.msgflow
+    Successfully added file PipeSOA_Flows\mqsi\WriteFilesError.msgflow to archive file
+    Elapsed time: 0.14 second(s).
+    
+    
+    Processing file PipeSOA_Flows\mqsi\RequestSCA_PipeSOA_To_SCA.map.
+    Successfully added file PipeSOA_Flows\mqsi\RequestSCA_PipeSOA_To_SCA.map to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\WTX_Error_Request.map.
+    Successfully added file PipeSOA_Flows\mqsi\WTX_Error_Request.map to archive file.
+    
+    Processing MAR file C:\Users\c783679\Documents\workspace\MB8\PS9\RequestProcessor.Map_PS9.TRAMA_TO_PS9.mar
+    Compiling TRAMA_TO_PS9 a_LE map successful
+    Compiling TRAMA_TO_PS9 a_LX map successful
+    Compiling TRAMA_TO_PS9 a_BE map successful
+    Compiling TRAMA_TO_PS9 e_BE map successful
+    MAR file creation successful
+    MAR file added successfully
+    
+    Processing MAR file C:\Users\c783679\Documents\workspace\MB8\PS9\ResponseProcessor.Map_To_Response_MultiReg.PS9_TO_XML_PG.mar
+    Compiling PS9_TO_XML_PG a_LE map successful
+    Compiling PS9_TO_XML_PG a_LX map successful
+    Compiling PS9_TO_XML_PG a_BE map successful
+    Compiling PS9_TO_XML_PG e_BE map successful
+    MAR file creation successful
+    MAR file added successfully
+    
+    
+    Processing file PipeSOA_Flows\Operacion.xsd.
+    Successfully added file PipeSOA_Flows\Operacion.xsd to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\Operacion.xsd to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\RequestProcessor_Set_Trama.esql.
+    Successfully added file PipeSOA_Flows\mqsi\RequestProcessor_Set_Trama.esql to archive file.
+    Elapsed time: 0.015 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\RequestProcessor_Set_Trama.esql to archive file.
+    
+    Generating .xsdzip file for message set "PipeSOA_MS" 
+    
+    Generating schema for no XML Wire format
+    Generating schema using the lax option
+    
+    
+    Processing File : "/PipeSOA_MS/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost.mxsd"
+    
+    
+    
+    Processing File : "/PipeSOA_MS/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost_InlineSchema1.mxsd"
+    
+    
+    
+    Processing File : "/PipeSOA_MS/PipeSOA_MS/org/xmlsoap/schemas/soap/envelope/soapenv11.mxsd"
+    
+    
+    
+    Processing File : "/PipeSOA_MS/PipeSOA_MS/soap.mxsd"
+    
+    Saving File : "/PipeSOA_MS/.GeneratedSchemas/com/bbva/www/serviciohost/ServicioHost.xsd" 
+    
+    Saving File : "/PipeSOA_MS/.GeneratedSchemas/com/bbva/www/serviciohost/ServicioHost_InlineSchema1.xsd" 
+    
+    Saving File : "/PipeSOA_MS/.GeneratedSchemas/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd" 
+    
+    Saving File : "/PipeSOA_MS/.GeneratedSchemas/soap.xsd" 
+    
+    Saving file "/PipeSOA_MS/.GeneratedSchemas/org/w3/www/xml/_1998/namespace/xml.xsd" 
+    
+    Processing file "/PipeSOA_MS/PipeSOA_MS/com/bbva/www/serviciohost/ServicioHost.wsdl" 
+    
+    Saving file "/PipeSOA_MS/.ModifiedWSDLs/com/bbva/www/serviciohost/ServicioHost.wsdl" 
+    
+    Saving file "/PipeSOA_MS/.KeywordsFile/meta-inf/keywords.txt" 
+    
+    Saving file "/PipeSOA_MS/PipeSOA_MS/messageSet.mset" 
+    
+    
+    Elapsed time: 0.359 seconds
+    Warnings: 0
+    
+    
+    Operation complete
+    
+    
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Error_Compute.esql.
+    Successfully added file PipeSOA_Flows\mqsi\Error_Compute.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\Error_Compute.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\requestTransaccion.xsd.
+    Successfully added file PipeSOA_Flows\requestTransaccion.xsd to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\requestTransaccion.xsd to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\WTX_Error_Response.map.
+    Successfully added file PipeSOA_Flows\mqsi\WTX_Error_Response.map to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Response.msgflow
+    Successfully added file PipeSOA_Flows\mqsi\Response.msgflow to archive file
+    Elapsed time: 1.5 second(s).
+    
+    
+    Processing file PipeSOA_Flows\mqsi\RequestSCA.msgflow
+    Successfully added file PipeSOA_Flows\mqsi\RequestSCA.msgflow to archive file
+    Elapsed time: 0.125 second(s).
+    
+    
+    Processing file PipeSOA_Flows\mqsi\AdminTerminal.msgflow
+    Successfully added file PipeSOA_Flows\mqsi\AdminTerminal.msgflow to archive file
+    Elapsed time: 0.047 second(s).
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Error_Filter.esql.
+    Successfully added file PipeSOA_Flows\mqsi\Error_Filter.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\Error_Filter.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\responseTransaccion.xsd.
+    Successfully added file PipeSOA_Flows\responseTransaccion.xsd to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\responseTransaccion.xsd to archive file.
+    
+    
+    Processing file PipeSOA_FlowsJava\.classpath.
+    Successfully added file PipeSOA_FlowsJava\.classpath to archive file.
+    Elapsed time: 0.265 second(s).
+    
+    
+    Processing file PipeSOA_Flows\mqsi\RequestSCA_Map_To_PipeSOA.map.
+    Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Map_To_PipeSOA.map to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Error.esql.
+    Successfully added file PipeSOA_Flows\mqsi\Error.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\Error.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Request_Compute.esql.
+    Successfully added file PipeSOA_Flows\mqsi\Request_Compute.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\Request_Compute.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\RequestSCA_Set_Vars.esql.
+    Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Set_Vars.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\RequestSCA_Set_Vars.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\input-to-output.xsl.
+    Successfully added file PipeSOA_Flows\input-to-output.xsl to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\AdminPaginacion.msgflow
+    Successfully added file PipeSOA_Flows\mqsi\AdminPaginacion.msgflow to archive file
+    Elapsed time: 0.11 second(s).
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Error_Map_Errorwe.map.
+    Successfully added file PipeSOA_Flows\mqsi\Error_Map_Errorwe.map to archive file.
+    
+    Processing MAR file C:\Users\c783679\Documents\workspace\MB8\PS9\ResponseProcessor.Map_To_Response.PS9_TO_XML.mar
+    Compiling PS9_TO_XML a_LE map successful
+    Compiling PS9_TO_XML a_LX map successful
+    Compiling PS9_TO_XML a_BE map successful
+    Compiling PS9_TO_XML e_BE map successful
+    MAR file creation successful
+    MAR file added successfully
+    
+    
+    Processing file PipeSOA_Flows\mqsi\Log.esql.
+    Successfully added file PipeSOA_Flows\mqsi\Log.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\Log.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\AdminTerminal_del_mensajes.esql.
+    Successfully added file PipeSOA_Flows\mqsi\AdminTerminal_del_mensajes.esql to archive file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file PipeSOA_Flows\mqsi\AdminTerminal_del_mensajes.esql to archive file.
+    
+    
+    Processing file PipeSOA_Flows\mqsi\WriteFiles.msgflow
+    Successfully added file PipeSOA_Flows\mqsi\WriteFiles.msgflow to archive file
+    Elapsed time: 0.047 second(s).
+    
+
+Elapsed time: 4.047 second(s).

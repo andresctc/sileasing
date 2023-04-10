@@ -1,0 +1,328 @@
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2017-10-24 15:00:37.698      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2017-10-25 12:14:53.201      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2017-10-25 16:08:53.949      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2017-11-09 16:37:43.272      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-02-13 17:59:41.315      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-03-13 17:43:23.157      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-06-07 15:01:18.336      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-06-25 16:22:53.069      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-07-05 09:06:43.869      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-08-16 16:39:07.329      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-08-22 15:56:04.107      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-08-22 17:04:58.194      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-08-23 09:50:42.385      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-08-23 10:06:17.041      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-08-24 18:04:40.162      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-10-25 09:11:40.585      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-10-25 14:43:47.235      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-12-06 12:09:11.682      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-12-24 11:41:55.036      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2018-12-24 12:06:42.931      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-04-11 15:22:31.222      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-04-15 16:44:09.309      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-05-28 17:28:57.693      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-07-02 17:06:21.584      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-07-05 11:27:14.422      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-09-10 14:10:40.161      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-10-17 09:44:10.786      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-10-22 11:09:00.913      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2019-11-15 14:37:20.653      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-03-11 16:38:51.397      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-03-11 17:03:29.252      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-03-12 10:13:10.001      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-04-08 10:25:21.115      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-08-26 11:05:08.545      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-08-27 15:32:40.382      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-08-27 15:40:36.254      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-08-27 15:52:45.661      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-08-27 16:00:27.132      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-08-27 16:38:37.487      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-08-27 16:41:33.235      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-09-01 00:14:49.731      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2020-10-27 17:33:19.844      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2021-02-08 10:00:06.911      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2021-02-08 10:06:27.378      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2021-03-15 10:55:28.303      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+2021-03-16 20:36:00.668      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.10/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2021-03-16 21:26:01.740655 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2021-03-16 21:26:05.353      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2021-03-17 11:47:18.865063 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2021-03-17 11:47:21.770      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2021-03-30 16:48:19.264299 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2021-03-30 16:48:22.406      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2021-06-09 12:15:24.407091 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2021-06-09 12:15:27.549      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2021-09-14 17:27:41.062361 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2021-09-14 17:27:44.355      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2021-09-14 18:28:23.676421 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2021-09-14 18:28:26.829      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-07-07 09:49:38.591696 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-07-07 09:49:43.226      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-07-28 12:03:14.486755 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-07-28 12:03:17.489      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-07-29 10:22:26.168846 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-07-29 10:22:29.168      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-08-08 16:21:56.699298 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-08-08 16:21:59.609      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-09-21 16:35:25.271925 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-09-21 16:35:25.998      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-11-15 14:52:26.386322 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-11-15 14:52:29.351      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-11-15 14:54:50.102878 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-11-15 14:54:53.036      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-11-15 15:01:26.992234 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-11-15 15:01:29.929      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-11-15 15:04:18.148258 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-11-15 15:04:21.063      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-11-15 16:36:51.779570 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-11-15 16:36:54.604      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-11-15 16:57:40.026863 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-11-15 16:57:43.014      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-11-15 17:14:26.919509 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-11-15 17:14:29.774      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-12-02 10:41:54.387660 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-12-02 10:41:57.475      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2022-12-21 10:37:57.174645 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2022-12-21 10:38:00.196      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-12 10:15:23.689566 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-12 10:15:26.625      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-12 12:26:46.528621 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-12 12:26:49.513      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-12 12:39:05.003913 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-12 12:39:08.239      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-12 14:37:31.695470 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-12 14:37:34.857      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-12 15:19:32.733781 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-12 15:19:33.356      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-13 10:39:35.656641 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-13 10:39:38.571      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-13 10:43:25.673868 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-13 10:43:28.620      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-13 11:34:16.947897 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-13 11:34:19.876      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-13 12:03:44.602546 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-13 12:03:47.820      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-13 13:58:51.595161 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-13 13:58:52.244      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-13 17:14:42.802564 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-13 17:14:43.431      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-13 17:19:47.888968 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-13 17:19:48.572      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-15 17:56:33.211679 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-15 17:56:35.506      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-15 18:02:34.866615 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-15 18:02:37.127      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-15 18:04:08.307410 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-15 18:04:10.812      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-15 20:23:02.906634 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-15 20:23:05.471      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-01-15 20:25:50.931409 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-01-15 20:25:53.106      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar
+Redirecting stdout to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stdout
+Redirecting stderr to /var/mqsi/components/MBDCSOA1/4782b29d-b407-4b87-899a-066226591b06/stderr
+
+2023-03-13 14:18:40.587039 Execution group started. UUID is: '4782b29d-b407-4b87-899a-066226591b06'. Broker is: MBDCSOA1
+2023-03-13 14:18:43.507      1 Using jms interface URL: file:/opt/IBM/IIBV10/iib-10.0.0.23/server/../common/classes/jms2.0/jms.jar

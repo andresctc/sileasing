@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <xs:element name="responsePaginacion">
+  	<xs:complexType>
+  		<xs:sequence>
+  			<xs:element ref="pg_cod_respuesta"/>  			
+  			<xs:element ref="pg_cod_error"/>
+  			<xs:element ref="pg_mensaje_error"/>
+  			<xs:element ref="pg_indicador_mas_registros"/>
+  			<xs:element ref="pg_cantidad_registros"/>  		
+  		</xs:sequence>
+  	</xs:complexType>
+  </xs:element>
+  
+  <xs:element name="pg_cod_respuesta" type="xs:string"/>  
+  <xs:element name="pg_cod_error" type="xs:string"/>
+  <xs:element name="pg_mensaje_error" type="xs:string"/>
+  <xs:element name="pg_indicador_mas_registros" type="xs:integer"/>
+  <xs:element name="pg_cantidad_registros" type="xs:integer"/>  
+    
+</xs:schema>

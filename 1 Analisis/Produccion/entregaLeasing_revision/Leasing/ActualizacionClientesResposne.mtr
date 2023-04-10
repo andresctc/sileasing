@@ -1,0 +1,1183 @@
+
+(Level 1: Offset 0, len 1, comp 1 of 78, #1, DI 000000000001:)
+Data at offset 0 ('6') was found to be of TYPE
+   X'0005' (WCA_OPCION Field CopyBook).
+
+(Level 1: Offset 1, len 1, comp 2 of 78, #1, DI 000000000002:)
+Data at offset 1 ('3') was found to be of TYPE
+   X'0006' (WCA_CODIDENT Field CopyBook).
+
+(Level 1: Offset 2, len 15, comp 3 of 78, #1, DI 000000000003:)
+Data at offset 2 ('000000900637670') was found to be of TYPE
+   X'0007' (WCA_CLAIDENT Field CopyBook).
+
+(Level 1: Offset 17, len 1, comp 4 of 78, #1, DI 000000000004:)
+Data at offset 17 ('4') was found to be of TYPE
+   X'0008' (WCA_DIGIDENT Field CopyBook).
+
+(Level 1: Offset 18, len 20, comp 5 of 78, #1, DI 000000000005:)
+Data at offset 18 ('                ...') was found to be of TYPE
+   X'0009' (WCA_PRIAPE Field CopyBook).
+
+(Level 1: Offset 38, len 20, comp 6 of 78, #1, DI 000000000005:)
+Data at offset 38 ('                ...') was found to be of TYPE
+   X'000A' (WCA_SEGAPE Field CopyBook).
+
+(Level 1: Offset 58, len 20, comp 7 of 78, #1, DI 000000000005:)
+Data at offset 58 ('                ...') was found to be of TYPE
+   X'000B' (WCA_NOMBRE Field CopyBook).
+
+(Level 1: Offset 78, len 40, comp 8 of 78, #1, DI 000000000005:)
+Data at offset 78 ('                ...') was found to be of TYPE
+   X'000C' (WCA_PESIGLA Field CopyBook).
+
+(Level 1: Offset 118, len 1, comp 9 of 78, #1, DI 000000000005:)
+Data at offset 118 (' ') was found to be of TYPE
+   X'000D' (WCA_TIPOEMPRE Field CopyBook).
+
+(Level 1: Offset 119, len 1, comp 10 of 78, #1, DI 000000000005:)
+Data at offset 119 (' ') was found to be of TYPE
+   X'000E' (WCA_PENACIF Field CopyBook).
+
+(Level 1: Offset 120, len 4, comp 11 of 78, #1, DI 000000000005:)
+Data at offset 120 ('    ') was found to be of TYPE
+   X'000F' (WCA_OFIALTA Field CopyBook).
+
+(Level 1: Offset 124, len 1, comp 12 of 78, #1, DI 000000000005:)
+Data at offset 124 (' ') was found to be of TYPE
+   X'0010' (WCA_TIPTEL1 Field CopyBook).
+
+(Level 1: Offset 125, len 6, comp 13 of 78, #1, DI 000000000005:)
+Data at offset 125 ('      ') was found to be of TYPE
+   X'0011' (WCA_PREFIJ1 Field CopyBook).
+
+(Level 1: Offset 131, len 7, comp 14 of 78, #1, DI 000000000005:)
+Data at offset 131 ('       ') was found to be of TYPE
+   X'0012' (WCA_NUMTEL1 Field CopyBook).
+
+(Level 1: Offset 138, len 5, comp 15 of 78, #1, DI 000000000005:)
+Data at offset 138 ('00000') was found to be of TYPE
+   X'0013' (WCA_EXTTEL1 Field CopyBook).
+
+(Level 1: Offset 143, len 3, comp 16 of 78, #1, DI 000000000006:)
+Data at offset 143 ('   ') was found to be of TYPE
+   X'0014' (WCA_PEATVIA Field CopyBook).
+
+(Level 1: Offset 146, len 3, comp 17 of 78, #1, DI 000000000006:)
+Data at offset 146 ('000') was found to be of TYPE
+   X'0015' (WCA_PENNVIA Field CopyBook).
+
+(Level 1: Offset 149, len 15, comp 18 of 78, #1, DI 000000000007:)
+Data at offset 149 ('               ') was found to be of TYPE
+   X'0016' (WCA_PEADVIA Field CopyBook).
+
+(Level 1: Offset 164, len 1, comp 19 of 78, #1, DI 000000000007:)
+Data at offset 164 (' ') was found to be of TYPE
+   X'0017' (WCA_PEAORD1 Field CopyBook).
+
+(Level 1: Offset 165, len 1, comp 20 of 78, #1, DI 000000000007:)
+Data at offset 165 (' ') was found to be of TYPE
+   X'0018' (WCA_PEABIS1 Field CopyBook).
+
+(Level 1: Offset 166, len 1, comp 21 of 78, #1, DI 000000000007:)
+Data at offset 166 (' ') was found to be of TYPE
+   X'0019' (WCA_PEAPCA1 Field CopyBook).
+
+(Level 1: Offset 167, len 3, comp 22 of 78, #1, DI 000000000007:)
+Data at offset 167 ('000') was found to be of TYPE
+   X'001A' (WCA_PENPLA1 Field CopyBook).
+
+(Level 1: Offset 170, len 50, comp 23 of 78, #1, DI 000000000008:)
+Data at offset 170 ('                ...') was found to be of TYPE
+   X'001B' (WCA_DIREC1 Field CopyBook).
+
+(Level 1: Offset 220, len 2, comp 24 of 78, #1, DI 000000000008:)
+Data at offset 220 ('  ') was found to be of TYPE
+   X'001C' (WCA_PECCGDD Field CopyBook).
+
+(Level 1: Offset 222, len 3, comp 25 of 78, #1, DI 000000000008:)
+Data at offset 222 ('   ') was found to be of TYPE
+   X'001D' (WCA_PECCFMD Field CopyBook).
+
+(Level 1: Offset 225, len 70, comp 26 of 78, #1, DI 000000000008:)
+Data at offset 225 ('                ...') was found to be of TYPE
+   X'001E' (WCA_EMAIL Field CopyBook).
+
+(Level 1: Offset 295, len 70, comp 27 of 78, #1, DI 000000000008:)
+Data at offset 295 ('                ...') was found to be of TYPE
+   X'001F' (WCA_EMAIL2 Field CopyBook).
+
+(Level 1: Offset 365, len 1, comp 28 of 78, #1, DI 000000000008:)
+Data at offset 365 (' ') was found to be of TYPE
+   X'0020' (WCA_PENCODR Field CopyBook).
+
+(Level 1: Offset 366, len 15, comp 29 of 78, #1, DI 000000000008:)
+Data at offset 366 ('               ') was found to be of TYPE
+   X'0021' (WCA_PENCLAR Field CopyBook).
+
+(Level 1: Offset 381, len 1, comp 30 of 78, #1, DI 000000000008:)
+Data at offset 381 (' ') was found to be of TYPE
+   X'0022' (WCA_PENDIGR Field CopyBook).
+
+(Level 1: Offset 382, len 20, comp 31 of 78, #1, DI 000000000008:)
+Data at offset 382 ('                ...') was found to be of TYPE
+   X'0023' (WCA_PEAPE1R Field CopyBook).
+
+(Level 1: Offset 402, len 20, comp 32 of 78, #1, DI 000000000008:)
+Data at offset 402 ('                ...') was found to be of TYPE
+   X'0024' (WCA_PEAPE2R Field CopyBook).
+
+(Level 1: Offset 422, len 20, comp 33 of 78, #1, DI 000000000008:)
+Data at offset 422 ('                ...') was found to be of TYPE
+   X'0025' (WCA_PEANOMR Field CopyBook).
+
+(Level 1: Offset 442, len 4, comp 34 of 78, #1, DI 000000000008:)
+Data at offset 442 ('    ') was found to be of TYPE
+   X'0026' (WCA_PENCOCC Field CopyBook).
+
+(Level 1: Offset 446, len 1, comp 35 of 78, #1, DI 000000000008:)
+Data at offset 446 (' ') was found to be of TYPE
+   X'0027' (WCA_SEXO Field CopyBook).
+
+(Level 1: Offset 447, len 1, comp 36 of 78, #1, DI 000000000008:)
+Data at offset 447 (' ') was found to be of TYPE
+   X'0028' (WCA_OPERMEXT Field CopyBook).
+
+(Level 1: Offset 448, len 11, comp 37 of 78, #1, DI 000000000008:)
+Data at offset 448 ('           ') was found to be of TYPE
+   X'0029' (WCA_ACTOGIRO Field CopyBook).
+
+(Level 1: Offset 459, len 10, comp 38 of 78, #1, DI 000000000008:)
+Data at offset 459 ('          ') was found to be of TYPE
+   X'002A' (WCA_FENACIMI Field CopyBook).
+
+(Level 1: Offset 469, len 15, comp 39 of 78, #1, DI 000000000008:)
+Data at offset 469 ('               ') was found to be of TYPE
+   X'002B' (WCA_PEACIUN Field CopyBook).
+
+(Level 1: Offset 484, len 30, comp 40 of 78, #1, DI 000000000008:)
+Data at offset 484 ('                ...') was found to be of TYPE
+   X'002C' (WCA_OCUPHABI Field CopyBook).
+
+(Level 1: Offset 514, len 10, comp 41 of 78, #1, DI 000000000008:)
+Data at offset 514 ('          ') was found to be of TYPE
+   X'002D' (WCA_PEDEXPD Field CopyBook).
+
+(Level 1: Offset 524, len 2, comp 42 of 78, #1, DI 000000000008:)
+Data at offset 524 ('  ') was found to be of TYPE
+   X'002E' (WCA_CALIFIC Field CopyBook).
+
+(Level 1: Offset 526, len 4, comp 43 of 78, #1, DI 000000000008:)
+Data at offset 526 ('0013') was found to be of TYPE
+   X'002F' (WCA_PECENTID Field CopyBook).
+
+(Level 1: Offset 530, len 4, comp 44 of 78, #1, DI 000000000009:)
+Data at offset 530 ('0806') was found to be of TYPE
+   X'0030' (WCA_OFIAPE Field CopyBook).
+
+(Level 1: Offset 534, len 2, comp 45 of 78, #1, DI 00000000000A:)
+Data at offset 534 ('92') was found to be of TYPE
+   X'0031' (WCA_CODISER Field CopyBook).
+
+(Level 1: Offset 536, len 8, comp 46 of 78, #1, DI 00000000000B:)
+Data at offset 536 ('00008501') was found to be of TYPE
+   X'0032' (WCA_NUMECTA Field CopyBook).
+
+(Level 1: Offset 544, len 4, comp 47 of 78, #1, DI 00000000000C:)
+Data at offset 544 ('0806') was found to be of TYPE
+   X'0033' (WCA_PENOFMOD Field CopyBook).
+
+(Level 1: Offset 548, len 8, comp 48 of 78, #1, DI 00000000000D:)
+Data at offset 548 ('C798281 ') was found to be of TYPE
+   X'0034' (WCA_USUARIO Field CopyBook).
+
+(Level 1: Offset 556, len 2, comp 49 of 78, #1, DI 00000000000E:)
+Data at offset 556 ('LS') was found to be of TYPE
+   X'0035' (WCA_APLICACIO Field CopyBook).
+
+(Level 1: Offset 558, len 1, comp 50 of 78, #1, DI 00000000000F:)
+Data at offset 558 (' ') was found to be of TYPE
+   X'0036' (WCA_CLAINTER Field CopyBook).
+
+(Level 1: Offset 559, len 2, comp 51 of 78, #1, DI 00000000000F:)
+Data at offset 559 ('  ') was found to be of TYPE
+   X'0037' (WCA_SECINTER Field CopyBook).
+
+(Level 1: Offset 561, len 10, comp 52 of 78, #1, DI 00000000000F:)
+Data at offset 561 ('2014-01-17') was found to be of TYPE
+   X'0038' (WCA_FECANCEL Field CopyBook).
+
+(Level 1: Offset 571, len 10, comp 53 of 78, #1, DI 000000000010:)
+Data at offset 571 ('          ') was found to be of TYPE
+   X'0039' (WCA_FECHAPE Field CopyBook).
+
+(Level 1: Offset 581, len 10, comp 54 of 78, #1, DI 000000000010:)
+Data at offset 581 ('          ') was found to be of TYPE
+   X'003A' (WCA_FEALRELA Field CopyBook).
+
+(Level 1: Offset 591, len 1, comp 55 of 78, #1, DI 000000000010:)
+Data at offset 591 (' ') was found to be of TYPE
+   X'003B' (WCA_ACCIONAUX Field CopyBook).
+
+(Level 1: Offset 592, len 6, comp 56 of 78, #1, DI 000000000010:)
+Data at offset 592 ('000000') was found to be of TYPE
+   X'003C' (WCA_HORASISTEMA Field CopyBook).
+
+(Level 1: Offset 598, len 1, comp 57 of 78, #1, DI 000000000010:)
+Data at offset 598 (' ') was found to be of TYPE
+   X'003D' (WCA_CALLCICS Field CopyBook).
+
+(Level 1: Offset 599, len 10, comp 58 of 78, #1, DI 000000000010:)
+Data at offset 599 ('2014-01-17') was found to be of TYPE
+   X'003E' (WCA_FECSISTEMA Field CopyBook).
+
+(Level 1: Offset 609, len 6, comp 59 of 78, #1, DI 000000000011:)
+Data at offset 609 ('000806') was found to be of TYPE
+   X'003F' (WCA_IUGESTOR Field CopyBook).
+
+(Level 1: Offset 615, len 2, comp 60 of 78, #1, DI 000000000012:)
+Data at offset 615 ('92') was found to be of TYPE
+   X'0040' (WCA_CODANTI Field CopyBook).
+
+(Level 1: Offset 617, len 18, comp 61 of 78, #1, DI 000000000013:)
+Data at offset 617 ('0013080692000085...') was found to be of TYPE
+   X'0041' (WCA_CTANTIG Field CopyBook).
+
+(Level 1: Offset 635, len 1, comp 62 of 78, #1, DI 000000000014:)
+Data at offset 635 ('C') was found to be of TYPE
+   X'0042' (WCA_ESTADOO Field CopyBook).
+
+(Level 1: Offset 636, len 15, comp 63 of 78, #1, DI 000000000015:)
+Data at offset 636 ('000000002604300') was found to be of TYPE
+   X'0043' (WCA_SALDO1 Field CopyBook).
+
+(Level 1: Offset 651, len 15, comp 64 of 78, #1, DI 000000000016:)
+Data at offset 651 ('000000002604300') was found to be of TYPE
+   X'0044' (WCA_SALDO2 Field CopyBook).
+
+(Level 1: Offset 666, len 4, comp 65 of 78, #1, DI 000000000017:)
+Data at offset 666 ('0806') was found to be of TYPE
+   X'0045' (WCA_CENTGES Field CopyBook).
+
+(Level 1: Offset 670, len 1, comp 66 of 78, #1, DI 000000000018:)
+Data at offset 670 ('S') was found to be of TYPE
+   X'0046' (WCA_INDMIGRABLE Field CopyBook).
+
+(Level 1: Offset 671, len 1, comp 67 of 78, #1, DI 000000000019:)
+Data at offset 671 ('S') was found to be of TYPE
+   X'0047' (WCA_INDMIGRADO Field CopyBook).
+
+(Level 1: Offset 672, len 4, comp 68 of 78, #1, DI 00000000001A:)
+Data at offset 672 ('0013') was found to be of TYPE
+   X'0048' (WCA_PECENTIDCO Field CopyBook).
+
+(Level 1: Offset 676, len 4, comp 69 of 78, #1, DI 00000000001B:)
+Data at offset 676 ('0806') was found to be of TYPE
+   X'0049' (WCA_OFIAPECO Field CopyBook).
+
+(Level 1: Offset 680, len 2, comp 70 of 78, #1, DI 00000000001C:)
+Data at offset 680 ('92') was found to be of TYPE
+   X'004A' (WCA_CODISERCO Field CopyBook).
+
+(Level 1: Offset 682, len 8, comp 71 of 78, #1, DI 00000000001D:)
+Data at offset 682 ('00008501') was found to be of TYPE
+   X'004B' (WCA_NUMECTACO Field CopyBook).
+
+(Level 1: Offset 690, len 2, comp 72 of 78, #1, DI 00000000001E:)
+Data at offset 690 ('  ') was found to be of TYPE
+   X'004C' (WCA_DIGITOS Field CopyBook).
+
+(Level 1: Offset 692, len 8, comp 73 of 78, #1, DI 00000000001E:)
+Data at offset 692 ('C798281 ') was found to be of TYPE
+   X'004D' (WCA_USUARIOCO Field CopyBook).
+
+(Level 1: Offset 700, len 2, comp 74 of 78, #1, DI 00000000001F:)
+Data at offset 700 ('  ') was found to be of TYPE
+   X'004E' (WCA_CODRETU Field CopyBook).
+
+(Level 1: Offset 702, len 8, comp 75 of 78, #1, DI 00000000001F:)
+Data at offset 702 ('        ') was found to be of TYPE
+   X'004F' (WCA_TABLA Field CopyBook).
+
+(Level 1: Offset 710, len 8, comp 76 of 78, #1, DI 00000000001F:)
+Data at offset 710 ('        ') was found to be of TYPE
+   X'0050' (WCA_RUTINA Field CopyBook).
+
+(Level 1: Offset 718, len 20, comp 77 of 78, #1, DI 00000000001F:)
+Data at offset 718 ('                ...') was found to be of TYPE
+   X'0051' (WCA_FECACTU Field CopyBook).
+
+(Level 1: Offset 738, len 20, comp 78 of 78, #1, DI 00000000001F:)
+Data at offset 738 ('                ...') was found to be of TYPE
+   X'0052' (WCA_CODACTU Field CopyBook).
+
+(Level 0: Offset 0, len 758, comp 1 of 0, #1, DI 00000000001F:)
+Data at offset 0 ('6300000090063767...') was found to be of TYPE
+   X'0003' (WCA_ALTMAECL_R Record CopyBook).
+
+   INPUT 1 was valid but contained 2242 bytes of unknown data at the end.
+
+   End of Validation messages for INPUT CARD 1.
+
+22:56:27.991  Jan 17 2014
+(Offset 0: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0055' (PEWC0880 Record CopyBook).
+
+22:56:27.991  Jan 17 2014
+(Offset 0: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0057' (E0880_ENTRADA_BASICA Group CopyBook).
+
+22:56:27.991  Jan 17 2014
+(Offset 0: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0059' (E0880_OPCION Field CopyBook).
+
+22:56:27.991  Jan 17 2014
+(Offset 0: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0059' (E0880_OPCION Field CopyBook) has been built.
+
+22:56:27.991  Jan 17 2014
+(Offset 1: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0059' (E0880_OPCION Field CopyBook) has been built. ('6')
+
+22:56:27.991  Jan 17 2014
+(Offset 1: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'005A' (E0880_CODIDENT Field CopyBook).
+
+22:56:27.991  Jan 17 2014
+(Offset 1: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'005A' (E0880_CODIDENT Field CopyBook) has been built.
+
+22:56:27.991  Jan 17 2014
+(Offset 2: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'005A' (E0880_CODIDENT Field CopyBook) has been built. ('3')
+
+22:56:27.991  Jan 17 2014
+(Offset 2: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'005B' (E0880_CLAIDENT Field CopyBook).
+
+22:56:27.991  Jan 17 2014
+(Offset 2: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'005B' (E0880_CLAIDENT Field CopyBook) has been built.
+
+22:56:27.992  Jan 17 2014
+(Offset 17: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'005B' (E0880_CLAIDENT Field CopyBook) has been built. ('000000900637670')
+
+22:56:27.992  Jan 17 2014
+(Offset 17: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'005C' (E0880_DIGIDENT Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 17: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'005C' (E0880_DIGIDENT Field CopyBook) has been built.
+
+22:56:27.992  Jan 17 2014
+(Offset 18: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'005C' (E0880_DIGIDENT Field CopyBook) has been built. ('4')
+
+22:56:27.992  Jan 17 2014
+(Offset 18: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0057' (E0880_ENTRADA_BASICA Group CopyBook) has been built.
+
+22:56:27.992  Jan 17 2014
+(Offset 18: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'005D' (E0880_SALIDA_PER Group CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 18: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'005E' (E0880_OUT_PER_1 Group CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 18: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'005F' (E0880_PRIAPE Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 18: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'005F' (E0880_PRIAPE Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 38: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0060' (E0880_SEGAPE Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 38: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0060' (E0880_SEGAPE Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 58: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0061' (E0880_NOMBRE Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 58: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0061' (E0880_NOMBRE Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 78: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'005E' (E0880_OUT_PER_1 Group CopyBook) has been built.
+
+22:56:27.992  Jan 17 2014
+(Offset 78: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0062' (E0880_OUT_PER_2 Group CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 78: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0063' (E0880_PESIGLA Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 78: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0063' (E0880_PESIGLA Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 118: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0064' (E0880_TIPOEMPRE Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 118: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0064' (E0880_TIPOEMPRE Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 119: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0065' (E0880_PENACIF Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 119: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0065' (E0880_PENACIF Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 120: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0066' (E0880_OFIALTA Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 120: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0066' (E0880_OFIALTA Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 124: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0062' (E0880_OUT_PER_2 Group CopyBook) has been built.
+
+22:56:27.992  Jan 17 2014
+(Offset 124: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0067' (E0880_OUT_PER_3 Group CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 124: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0068' (E0880_TIPTEL1 Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 124: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0068' (E0880_TIPTEL1 Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 125: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0069' (E0880_PREFIJ1 Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 125: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0069' (E0880_PREFIJ1 Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 131: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'006A' (E0880_NUMTEL1 Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 131: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'006A' (E0880_NUMTEL1 Field CopyBook) evaluated to NONE.
+
+22:56:27.992  Jan 17 2014
+(Offset 138: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'006B' (E0880_EXTTEL1 Field CopyBook).
+
+22:56:27.992  Jan 17 2014
+(Offset 138: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'006B' (E0880_EXTTEL1 Field CopyBook) has been built.
+
+22:56:27.992  Jan 17 2014
+(Offset 143: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'006B' (E0880_EXTTEL1 Field CopyBook) has been built. ('00000')
+
+22:56:27.993  Jan 17 2014
+(Offset 143: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'006C' (E0880_PEATVIA Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 143: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'006C' (E0880_PEATVIA Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 146: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'006D' (E0880_PENNVIA Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 146: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'006D' (E0880_PENNVIA Field CopyBook) has been built.
+
+22:56:27.993  Jan 17 2014
+(Offset 149: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'006D' (E0880_PENNVIA Field CopyBook) has been built. ('000')
+
+22:56:27.993  Jan 17 2014
+(Offset 149: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'006E' (E0880_PEADVIA Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 149: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'006E' (E0880_PEADVIA Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 164: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'006F' (E0880_PEAORD1 Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 164: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'006F' (E0880_PEAORD1 Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 165: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0070' (E0880_PEABIS1 Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 165: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0070' (E0880_PEABIS1 Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 166: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0071' (E0880_PEAPCA1 Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 166: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0071' (E0880_PEAPCA1 Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 167: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0072' (E0880_PENPLA1 Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 167: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0072' (E0880_PENPLA1 Field CopyBook) has been built.
+
+22:56:27.993  Jan 17 2014
+(Offset 170: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0072' (E0880_PENPLA1 Field CopyBook) has been built. ('000')
+
+22:56:27.993  Jan 17 2014
+(Offset 170: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0067' (E0880_OUT_PER_3 Group CopyBook) has been built.
+
+22:56:27.993  Jan 17 2014
+(Offset 170: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0073' (E0880_OUT_PER_4 Group CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 170: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0074' (E0880_DIREC1 Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 170: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0074' (E0880_DIREC1 Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 220: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0075' (E0880_PECCGDD Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 220: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0075' (E0880_PECCGDD Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 222: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0076' (E0880_PECCFMD Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 222: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0076' (E0880_PECCFMD Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 225: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0073' (E0880_OUT_PER_4 Group CopyBook) has been built.
+
+22:56:27.993  Jan 17 2014
+(Offset 225: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0077' (E0880_EMAIL Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 225: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0077' (E0880_EMAIL Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 295: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0078' (E0880_EMAIL2 Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 295: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0078' (E0880_EMAIL2 Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 365: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0079' (E0880_OUT_PER_5 Group CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 365: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'007A' (E0880_PENCODR Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 365: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'007A' (E0880_PENCODR Field CopyBook) evaluated to NONE.
+
+22:56:27.993  Jan 17 2014
+(Offset 366: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'007B' (E0880_PENCLAR Field CopyBook).
+
+22:56:27.993  Jan 17 2014
+(Offset 366: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'007B' (E0880_PENCLAR Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 381: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'007C' (E0880_PENDIGR Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 381: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'007C' (E0880_PENDIGR Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 382: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'007D' (E0880_PEAPE1R Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 382: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'007D' (E0880_PEAPE1R Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 402: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'007E' (E0880_PEAPE2R Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 402: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'007E' (E0880_PEAPE2R Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 422: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0079' (E0880_OUT_PER_5 Group CopyBook) has been built.
+
+22:56:27.994  Jan 17 2014
+(Offset 422: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'007F' (E0880_OUT_PER_6 Group CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 422: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0080' (E0880_PEANOMR Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 422: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0080' (E0880_PEANOMR Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 442: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0081' (E0880_PENCOCC Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 442: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0081' (E0880_PENCOCC Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 446: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0082' (E0880_SEXO Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 446: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0082' (E0880_SEXO Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 447: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0083' (E0880_OPERMEXT Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 447: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0083' (E0880_OPERMEXT Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 448: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0084' (E0880_ACTOGIRO Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 448: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0084' (E0880_ACTOGIRO Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 459: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0085' (E0880_FENACIMI Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 459: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0085' (E0880_FENACIMI Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 469: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0086' (E0880_PEACIUN Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 469: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0086' (E0880_PEACIUN Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 484: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'007F' (E0880_OUT_PER_6 Group CopyBook) has been built.
+
+22:56:27.994  Jan 17 2014
+(Offset 484: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0087' (E0880_OUT_PER_7 Group CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 484: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0088' (E0880_OCUPHABI Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 484: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0088' (E0880_OCUPHABI Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 514: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0089' (E0880_PEDEXPD Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 514: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0089' (E0880_PEDEXPD Field CopyBook) evaluated to NONE.
+
+22:56:27.994  Jan 17 2014
+(Offset 524: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0087' (E0880_OUT_PER_7 Group CopyBook) has been built.
+
+22:56:27.994  Jan 17 2014
+(Offset 524: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'005D' (E0880_SALIDA_PER Group CopyBook) has been built.
+
+22:56:27.994  Jan 17 2014
+(Offset 524: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'008A' (E0880_SALIDA_BAES Group CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 524: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'008B' (E0880_BAES_CALIFIC Field CopyBook).
+
+22:56:27.994  Jan 17 2014
+(Offset 524: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'008B' (E0880_BAES_CALIFIC Field CopyBook) evaluated to NONE.
+
+22:56:27.995  Jan 17 2014
+(Offset 526: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'008A' (E0880_SALIDA_BAES Group CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 526: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'008C' (E0880_ENTRADA_PARTICIPES Group CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 526: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'008D' (E0880_PE8_PECENTID Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 526: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'008D' (E0880_PE8_PECENTID Field CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 530: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'008D' (E0880_PE8_PECENTID Field CopyBook) has been built. ('0013')
+
+22:56:27.995  Jan 17 2014
+(Offset 530: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'008E' (E0880_PE8_OFIAPE Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 530: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'008E' (E0880_PE8_OFIAPE Field CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 534: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'008E' (E0880_PE8_OFIAPE Field CopyBook) has been built. ('0806')
+
+22:56:27.995  Jan 17 2014
+(Offset 534: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'008F' (E0880_PE8_CODISER Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 534: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'008F' (E0880_PE8_CODISER Field CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 536: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'008F' (E0880_PE8_CODISER Field CopyBook) has been built. ('92')
+
+22:56:27.995  Jan 17 2014
+(Offset 536: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0090' (E0880_PE8_NUMECTA Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 536: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0090' (E0880_PE8_NUMECTA Field CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 544: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0090' (E0880_PE8_NUMECTA Field CopyBook) has been built. ('00008501')
+
+22:56:27.995  Jan 17 2014
+(Offset 544: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0091' (E0880_PE8_PENOFMOD Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 544: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0091' (E0880_PE8_PENOFMOD Field CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 548: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0091' (E0880_PE8_PENOFMOD Field CopyBook) has been built. ('0806')
+
+22:56:27.995  Jan 17 2014
+(Offset 548: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0092' (E0880_PE8_USUARIO Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 548: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0092' (E0880_PE8_USUARIO Field CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 556: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0092' (E0880_PE8_USUARIO Field CopyBook) has been built. ('C798281 ')
+
+22:56:27.995  Jan 17 2014
+(Offset 556: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0093' (E0880_PE8_APLICACIO Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 556: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0093' (E0880_PE8_APLICACIO Field CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 558: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0093' (E0880_PE8_APLICACIO Field CopyBook) has been built. ('LS')
+
+22:56:27.995  Jan 17 2014
+(Offset 558: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0094' (E0880_PE8_CLAINTER Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 558: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0094' (E0880_PE8_CLAINTER Field CopyBook) evaluated to NONE.
+
+22:56:27.995  Jan 17 2014
+(Offset 559: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0095' (E0880_PE8_SECINTER Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 559: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0095' (E0880_PE8_SECINTER Field CopyBook) evaluated to NONE.
+
+22:56:27.995  Jan 17 2014
+(Offset 561: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0096' (E0880_PE8_FECANCEL Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 561: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0096' (E0880_PE8_FECANCEL Field CopyBook) has been built.
+
+22:56:27.995  Jan 17 2014
+(Offset 571: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0096' (E0880_PE8_FECANCEL Field CopyBook) has been built. ('2014-01-17')
+
+22:56:27.995  Jan 17 2014
+(Offset 571: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0097' (E0880_PE8_FECHAPE Field CopyBook).
+
+22:56:27.995  Jan 17 2014
+(Offset 571: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0097' (E0880_PE8_FECHAPE Field CopyBook) evaluated to NONE.
+
+22:56:27.995  Jan 17 2014
+(Offset 581: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0098' (E0880_PE8_FEALRELA Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 581: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0098' (E0880_PE8_FEALRELA Field CopyBook) evaluated to NONE.
+
+22:56:27.996  Jan 17 2014
+(Offset 591: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'0099' (E0880_PE8_ACCION_AUX Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 591: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'0099' (E0880_PE8_ACCION_AUX Field CopyBook) evaluated to NONE.
+
+22:56:27.996  Jan 17 2014
+(Offset 592: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'009A' (E0880_PE8_HORASISTEMA Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 592: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'009A' (E0880_PE8_HORASISTEMA Field CopyBook) evaluated to NONE.
+
+22:56:27.996  Jan 17 2014
+(Offset 598: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'009B' (E0880_PE8_CALLCICS Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 598: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'009B' (E0880_PE8_CALLCICS Field CopyBook) evaluated to NONE.
+
+22:56:27.996  Jan 17 2014
+(Offset 599: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'009C' (E0880_PE8_FECSISTEMA Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 599: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'009C' (E0880_PE8_FECSISTEMA Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 609: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'009C' (E0880_PE8_FECSISTEMA Field CopyBook) has been built. ('2014-01-17')
+
+22:56:27.996  Jan 17 2014
+(Offset 609: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'009D' (E0880_PE8_IUGESTOR Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 609: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'009D' (E0880_PE8_IUGESTOR Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 615: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'009D' (E0880_PE8_IUGESTOR Field CopyBook) has been built. ('000806')
+
+22:56:27.996  Jan 17 2014
+(Offset 615: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'008C' (E0880_ENTRADA_PARTICIPES Group CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 615: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'009E' (E0880_ENTRADA_PEDTGLB Group CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 615: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'009F' (E0880_GLB0_CODANTI Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 615: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'009F' (E0880_GLB0_CODANTI Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 617: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'009F' (E0880_GLB0_CODANTI Field CopyBook) has been built. ('92')
+
+22:56:27.996  Jan 17 2014
+(Offset 617: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A0' (E0880_GLB0_CTANTIG Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 617: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A0' (E0880_GLB0_CTANTIG Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 635: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A0' (E0880_GLB0_CTANTIG Field CopyBook) has been built. ('0013080692000085...')
+
+22:56:27.996  Jan 17 2014
+(Offset 635: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A1' (E0880_GLB0_ESTADO Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 635: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A1' (E0880_GLB0_ESTADO Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 636: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A1' (E0880_GLB0_ESTADO Field CopyBook) has been built. ('C')
+
+22:56:27.996  Jan 17 2014
+(Offset 636: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A2' (E0880_GLB0_SALDO1 Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 636: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A2' (E0880_GLB0_SALDO1 Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 651: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A2' (E0880_GLB0_SALDO1 Field CopyBook) has been built. ('000000002604300')
+
+22:56:27.996  Jan 17 2014
+(Offset 651: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A3' (E0880_GLB0_SALDO2 Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 651: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A3' (E0880_GLB0_SALDO2 Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 666: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A3' (E0880_GLB0_SALDO2 Field CopyBook) has been built. ('000000002604300')
+
+22:56:27.996  Jan 17 2014
+(Offset 666: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A4' (E0880_GLB0_CENTGES Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 666: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A4' (E0880_GLB0_CENTGES Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 670: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A4' (E0880_GLB0_CENTGES Field CopyBook) has been built. ('0806')
+
+22:56:27.996  Jan 17 2014
+(Offset 670: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A5' (E0880_GLB0_INDMIGRABLE Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 670: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A5' (E0880_GLB0_INDMIGRABLE Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 671: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A5' (E0880_GLB0_INDMIGRABLE Field CopyBook) has been built. ('S')
+
+22:56:27.996  Jan 17 2014
+(Offset 671: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A6' (E0880_GLB0_INDMIGRADO Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 671: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A6' (E0880_GLB0_INDMIGRADO Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 672: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A6' (E0880_GLB0_INDMIGRADO Field CopyBook) has been built. ('S')
+
+22:56:27.996  Jan 17 2014
+(Offset 672: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A7' (E0880_GLB0_PECENTID Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 672: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A7' (E0880_GLB0_PECENTID Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 676: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A7' (E0880_GLB0_PECENTID Field CopyBook) has been built. ('0013')
+
+22:56:27.996  Jan 17 2014
+(Offset 676: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A8' (E0880_GLB0_OFIAPE Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 676: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A8' (E0880_GLB0_OFIAPE Field CopyBook) has been built.
+
+22:56:27.996  Jan 17 2014
+(Offset 680: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A8' (E0880_GLB0_OFIAPE Field CopyBook) has been built. ('0806')
+
+22:56:27.996  Jan 17 2014
+(Offset 680: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00A9' (E0880_GLB0_CODISER Field CopyBook).
+
+22:56:27.996  Jan 17 2014
+(Offset 680: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A9' (E0880_GLB0_CODISER Field CopyBook) has been built.
+
+22:56:27.997  Jan 17 2014
+(Offset 682: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00A9' (E0880_GLB0_CODISER Field CopyBook) has been built. ('92')
+
+22:56:27.997  Jan 17 2014
+(Offset 682: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00AA' (E0880_GLB0_NUMECTA Field CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 682: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00AA' (E0880_GLB0_NUMECTA Field CopyBook) has been built.
+
+22:56:27.997  Jan 17 2014
+(Offset 690: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00AA' (E0880_GLB0_NUMECTA Field CopyBook) has been built. ('00008501')
+
+22:56:27.997  Jan 17 2014
+(Offset 690: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00AB' (E0880_GLB0_DIGITOS Field CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 690: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'00AB' (E0880_GLB0_DIGITOS Field CopyBook) evaluated to NONE.
+
+22:56:27.997  Jan 17 2014
+(Offset 692: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00AC' (E0880_GLB0_USUARIO Field CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 692: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00AC' (E0880_GLB0_USUARIO Field CopyBook) has been built.
+
+22:56:27.997  Jan 17 2014
+(Offset 700: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00AC' (E0880_GLB0_USUARIO Field CopyBook) has been built. ('C798281 ')
+
+22:56:27.997  Jan 17 2014
+(Offset 700: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'009E' (E0880_ENTRADA_PEDTGLB Group CopyBook) has been built.
+
+22:56:27.997  Jan 17 2014
+(Offset 700: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00AD' (E0880_RETORNO Group CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 700: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00AE' (E0880_CODRETURN Field CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 700: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'00AE' (E0880_CODRETURN Field CopyBook) evaluated to NONE.
+
+22:56:27.997  Jan 17 2014
+(Offset 702: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00AF' (E0880_TABLA Field CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 702: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'00AF' (E0880_TABLA Field CopyBook) evaluated to NONE.
+
+22:56:27.997  Jan 17 2014
+(Offset 710: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00B0' (E0880_RUTINA Field CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 710: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'00B0' (E0880_RUTINA Field CopyBook) evaluated to NONE.
+
+22:56:27.997  Jan 17 2014
+(Offset 718: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00B1' (E0880_MSJ_ERROR_1 Field CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 718: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'00B1' (E0880_MSJ_ERROR_1 Field CopyBook) evaluated to NONE.
+
+22:56:27.997  Jan 17 2014
+(Offset 738: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+Building TYPE X'00B2' (E0880_MSJ_ERROR_2 Field CopyBook).
+
+22:56:27.997  Jan 17 2014
+(Offset 738: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+The rule for TYPE X'00B2' (E0880_MSJ_ERROR_2 Field CopyBook) evaluated to NONE.
+
+22:56:27.997  Jan 17 2014
+(Offset 758: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'00AD' (E0880_RETORNO Group CopyBook) has been built.
+
+22:56:27.997  Jan 17 2014
+(Offset 758: Map Number 0 (ActualizacionClientesResposne), DI 000000000000:)
+TYPE X'0055' (PEWC0880 Record CopyBook) has been built.
+
+   OUTPUT 1 was built successfully.
+
+   End of Mapping messages for OUTPUT CARD 1.
+
+
+   End of Execution messages.

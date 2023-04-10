@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuracion>	
+	<appsettings>
+		<formato>013</formato>
+		<ubicacion>/de/Leasing/Mapas/proyeccion/AS400ToHost.mmc</ubicacion>
+	</appsettings>
+	<appsettings>
+		<formato>011</formato>
+		<ubicacion>/de/Leasing/Mapas/datos/AS400ToHostDatos.mmc</ubicacion>
+	</appsettings>
+	<appsettings>
+		<formato>010</formato>
+		<ubicacion>/de/Leasing/Mapas/posicionG/AS400ToHostPos.mmc</ubicacion>
+	</appsettings>
+	<appsettings>
+		<formato>012</formato>
+		<ubicacion>/de/Leasing/Mapas/historial/AS400ToHostHisto.mmc</ubicacion>
+	</appsettings>
+        <confLog>
+		<log>true</log>
+	</confLog>
+</configuracion>

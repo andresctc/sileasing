@@ -1,0 +1,1667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FormatosWTX>
+
+<!-- INICIO EKIP // CIFIN -->
+   <formato name="fmt_Actualizacion_Comercial4100">
+      <requestWTXpath>/de/FormatosWTX/CDA/4100/XML_TO_HOST4100.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4200">
+      <requestWTXpath>/de/FormatosWTX/CDA/4200/XML_TO_HOST4200.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4310">
+      <requestWTXpath>/de/FormatosWTX/CDA/4310/XML_TO_HOST4310.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4320">
+      <requestWTXpath>/de/FormatosWTX/CDA/4320/XML_TO_HOST4320.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4330">
+      <requestWTXpath>/de/FormatosWTX/CDA/4330/XML_TO_HOST4330.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4340">
+      <requestWTXpath>/de/FormatosWTX/CDA/4340/XML_TO_HOST4340.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4350">
+      <requestWTXpath>/de/FormatosWTX/CDA/4350/XML_TO_HOST4350.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4360">
+      <requestWTXpath>/de/FormatosWTX/CDA/4360/XML_TO_HOST4360.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4370">
+      <requestWTXpath>/de/FormatosWTX/CDA/4370/XML_TO_HOST4370.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4380">
+      <requestWTXpath>/de/FormatosWTX/CDA/4380/XML_TO_HOST4380.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4400">
+      <requestWTXpath>/de/FormatosWTX/CDA/4400/XML_TO_HOST4400.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450071">
+      <requestWTXpath>/de/FormatosWTX/CDA/450071/XML_TO_HOST450071.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450072">
+      <requestWTXpath>/de/FormatosWTX/CDA/450072/XML_TO_HOST450072.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450073">
+      <requestWTXpath>/de/FormatosWTX/CDA/450073/XML_TO_HOST450073.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial5000">
+      <requestWTXpath>/de/FormatosWTX/CDA/5000/XML_TO_HOST5000.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450074">
+      <requestWTXpath>/de/FormatosWTX/CDA/450074/XML_TO_HOST450074.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450075">
+      <requestWTXpath>/de/FormatosWTX/CDA/450075/XML_TO_HOST450075.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450076">
+      <requestWTXpath>/de/FormatosWTX/CDA/450076/XML_TO_HOST450076.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450077">
+      <requestWTXpath>/de/FormatosWTX/CDA/450077/XML_TO_HOST450077.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450078">
+      <requestWTXpath>/de/FormatosWTX/CDA/450078/XML_TO_HOST450078.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450081">
+      <requestWTXpath>/de/FormatosWTX/CDA/450081/XML_TO_HOST450081.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450082">
+      <requestWTXpath>/de/FormatosWTX/CDA/450082/XML_TO_HOST450082.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450083">
+      <requestWTXpath>/de/FormatosWTX/CDA/450083/XML_TO_HOST450083.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450084">
+      <requestWTXpath>/de/FormatosWTX/CDA/450084/XML_TO_HOST450084.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450085">
+      <requestWTXpath>/de/FormatosWTX/CDA/450085/XML_TO_HOST450085.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450086">
+      <requestWTXpath>/de/FormatosWTX/CDA/450086/XML_TO_HOST450086.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450087">
+      <requestWTXpath>/de/FormatosWTX/CDA/450087/XML_TO_HOST450087.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450088">
+      <requestWTXpath>/de/FormatosWTX/CDA/450088/XML_TO_HOST450088.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450091">
+      <requestWTXpath>/de/FormatosWTX/CDA/450091/XML_TO_HOST450091.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450092">
+      <requestWTXpath>/de/FormatosWTX/CDA/450092/XML_TO_HOST450092.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450093">
+      <requestWTXpath>/de/FormatosWTX/CDA/450093/XML_TO_HOST450093.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450094">
+      <requestWTXpath>/de/FormatosWTX/CDA/450094/XML_TO_HOST450094.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450095">
+      <requestWTXpath>/de/FormatosWTX/CDA/450095/XML_TO_HOST450095.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450096">
+      <requestWTXpath>/de/FormatosWTX/CDA/450096/XML_TO_HOST450096.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450097">
+      <requestWTXpath>/de/FormatosWTX/CDA/450097/XML_TO_HOST450097.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial450098">
+      <requestWTXpath>/de/FormatosWTX/CDA/450098/XML_TO_HOST450098.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+      <formato name="fmt_Actualizacion_Comercial4600">
+      <requestWTXpath>/de/FormatosWTX/CDA/4600/XML_TO_HOST4600.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>   
+      <formato name="fmt_Actualizacion_Comercial9100">
+      <requestWTXpath>/de/FormatosWTX/CDA/9100/XML_TO_HOST9100.mmc</requestWTXpath>
+      <responseMultiRegistro>true</responseMultiRegistro>
+   </formato>
+<!-- FIN EKIP // CIFIN -->
+
+	<!--INICIO FORMATOS UNO MAS UNO  -->
+	<formato name="fmt_reportes">		
+		<requestWTXpath>/de/FormatosWTX/UnoMasUno/Reportes/XML_TO_HOST.mmc</requestWTXpath>			
+		<responseWTXpath>/de/FormatosWTX/UnoMasUno/Reportes/HOST_TO_XML.mmc</responseWTXpath>		
+		<responseMultiRegistro>true</responseMultiRegistro>				
+	</formato>
+	<formato name="fmt_reportes2">
+	    <requestWTXpath>/de/FormatosWTX/UnoMasUno/Reportes2/XML_TO_HOST.mmc</requestWTXpath>
+	    <responseWTXpath>/de/FormatosWTX/UnoMasUno/Reportes2/HOST_TO_XML.mmc</responseWTXpath>
+	    <responseMultiRegistro>true</responseMultiRegistro>             
+	</formato>
+	<!-- FIN FORMATOS UNO MAS UNO  -->	
+	<formato name="fmt_giros_BTS_validaCta">		
+		<requestWTXpath>/de/FormatosWTX/GirosBTS/ValidaCta_XmlToCopy.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/GirosBTS/ValidaCta_CopyToXml.mmc</responseWTXpath>		
+	</formato>
+	
+	<formato name="fmt_giros_BTS_realizarOper">		
+		<requestWTXpath>/de/FormatosWTX/GirosBTS/RealizaOper_XmlToCopy.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/GirosBTS/RealizaOper_CopyToXml.mmc</responseWTXpath>		
+	</formato>
+	
+	<formato name="fmt_giros_BTS_Pruebas">		
+		<requestWTXpath>/de/FormatosWTX/GirosBTS/BTS_request.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/GirosBTS/BTS_response.mmc</responseWTXpath>		
+	</formato>
+	
+<!-- Inicio Formatos de Banca Movil   -->
+	<formato name="fmt_bm_Pruebas">		
+		<requestWTXpath>/de/FormatosWTX/BM/EntradaMap.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/SalidadMap.mmc</responseWTXpath>		
+	</formato>
+	<formato name="fmt_bm_Posicion_Global">		
+		<requestWTXpath>/de/FormatosWTX/BM/PosicionGlobal/PGXML_To_HOST_Request.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PosicionGlobal/PGHOST_To_XML_Responce.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Listador_Cuentas">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorCuentas/LC_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorCuentas/LC_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Movimientos_Cuentas">		
+		<requestWTXpath>/de/FormatosWTX/BM/MovimientoCuentas/MC_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/MovimientoCuentas/MC_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>	
+	<formato name="fmt_bm_Listador_Tarjetas">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorTarjetas/LT_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorTarjetas/LT_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Movimientos_Tarjetas">		
+		<requestWTXpath>/de/FormatosWTX/BM/MovimientoTarjetas/MT_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/MovimientoTarjetas/MT_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>	
+	<formato name="fmt_bm_Transferencia_Cuentas_Internas">		
+		<requestWTXpath>/de/FormatosWTX/BM/TransferenciaCuentasBBVA/TRS_CNTEX_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/TransferenciaCuentasBBVA/TRS_CNTIN_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>			
+	</formato>
+	<formato name="fmt_bm_Transferencia_Cuentas_Propias">		
+		<requestWTXpath>/de/FormatosWTX/BM/TransferenciaCuentasBBVAPropio/TRS_CNTIN_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/TransferenciaCuentasBBVAPropio/TRS_CNTIN_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>			
+	</formato>	
+	<formato name="fmt_bm_Transferencia_Cuentas_Externas">		
+		<requestWTXpath>/de/FormatosWTX/BM/TransferenciaCuentasInterbancarias/TRS_CNTEX_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/TransferenciaCuentasInterbancarias/TRS_CNTEX_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Listado_Prestamos">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorPrestamos/LST_PREST_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorPrestamos/LST_PREST_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Listado_CDTs">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorCDTs/LST_CDTS_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorCDTs/LST_CDTS_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Consulta_Modulo_Comision">		
+		<requestWTXpath>/de/FormatosWTX/BM/ConsultaModuloComisiones/CNS_MOD_CMS_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ConsultaModuloComisiones/CNS_MOD_CMS_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Consulta_Alias_Producto">		
+		<requestWTXpath>/de/FormatosWTX/BM/AliasProducto/ALS_PRD_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/AliasProducto/ALS_PRD_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Consulta_Favoritos">		
+		<requestWTXpath>/de/FormatosWTX/BM/Favoritos/FAV_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/Favoritos/FAV_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Pago_Factura">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoFacturas/PG_FAC_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoFacturas/PG_FAC_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado">		
+		<requestWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListado/CNT_PR_INSCT_LIST_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListado/CNT_PR_INSCT_LIST_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Alta">		
+		<requestWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasAlta/CNT_PR_INSCT_ALTA_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasAlta/CNT_PR_INSCT_ALTA_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Baja">		
+		<requestWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasBaja/CNT_PR_INSCT_BAJA_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasBaja/CNT_PR_INSCT_BAJA_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Autenticar_Primer_Factor">		
+		<requestWTXpath>/de/FormatosWTX/BM/AltaCanal/ALTA_CANAL_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/AltaCanal/ALTA_CANAL_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Alta_Canal_Operaciones">		
+		<requestWTXpath>/de/FormatosWTX/BM/AltaCanalOperaciones/ALTA_CANAL_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/AltaCanalOperaciones/ALTA_CANAL_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Alta_XM16">		
+		<requestWTXpath>/de/FormatosWTX/BM/XM16/xml_host.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/XM16/host_xml.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Alta_XM07">		
+		<requestWTXpath>/de/FormatosWTX/BM/XM07/xml_host.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/XM07/host_xml.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Alta_XM03">		
+		<requestWTXpath>/de/FormatosWTX/BM/XM03/xm03_xml_host.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/XM03/xm03_host_xml.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Alta_XM04">		
+		<requestWTXpath>/de/FormatosWTX/BM/XM04/xm04_xml_host.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/XM04/xm04_host_xml.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Alta_XM13">		
+		<requestWTXpath>/de/FormatosWTX/BM/XM13/XM13_XML_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/XM13/XM13_HOST_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Listador_Bancos">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorBancos/LT_GEN_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorBancos/LT_GEN_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="validaCoordenadas(KYS4)">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/validarCoordenadas(KYS4)/KYS4ValidarCoordenada.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/validarCoordenadas(KYS4)/KYS4SalValidaCoordenadasCpytoXML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>	
+	<formato name="cambioEstadoADS(KYS3)">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/cambioEstadoADS(KYS3)/KYS3CambioEstadoADS.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/cambioEstadoADS(KYS3)/KYS3SalCambioEstadoADSCopyToXML.mmc</responseWTXpath>	
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="cambioEstadoADS(KYT7)">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/cambioEstadoADS(KYT7)/KYT7CambioEstadoADS.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/cambioEstadoADS(KYT7)/KYT7salCambioEstadoADSCopytoXML.mmc</responseWTXpath>					
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="validaActivacionyCambioEstado(KYT3)">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/validaActivacionyCambioEstado(KYT3)/KYT3ValidaActivacionyEstado.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/validaActivacionyCambioEstado(KYT3)/KYT3SalValidaActivaEstadoCpyToXm.mmc</responseWTXpath>					
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="validaEstadoTarjeta(KYS6)">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/validaEstadoTarjeta(KYS6)/KYS6ValidaEstadoTarjeta.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/validaEstadoTarjeta(KYS6)/KYS6SalValidaEstadoTarjetaCpyToX.mmc</responseWTXpath>					
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="altaBajaOlvidoClave(KNT9)">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/altaBajaOlvidoClave(KNT9)/KNT9AltaBajaOlvidoClave.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/altaBajaOlvidoClave(KNT9)/KNT9SalAltaBajaOlvidoClaveCpyToX.mmc</responseWTXpath>		
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="validarCoordenadas(KYS4)-CopyToXml">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/validarCoordenadas(KYS4)-CopyToXml/KYS4ValidaCoordenadaCpyToXml.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/validarCoordenadas(KYS4)-CopyToXml/KYS4SalValidaCoordenadasCpytoXML.mmc</responseWTXpath>					
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="altaBajaOlvidoClave(KNT0)">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/altaBajaOlvidoClave(KNT0)/KNT0AltaBajaOlvidoClave.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/altaBajaOlvidoClave(KNT0)/KNT0SalAltaBajaOlvidoClaveCpyToX.mmc</responseWTXpath>					
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="consultaDatosCliente">		
+		<requestWTXpath>/de/FormatosWTX/apSeguridadBase/consultaDatosCliente(KNEM)/KNEM_XML_TO_CPY_IN.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/apSeguridadBase/consultaDatosCliente(KNEM)/KNEM_CPY_TO_XML_OUT.mmc</responseWTXpath>					
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_bm_Listador_Personalizacion_Canales">
+		<requestWTXpath>/de/FormatosWTX/BM/PersonalizacionListador/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/PersonalizacionListador/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_bm_Personalizacion_Get_Default">
+		<requestWTXpath>/de/FormatosWTX/BM/PersonalizacionGetDefault/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/PersonalizacionGetDefault/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_bm_Personalizacion_Modificacion">
+		<requestWTXpath>/de/FormatosWTX/BM/PersonalizacionModificacion/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/PersonalizacionModificacion/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP14520 CMC -->
+	<formato name="fmt_bm_Listado_Bancos">
+		<requestWTXpath>/de/FormatosWTX/BM/ListadoBancos/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/ListadoBancos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+		<!-- GP14520 CMC -->
+	<!-- Fin Formatos de Banca Movil   -->
+<!-- INICIO GP10534 CUPO ROTATIVO -->
+        <formato name="fmt_bm_Abono_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/AbonoCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/AbonoCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>        
+        <formato name="fmt_bm_Pago_Minimo_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/PagoMinimoCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PagoMinimoCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>        
+        <formato name="fmt_bm_Pago_Total_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/PagoTotalCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PagoTotalCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>        
+        <formato name="fmt_bm_Transferencia_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/TransferenciaCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/TransferenciaCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>        
+        <formato name="fmt_bm_Consulta_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/ConsultaCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ConsultaCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+<!-- FIN GP10534 CUPO ROTATIVO -->
+
+
+<!-- Inicio Formatos de Tappsi   -->
+	<formato name="transferenciasentrecuentabbva">
+		<requestWTXpath>/de/FormatosWTX/BM/transferenciasKNT1/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/transferenciasKNT1/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+    
+
+<!-- Inicio Formatos de Banca Movil 2   -->	
+
+   <formato name="fmt_bm_Pagatiempo_consulta">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagaTiempoConsulta/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagaTiempoConsulta/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Pagatiempo_inscripcion">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagaTiempoInscripcion/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagaTiempoInscripcion/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Pagatiempo_modificacion">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagaTiempoModificacion/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagaTiempoModificacion/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoTC">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoTC/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoTC/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoTT">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoTCTerceros/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoTCTerceros/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoTE">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoTCOtrasEntidades/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoTCOtrasEntidades/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_InsTCT">		
+		<requestWTXpath>/de/FormatosWTX/BM/InsTcT/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/InsTcT/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_InsTCOtroBanco">		
+		<requestWTXpath>/de/FormatosWTX/BM/InsTcOtrosPagos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/InsTcOtrosPagos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoComprasTc">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoComprasTc/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoComprasTc/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoPrestamos">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoPrestamos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoPrestamos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoCuposRotativos">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoCuposRotativos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoCuposRotativos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoPrestamosTerceros">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoPrestamosTerceros/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoPrestamosTerceros/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Inscripcion_Productos">
+		<requestWTXpath>/de/FormatosWTX/BM/Inscripcion_Productos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/Inscripcion_Productos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_AvanceTC">		
+		<requestWTXpath>/de/FormatosWTX/BM/AvanceTC/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/AvanceTC/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PerLineaBBVA">		
+		<requestWTXpath>/de/FormatosWTX/BM/PerLineaBBVA/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PerLineaBBVA/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PerBBVANet">		
+		<requestWTXpath>/de/FormatosWTX/BM/PerBBVANet/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PerBBVANet/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PerOtrosServicios">		
+		<requestWTXpath>/de/FormatosWTX/BM/PerOtrosServicios/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PerOtrosServicios/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_BloqChequeras">		
+		<requestWTXpath>/de/FormatosWTX/BM/BloqChequeras/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/BloqChequeras/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_BloqCheques">		
+		<requestWTXpath>/de/FormatosWTX/BM/BloqCheques/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/BloqCheques/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_BloqueoTC">		
+		<requestWTXpath>/de/FormatosWTX/BM/BloqueoTC/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/BloqueoTC/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_BloqueoTD">		
+		<requestWTXpath>/de/FormatosWTX/BM/BloqueoTD/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/BloqueoTD/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_GetListGen">		
+		<requestWTXpath>/de/FormatosWTX/BM/GetListGen/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/GetListGen/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_GetInfoClient">		
+		<requestWTXpath>/de/FormatosWTX/BM/GetInfoClient1/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/GetInfoClient1/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	 <formato name="fmt_bm_Movimientos_Tarjetas1">
+                <requestWTXpath>/de/FormatosWTX/BM/MovimientoTarjetas1/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/MovimientoTarjetas1/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+	<formato name="fmt_bm_Listador_Cuentas1">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorCuentas1/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorCuentas1/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Listador_Tarjetas1">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorTarjetas1/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorTarjetas1/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado1">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorPrestamos1/LST_PREST_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorPrestamos1/LST_PREST_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado_TC">
+                <requestWTXpath>/de/FormatosWTX/BM/CuentasPreinscritasListadoTC/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/CuentasPreinscritasListadoTC/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado_Prestamos">
+                <requestWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListadoPrestamos/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListadoPrestamos/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado2">		
+		<requestWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListado2/CNT_PR_INSCT_LIST_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListado2/CNT_PR_INSCT_LIST_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Consulta_Modulo_Comision1">		
+				<requestWTXpath>/de/FormatosWTX/BM/ConsultaModuloComisiones1/CNS_MOD_CMS_XML_TO_HOST1.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ConsultaModuloComisiones1/CNS_MOD_CMS_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+
+        <formato name="fmt_bm_Bloqueo_Cheques">
+                <requestWTXpath>/de/FormatosWTX/BM/BloqCheques/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/BloqCheques/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Listador_Bloqueo_Chequeras">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorBloqChequeras/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorBloqChequeras/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Listador_Bloqueo_Cheques">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorBloqCheques/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorBloqCheques/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+
+        <formato name="fmt_bm_Listador_Bloqueo_TD">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorBloqueoTD/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorBloqueoTD/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Listador_Bloqueo_TC">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorBloqueoTC/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorBloqueoTC/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Listador_Personalizacion_Canales">
+                <requestWTXpath>/de/FormatosWTX/BM/PersonalizacionListador/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PersonalizacionListador/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Personalizacion_Get_Default">
+                <requestWTXpath>/de/FormatosWTX/BM/PersonalizacionGetDefault/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PersonalizacionGetDefault/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Personalizacion_Modificacion">
+                <requestWTXpath>/de/FormatosWTX/BM/PersonalizacionModificacion/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PersonalizacionModificacion/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Abono_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/AbonoCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/AbonoCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+        
+        <formato name="fmt_bm_Pago_Minimo_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/PagoMinimoCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PagoMinimoCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+        
+        <formato name="fmt_bm_Pago_Total_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/PagoTotalCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PagoTotalCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+        
+        <formato name="fmt_bm_Transferencia_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/TransferenciaCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/TransferenciaCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+        
+        <formato name="fmt_bm_Consulta_CR">
+                <requestWTXpath>/de/FormatosWTX/BM/ConsultaCupoRotativo/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ConsultaCupoRotativo/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+<!-- Canales Transaccionales GP10031 -->
+		<formato name="fmt_bm_Agendamiento">
+			<requestWTXpath>/de/FormatosWTX/BM/Agendamiento/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/Agendamiento/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="fmt_bm_Alianzas_Promociones">
+			<requestWTXpath>/de/FormatosWTX/BM/AlianzasPromociones/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/AlianzasPromociones/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="fmt_bm_Confirmacion_Preaprobados">
+			<requestWTXpath>/de/FormatosWTX/BM/ConfirmacionPreaprobados/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/ConfirmacionPreaprobados/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="fmt_bm_Consulta_Preaprobados">
+			<requestWTXpath>/de/FormatosWTX/BM/ConsultaPreaprobados/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/ConsultaPreaprobados/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+	<!-- Canales Transaccionales GP10031 -->
+	<!-- GP11257 I+D INICIO-->
+		<formato name="AportesFondos">
+			<requestWTXpath>/de/FormatosWTX/BM/AportesFondos/AP_XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/AportesFondos/AP_HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="TransferenciasFondosP">
+			<requestWTXpath>/de/FormatosWTX/BM/TransferenciasFondosP/TRP_XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/TransferenciasFondosP/TRP_HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="TransferenciasFondosT">
+			<requestWTXpath>/de/FormatosWTX/BM/TransferenciasFondosT/TRT_XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/TransferenciasFondosT/TRT_HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="RetirosFondos">
+			<requestWTXpath>/de/FormatosWTX/BM/RetirosFondos/RE_XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/RetirosFondos/RE_HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="MovimientosFondos">
+			<requestWTXpath>/de/FormatosWTX/BM/MovimientosFondos/MovimientosFondos_XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/MovimientosFondos/MovimientosFondos_HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<!-- GP11257 I+D FIN-->
+
+	<!-- Fin Formatos de Banca Movil 2  -->		
+
+	
+	<!-- Inicio formatos Recaudos  -->
+	<formato name="VALIDARFACTURAS">		
+		<requestWTXpath>/de/FormatosWTX/Recaudos/ValidarFacturas/XML_TO_HOST.mmc</requestWTXpath>			
+		<responseWTXpath>/de/FormatosWTX/Recaudos/ValidarFacturas/HOST_TO_XML.mmc</responseWTXpath>		
+		<responseMultiRegistro>true</responseMultiRegistro>				
+	</formato>
+	<formato name="ABONOS">		
+		<requestWTXpath>/de/FormatosWTX/Recaudos/Abono/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Recaudos/Abono/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>				
+	</formato>
+	<formato name="CARGOS">		
+		<requestWTXpath>/de/FormatosWTX/Recaudos/Cargos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Recaudos/Cargos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>				
+	</formato>
+	<formato name="CONSULTASALDO">		
+		<requestWTXpath>/de/FormatosWTX/Recaudos/ConsultaSaldo/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Recaudos/ConsultaSaldo/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>				
+	</formato>
+	<formato name="ANULACION">		
+		<requestWTXpath>/de/FormatosWTX/Recaudos/Anulacion/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Recaudos/Anulacion/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>				
+	</formato>
+	<formato name="CONSOLIDADO">		
+		<requestWTXpath>/de/FormatosWTX/Recaudos/Consolidados/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Recaudos/Consolidados/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>				
+	</formato>
+	<formato name="ValoresFijos">		
+		<requestWTXpath>/de/FormatosWTX/Recaudos/ValoresFijos/Xml_to_Host.mmc</requestWTXpath>			
+		<responseWTXpath>/de/FormatosWTX/Recaudos/ValoresFijos/Host_to_Xml.mmc</responseWTXpath>		
+		<responseMultiRegistro>true</responseMultiRegistro>				
+	</formato>
+	<!-- Fin formatos Recaudos  -->
+		<formato name="ConsultaCliente">		
+<requestWTXpath>/de/FormatosWTX/RecadoOnLine/Cliente/ClientesXMLaClientesCPY.mmc</requestWTXpath>
+	<responseWTXpath>/de/FormatosWTX/RecadoOnLine/Cliente/ClienteCPYaClienteXML.mmc</responseWTXpath>
+	<responseMultiRegistro>false</responseMultiRegistro>
+</formato>
+<formato name="RecaudoCliente">
+	<requestWTXpath>/de/FormatosWTX/RecadoOnLine/Recaudo/RecaudoXMLaRecaudoCPY.mmc</requestWTXpath>
+	<responseWTXpath>/de/FormatosWTX/RecadoOnLine/Recaudo/RecaudoCPYaRecaudoXML.mmc</responseWTXpath>
+	<responseMultiRegistro>true</responseMultiRegistro>
+</formato>
+<formato name="AltasPoliza">
+	<requestWTXpath>/de/FormatosWTX/RecadoOnLine/Alta/AltaXMLaAltaCPY.mmc</requestWTXpath>
+	<responseWTXpath>/de/FormatosWTX/RecadoOnLine/Alta/AltaCPYaAltaXML.mmc</responseWTXpath>
+	<responseMultiRegistro>true</responseMultiRegistro>
+</formato>
+
+	<!-- Fin formatos Recaudos On line Seguros  -->
+	
+	<!-- Inicio formatos Ventas en la Web  -->
+		<formato name="BAEP">		
+			<requestWTXpath>/de/FormatosWTX/VentaProductosWeb/Baep/XML_TO_HOST.mmc</requestWTXpath>			
+			<responseWTXpath>/de/FormatosWTX/VentaProductosWeb/Baep/HOST_TO_XML.mmc</responseWTXpath>		
+			<responseMultiRegistro>true</responseMultiRegistro>				
+		</formato>
+		<formato name="CALIFICAR">		
+			<requestWTXpath>/de/FormatosWTX/VentaProductosWeb/Calificacion/XML_TO_HOST.mmc</requestWTXpath>		
+			<responseWTXpath>/de/FormatosWTX/VentaProductosWeb/Calificacion/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>				
+		</formato>
+		<formato name="GENERAR">		
+			<requestWTXpath>/de/FormatosWTX/VentaProductosWeb/Generacion/XML_TO_HOST.mmc</requestWTXpath>		
+			<responseWTXpath>/de/FormatosWTX/VentaProductosWeb/Generacion/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>				
+		</formato>
+		<formato name="SIMULADOR">
+			<requestWTXpath>/de/FormatosWTX/VentaProductosWeb/Simulador/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/VentaProductosWeb/Simulador/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+	<!-- Fin formatos Ventas en la Web  -->
+	
+<formato name="consultaBasicos">  
+<requestWTXpath>/de/FormatosWTX/MultiSeguros/consultaBasicos/ConsultaB.mmc</requestWTXpath>
+<responseWTXpath>/de/FormatosWTX/MultiSeguros/consultaBasicos/Res_Datos_Basicos.mmc</responseWTXpath>
+<responseMultiRegistro>true</responseMultiRegistro>
+</formato>
+
+<formato name="consultaAsuntos">
+ <requestWTXpath>/de/FormatosWTX/MultiSeguros/consultaAsuntos/MapaCont.mmc</requestWTXpath>
+<responseWTXpath>/de/FormatosWTX/MultiSeguros/consultaAsuntos/AsuntoSal.mmc</responseWTXpath>
+  <responseMultiRegistro>true</responseMultiRegistro>
+</formato>
+
+<formato name="notificaPoliza">
+ <requestWTXpath>/de/FormatosWTX/MultiSeguros/notificaPoliza/DatosPolizaEnt.mmc</requestWTXpath>
+<responseWTXpath>/de/FormatosWTX/MultiSeguros/notificaPoliza/MapaRes2.mmc</responseWTXpath>
+  <responseMultiRegistro>true</responseMultiRegistro>
+</formato>
+
+<!-- fase 2 -->
+	<formato name="fmt_bm_Pagatiempo_consulta">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagaTiempoConsulta/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagaTiempoConsulta/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Pagatiempo_inscripcion">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagaTiempoInscripcion/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagaTiempoInscripcion/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Pagatiempo_modificacion">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagaTiempoModificacion/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagaTiempoModificacion/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoTC">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoTC/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoTC/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoTT">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoTCTerceros/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoTCTerceros/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoTE">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoTCOtrasEntidades/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoTCOtrasEntidades/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_InsTCT">		
+		<requestWTXpath>/de/FormatosWTX/BM/InsTcT/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/InsTcT/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_InsTCOtroBanco">		
+		<requestWTXpath>/de/FormatosWTX/BM/InsTcOtrosPagos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/InsTcOtrosPagos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoComprasTc">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoComprasTc/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoComprasTc/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoPrestamos">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoPrestamos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoPrestamos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoCuposRotativos">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoCuposRotativos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoCuposRotativos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PagoPrestamosTerceros">		
+		<requestWTXpath>/de/FormatosWTX/BM/PagoPrestamosTerceros/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PagoPrestamosTerceros/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Inscripcion_Productos">
+		<requestWTXpath>/de/FormatosWTX/BM/Inscripcion_Productos/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/Inscripcion_Productos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_AvanceTC">		
+		<requestWTXpath>/de/FormatosWTX/BM/AvanceTC/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/AvanceTC/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PerLineaBBVA">		
+		<requestWTXpath>/de/FormatosWTX/BM/PerLineaBBVA/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PerLineaBBVA/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_PerBBVANet">		
+		<requestWTXpath>/de/FormatosWTX/BM/PerBBVANet/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PerBBVANet/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<!-- GP9960 NOVATEC INICIO-->
+	<formato name="retiroscb">
+		<requestWTXpath>/de/FormatosWTX/CorresponsalesCCCB/RetirosCB/SOA_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/CorresponsalesCCCB/RetirosCB/HOST_TO_SOA.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="compensacioncb">
+		<requestWTXpath>/de/FormatosWTX/CorresponsalesCCCB/CompensacionCB/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/CorresponsalesCCCB/CompensacionCB/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="anulacioncb">
+		<requestWTXpath>/de/FormatosWTX/CorresponsalesCCCB/AnulacionCB/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/CorresponsalesCCCB/AnulacionCB/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP9960 NOVATEC FIN-->
+
+	<formato name="fmt_bm_PerOtrosServicios">		
+		<requestWTXpath>/de/FormatosWTX/BM/PerOtrosServicios/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/PerOtrosServicios/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_BloqChequeras">		
+		<requestWTXpath>/de/FormatosWTX/BM/BloqChequeras/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/BloqChequeras/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_BloqCheques">		
+		<requestWTXpath>/de/FormatosWTX/BM/BloqCheques/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/BloqCheques/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_BloqueoTC">		
+		<requestWTXpath>/de/FormatosWTX/BM/BloqueoTC/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/BloqueoTC/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_BloqueoTD">		
+		<requestWTXpath>/de/FormatosWTX/BM/BloqueoTD/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/BloqueoTD/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_GetListGen">		
+		<requestWTXpath>/de/FormatosWTX/BM/GetListGen/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/GetListGen/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	 <formato name="fmt_bm_Movimientos_Tarjetas1">
+                <requestWTXpath>/de/FormatosWTX/BM/MovimientoTarjetas1/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/MovimientoTarjetas1/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+	<formato name="fmt_bm_Listador_Cuentas1">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorCuentas1/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorCuentas1/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Listador_Tarjetas1">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorTarjetas1/XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorTarjetas1/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+
+        <formato name="fmt_bm_Listado_Prestamos1">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorPrestamos1/LST_PREST_XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorPrestamos1/LST_PREST_HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado1">		
+		<requestWTXpath>/de/FormatosWTX/BM/ListadorPrestamos1/LST_PREST_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ListadorPrestamos1/LST_PREST_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado_TC">
+                <requestWTXpath>/de/FormatosWTX/BM/CuentasPreinscritasListadoTC/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/CuentasPreinscritasListadoTC/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado_Prestamos">
+                <requestWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListadoPrestamos/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListadoPrestamos/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_bm_Cuentas_Pre_Inscritas_Listado2">		
+		<requestWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListado2/CNT_PR_INSCT_LIST_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/CuentasPreInscritasListado2/CNT_PR_INSCT_LIST_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<formato name="fmt_bm_Consulta_Modulo_Comision1">		
+		<requestWTXpath>/de/FormatosWTX/BM/ConsultaModuloComisiones1/CNS_MOD_CMS_XML_TO_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/BM/ConsultaModuloComisiones1/CNS_MOD_CMS_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+
+        <formato name="fmt_bm_Bloqueo_Cheques">
+                <requestWTXpath>/de/FormatosWTX/BM/BloqCheques/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/BloqCheques/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Listador_Bloqueo_Chequeras">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorBloqChequeras/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorBloqChequeras/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Listador_Bloqueo_Cheques">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorBloqCheques/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorBloqCheques/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+
+        <formato name="fmt_bm_Listador_Bloqueo_TD">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorBloqueoTD/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorBloqueoTD/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Listador_Bloqueo_TC">
+                <requestWTXpath>/de/FormatosWTX/BM/ListadorBloqueoTC/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/ListadorBloqueoTC/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Listador_Personalizacion_Canales">
+                <requestWTXpath>/de/FormatosWTX/BM/PersonalizacionListador/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PersonalizacionListador/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Personalizacion_Get_Default">
+                <requestWTXpath>/de/FormatosWTX/BM/PersonalizacionGetDefault/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PersonalizacionGetDefault/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+        <formato name="fmt_bm_Personalizacion_Modificacion">
+                <requestWTXpath>/de/FormatosWTX/BM/PersonalizacionModificacion/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/BM/PersonalizacionModificacion/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+ <!-- fase 2 Fin-->
+	<!-- GP10683 NOVATEC INICIO-->
+	<formato name="adminctasbilletera">
+		<requestWTXpath>/de/FormatosWTX/Billetera/adminctas/SOA_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/Billetera/adminctas/HOST_TO_SOA.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP10683 NOVATEC FIN-->
+	<!-- GP13967 CONSULTA SALDO CC INICIO-->
+	<formato name="consultasaldocb">
+		<requestWTXpath>/de/FormatosWTX/CorresponsalesCCCB/ConsultaSaldoCB/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/CorresponsalesCCCB/ConsultaSaldoCB/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="anulacionconsultacb">
+		<requestWTXpath>/de/FormatosWTX/CorresponsalesCCCB/AnulacionConsultaCB/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/CorresponsalesCCCB/AnulacionConsultaCB/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP13967 CONSULTA SALDO CC FIN-->
+<!-- Inicio formatos cb2 -->
+
+        <formato name="DEPOSITOS">
+                <requestWTXpath>/de/FormatosWTX/Recaudos/Depositos/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/Recaudos/Depositos/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+<formato name="COMISION">
+                <requestWTXpath>/de/FormatosWTX/Recaudos/Comision/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/Recaudos/Comision/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+      <formato name="PRESTAMOS">
+              <requestWTXpath>/de/FormatosWTX/Recaudos/Consultaprestamos/XML_TO_HOST.mmc</requestWTXpath>
+             <responseWTXpath>/de/FormatosWTX/Recaudos/Consultaprestamos/HOST_TO_XML.mmc</responseWTXpath>
+            <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+ <formato name="PRESTAMOSP">
+              <requestWTXpath>/de/FormatosWTX/Recaudos/PagoPrestamos/XML_TO_HOST.mmc</requestWTXpath>
+             <responseWTXpath>/de/FormatosWTX/Recaudos/PagoPrestamos/HOST_TO_XML.mmc</responseWTXpath>
+            <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+      <formato name="TARJETAS">
+              <requestWTXpath>/de/FormatosWTX/Recaudos/ConsultaTarjetas/XML_TO_HOST.mmc</requestWTXpath>
+             <responseWTXpath>/de/FormatosWTX/Recaudos/ConsultaTarjetas/HOST_TO_XML.mmc</responseWTXpath>
+            <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+  <formato name="TARJETASP">
+              <requestWTXpath>/de/FormatosWTX/Recaudos/PagoTarjetas/XML_TO_HOST.mmc</requestWTXpath>
+             <responseWTXpath>/de/FormatosWTX/Recaudos/PagoTarjetas/HOST_TO_XML.mmc</responseWTXpath>
+            <responseMultiRegistro>true</responseMultiRegistro>
+        </formato>
+
+
+
+<!-- fin formatos cb2 -->
+
+<!-- Inicio formatos cb2 -->
+
+	<formato name="REVERSOSP">
+              <requestWTXpath>/de/FormatosWTX/Recaudos/Reversos/XML_TO_HOST.mmc</requestWTXpath>
+             <responseWTXpath>/de/FormatosWTX/Recaudos/Reversos/HOST_TO_XML.mmc</responseWTXpath>
+            <responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+
+	<formato name="REVERSOST">
+              <requestWTXpath>/de/FormatosWTX/Recaudos/Reversos/XML_TO_HOST.mmc</requestWTXpath>
+             <responseWTXpath>/de/FormatosWTX/Recaudos/Reversos/HOST_TO_XML.mmc</responseWTXpath>
+            <responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+
+	<formato name="REVERSOSD">
+              <requestWTXpath>/de/FormatosWTX/Recaudos/Reversos/XML_TO_HOST.mmc</requestWTXpath>
+             <responseWTXpath>/de/FormatosWTX/Recaudos/Reversos/HOST_TO_XML.mmc</responseWTXpath>
+            <responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+
+        <formato name="REVERSOSC">
+              <requestWTXpath>/de/FormatosWTX/Recaudos/Reversos/XML_TO_HOST.mmc</requestWTXpath>
+             <responseWTXpath>/de/FormatosWTX/Recaudos/Reversos/HOST_TO_XML.mmc</responseWTXpath>
+            <responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+
+
+<!-- fin formatos cb2 -->
+
+<!-- INICIO FORMATOS ACH -->
+	<formato name="fmt_trans_inter_bancaria">
+			<requestWTXpath>/de/FormatosWTX/ACH/transferinterban/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/ACH/transferinterban/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_ACH_credit">
+			<requestWTXpath>/de/FormatosWTX/ACH/CreditoTransferenciaInfo/XML_TO_HOST.mmc</requestWTXpath>     
+			<responseWTXpath>/de/FormatosWTX/ACH/CreditoTransferenciaInfo/HOST_TO_XML.mmc</responseWTXpath>   
+	</formato>
+	<formato name="fmt_ACH_Pre_credit">
+			<requestWTXpath>/de/FormatosWTX/ACH/Precredito/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/ACH/Precredito/HOST_TO_XML.mmc</responseWTXpath>
+	</formato>
+	<formato name="fmt_credit_trans_funds">
+			<requestWTXpath>/de/FormatosWTX/ACH/creditTransferFunds/XML_TO_HOST.mmc</requestWTXpath>          
+			<responseWTXpath>/de/FormatosWTX/ACH/creditTransferFunds/HOST_TO_XML.mmc</responseWTXpath>        
+	</formato>
+	<formato name="fmt_ACH_Notificacion">
+			<requestWTXpath>/de/FormatosWTX/ACH/Notificacion/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/ACH/Notificacion/HOST_TO_XML.mmc</responseWTXpath>
+	</formato>
+
+	<formato name="fmt_ACH_Cancelacion">
+			<requestWTXpath>/de/FormatosWTX/ACH/Cancelacion/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/ACH/Cancelacion/HOST_TO_XML.mmc</responseWTXpath>
+	</formato>
+<!-- FIN FORMATOS ACH -->
+
+<!-- INICIO EPM CBS -->
+	<formato name="consultaxtransrecaudocb">
+			<requestWTXpath>/de/FormatosWTX/CorresponsalesCCCB/ConsultaXTransRecaudo/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/CorresponsalesCCCB/ConsultaXTransRecaudo/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+			</formato>
+<!-- FIN EPM CBS -->
+
+
+<!-- Deposito electronico -->
+	<formato name="validarClienteDE">
+			<requestWTXpath>/de/FormatosWTX/DepositoElectronico/validacionCliente_KNDM/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/DepositoElectronico/validacionCliente_KNDM/HOST_TO_XML.mmc</responseWTXpath>
+	</formato>
+			<formato name="altaProdNoClienteDE">
+			<requestWTXpath>/de/FormatosWTX/DepositoElectronico/altaProdNoCliente_KNDN/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/DepositoElectronico/altaProdNoCliente_KNDN/HOST_TO_XML.mmc</responseWTXpath>
+	</formato>
+			<formato name="altaProdClienteDE">
+			<requestWTXpath>/de/FormatosWTX/DepositoElectronico/altaProdCliente_KNDO/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/DepositoElectronico/altaProdCliente_KNDO/HOST_TO_XML.mmc</responseWTXpath>
+	</formato>
+			<formato name="bajaProdDE">
+			<requestWTXpath>/de/FormatosWTX/DepositoElectronico/bajaProd_KNDP/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/DepositoElectronico/bajaProd_KNDP/HOST_TO_XML.mmc</responseWTXpath>
+	</formato>
+			<formato name="modificaCelularDE">
+			<requestWTXpath>/de/FormatosWTX/DepositoElectronico/modificaCelular_KNDQ/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/DepositoElectronico/modificaCelular_KNDQ/HOST_TO_XML.mmc</responseWTXpath>
+	</formato>
+
+<!-- Inicio Leasing -->
+
+	<formato name="PEMCELS">
+			<requestWTXpath>/de/FormatosWTX/Leasing/ActualizacionClientesRequest.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/Leasing/ActualizacionClientesResposne.mmc</responseWTXpath>
+	</formato>
+
+<!-- Fin Leasing -->
+
+<!-- INICIO FORMATOS UNO MAS UNO -->
+	<formato name="fmt_reportes">
+			<requestWTXpath>/de/FormatosWTX/UnoMasUno/Reportes/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/UnoMasUno/Reportes/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_reportes2">
+
+			<requestWTXpath>/de/FormatosWTX/UnoMasUno/Reportes2/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/UnoMasUno/Reportes2/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+<!-- FIN FORMATOS UNO MAS UNO -->
+<!-- GP10745 -->
+<formato name="perfila_oza1">
+	<requestWTXpath>/de/FormatosWTX/Perfilamiento/KNA1/XML_TO_HOST.mmc</requestWTXpath>
+	<responseWTXpath>/de/FormatosWTX/Perfilamiento/KNA1/HOST_TO_XML.mmc</responseWTXpath>
+	<responseMultiRegistro>true</responseMultiRegistro>
+</formato>
+<formato name="perfila_oza2">
+	<requestWTXpath>/de/FormatosWTX/Perfilamiento/KNA2/XML_TO_HOST.mmc</requestWTXpath>
+	<responseWTXpath>/de/FormatosWTX/Perfilamiento/KNA2/HOST_TO_XML.mmc</responseWTXpath>
+	<responseMultiRegistro>true</responseMultiRegistro>
+</formato>
+<formato name="perfila_oza3">
+	<requestWTXpath>/de/FormatosWTX/Perfilamiento/KNA3/XML_TO_HOST.mmc</requestWTXpath>
+	<responseWTXpath>/de/FormatosWTX/Perfilamiento/KNA3/HOST_TO_XML.mmc</responseWTXpath>
+	<responseMultiRegistro>true</responseMultiRegistro>
+</formato>
+<!-- FIN GP10745 -->
+	<!-- GP12166 NOVATEC SOLUTIONS INICIO -->
+	<!-- Fase 1 -INICIO -->
+	<formato name="fmt_clubnomina_ozde">
+		<requestWTXpath>/de/FormatosWTX/ClubNomina/OZDE/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ClubNomina/OZDE/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- Fase 1 FIN-->
+	<!-- GP12166 NOVATEC SOLUTIONS FIN -->
+	<!-- GP13120 EFRON CONSULTING INICIO -->
+	<formato name="fmt_cifin_Consulta">		
+		<requestWTXpath>/de/FormatosWTX/Cifin/Consulta/REQ_XML_HOST_SOL.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Cifin/Consulta/RES_HOST_XML_SOL.mmc</responseWTXpath>	
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	
+	<formato name="fmt_cifin_Actualiza">		
+		<requestWTXpath>/de/FormatosWTX/Cifin/Actualiza/REQ_XML_HOST_INS.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Cifin/Actualiza/RES_HOST_XML_INS.mmc</responseWTXpath>		
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<!-- GP13120 EFRON CONSULTING FIN -->	
+	<!-- INICIO FORMATOS EVERILION GP11190  -->
+        <formato name="fmt_everilion_consulta">
+                <requestWTXpath>/de/FormatosWTX/everilion/ConsultaEverilion/XML_TO_HOST.mmc</requestWTXpath>
+                <responseWTXpath>/de/FormatosWTX/everilion/ConsultaEverilion/HOST_TO_XML.mmc</responseWTXpath>
+                <responseMultiRegistro>true</responseMultiRegistro>             
+        </formato>       
+	<!-- FIN FORMATOS EVERILION GP11190  -->
+	<!-- INICIO NETCASH GP11309 -->
+	<formato name="fmt_Estadistica_Online">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/EstadisticaOnline/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/EstadisticaOnline/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Datos_Basicos">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaDatosBasicos/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaDatosBasicos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Listado_Productos">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ListadoProductos/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ListadoProductos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Carga_Servicios">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/CargaServicios/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/CargaServicios/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Listado_Cuentas_NC">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ListadoCuentasNC/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ListadoCuentasNC/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Referencias">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaReferecias/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaReferecias/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Listado_Ips">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ListadoIps/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ListadoIps/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Token">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaToken/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaToken/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Servicio_Asunto">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaServicioAsunto/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaServicioAsunto/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Limites">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaLimites/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaLimites/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Referencia_Terceros">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaReferenciaTerceros/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaReferenciaTerceros/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Horarios">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaHorarios/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaHorarios/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Listado_Asunto_Terceros">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ListadoAsuntoTerceros/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ListadoAsuntoTerceros/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Asignar_Token_Libre">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/AsignarTokenLibre/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/AsignarTokenLibre/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>	
+	<formato name="fmt_Parametros_Multicash">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ParametrosMulticash/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ParametrosMulticash/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Administrador">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaAdministrador/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaAdministrador/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Modificacion_Datos_Basicos">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ModificacionDatosBasicos/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ModificacionDatosBasicos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>	
+	<formato name="fmt_Alta_Referencias">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/AltaReferencias/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/AltaReferencias/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Configuracion_Ips">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConfiguracionIps/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConfiguracionIps/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Asignar_Token">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/AsignarToken/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/AsignarToken/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_qasignar_Token">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/qasignarToken/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/qasignarToken/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Configurar_Multicash">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConfiguracionMulticash/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConfiguracionMulticash/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Configurar_Horarios">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConfiguracionHorarios/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConfiguracionHorarios/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Alta_Referencia_Tercero">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/AltaReferenciaTercero/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/AltaReferenciaTercero/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Baja_Referencia_Tercero">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/BajaReferenciaTercero/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/BajaReferenciaTercero/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Modificacion_Limites">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ModificacionLimites/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ModificacionLimites/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Alta_Admin">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/AltaAdministrador/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/AltaAdministrador/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Alta_Limites">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/AltaLimites/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/AltaLimites/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Baja_Admin">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/BajaAdministrador/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/BajaAdministrador/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Modificacion_Servicios">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ModificacionServicios/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ModificacionServicios/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Relacion_Servicio_Asunto">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/RelacionServicioAsunto/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/RelacionServicioAsunto/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Listado_Asunto_Referencia">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ListadoAsuntosReferencia/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ListadoAsuntosReferencia/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>	
+	<formato name="fmt_Baja_Referencias">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/BajaReferencias/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/BajaReferencias/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Log_Auditor">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/LogAuditor/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/LogAuditor/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Baja_Asuntos">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/BajaAsuntos/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/BajaAsuntos/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_Consulta_Datos_Multicash">
+		<requestWTXpath>/de/FormatosWTX/NETCASH/ConsultaDatosMulticash/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/NETCASH/ConsultaDatosMulticash/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>	
+	<!-- FIN NETCASH GP11309 -->
+	<!-- GP11635 EFRON CONSULTING INICIO -->
+	<formato name="fmt_PFDLITE_EvaluarPoliticas">		
+		<requestWTXpath>/de/FormatosWTX/PFDLITE/PO/ENTRADA_PO_XML_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/PFDLITE/PO/SALIDA_PO_HOST_XML.mmc</responseWTXpath>	
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_PFDLITE_ObtenerBuro">		
+		<requestWTXpath>/de/FormatosWTX/PFDLITE/OB/ENTRADA_OB_XML_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/PFDLITE/OB/SALIDA_OB_HOST_XML.mmc</responseWTXpath>	
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_PFDLITE_FinanciaRisk">		
+		<requestWTXpath>/de/FormatosWTX/PFDLITE/FR/ENTRADA_FR_XML_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/PFDLITE/FR/SALIDA_FR_HOST_XML.mmc</responseWTXpath>	
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_PFDLITE_GruposEconomicos">		
+		<requestWTXpath>/de/FormatosWTX/PFDLITE/GE/ENTRADA_GE_XML_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/PFDLITE/GE/SALIDA_GE_HOST_XML.mmc</responseWTXpath>	
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP11635 EFRON CONSULTING FIN -->
+	
+		<!-- PREAPROBADOS F2 GP13541 INICIO-->
+	<formato name="fmt_bm_ListadoCuentas_Preaprobados">
+		<requestWTXpath>/de/FormatosWTX/BM/ListadoCuentasPreaprobados/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/ListadoCuentasPreaprobados/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_bm_Listado_Preaprobados">
+		<requestWTXpath>/de/FormatosWTX/BM/ListadoPreaprobados/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/ListadoPreaprobados/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_bm_Activacion_Preaprobados">
+		<requestWTXpath>/de/FormatosWTX/BM/ActivacionPreaprobados/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/ActivacionPreaprobados/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_bm_Simulacion_Preaprobados">
+		<requestWTXpath>/de/FormatosWTX/BM/SimulacionPreaprobados/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/SimulacionPreaprobados/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+       <!-- PREAPROBADOS F2 GP13541 FIN-->
+	<!-- GP12202 NOVATEC SOLUTIONS INICIO -->
+	<formato name="validacionctaafc">
+		<requestWTXpath>/de/FormatosWTX/BM/ValidacionCuentasAFC/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/ValidacionCuentasAFC/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>		
+	<!-- GP12202 NOVATEC SOLUTIONS FIN -->
+		<!-- GP13120 EFRON CONSULTING INICIO -->
+	<formato name="fmt_cifin_Consulta">		
+		<requestWTXpath>/de/FormatosWTX/Cifin/Consulta/REQ_XML_HOST_SOL.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Cifin/Consulta/RES_HOST_XML_SOL.mmc</responseWTXpath>	
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>	
+	<formato name="fmt_cifin_Actualiza">		
+		<requestWTXpath>/de/FormatosWTX/Cifin/Actualiza/REQ_XML_HOST_INS.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/Cifin/Actualiza/RES_HOST_XML_INS.mmc</responseWTXpath>		
+		<responseMultiRegistro>true</responseMultiRegistro>		
+	</formato>
+	<!-- GP13120 EFRON CONSULTING FIN -->
+	<!-- GP14583 INICIO Banca Digital CDT Online -->
+	<formato name="fmt_bm_CDT_Online_Alta">
+		<requestWTXpath>/de/FormatosWTX/BM/CDTOnlineAlta/Alta_CDTOnline_XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/CDTOnlineAlta/Alta_CDTOnline_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+
+	<formato name="fmt_bm_CDT_Online_Modificacion">
+		<requestWTXpath>/de/FormatosWTX/BM/CDTOnlineModificacion/MOD_CDT_ONL_XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/CDTOnlineModificacion/MOD_CDT_ONL_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+
+	<formato name="fmt_bm_CDT_Online_ConsultaTasa">
+		<requestWTXpath>/de/FormatosWTX/BM/CDTOnlineConsultaTasa/CON_CDT_ONL_XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/CDTOnlineConsultaTasa/CON_CDT_ONL_HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP14583 FIN    Banca Digital CDT Online -->
+	<!-- GP14625 INICIO Banca Digital Pagatiempo 2.0 -->
+	<formato name="fmt_bm_Listado_tarjeta_PAN">
+		<requestWTXpath>/de/FormatosWTX/BM/ListadoTarjetasPAN/XML_TO_HOST.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/BM/ListadoTarjetasPAN/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP14625 FIN    Banca Digital Pagatiempo 2.0  -->
+	<!-- GP10992 EFRON CONSULTING INICIO -->
+	<formato name="fmt_RAR_ConsultaRar">		
+		<requestWTXpath>/de/FormatosWTX/RAR/PRESTAMOS_XML_HOST.mmc</requestWTXpath>		
+		<responseWTXpath>/de/FormatosWTX/RAR/PRESTAMOS_HOST_XML.mmc</responseWTXpath>	
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP10992 EFRON CONSULTING FIN -->	
+	<!-- GP13273 CMC -->
+    <formato name="fmt_bm_Listador_Domiciliados">
+        <requestWTXpath>/de/FormatosWTX/BM/ListadoProDomiciliados/XML_TO_HOST.mmc</requestWTXpath>
+        <responseWTXpath>/de/FormatosWTX/BM/ListadoProDomiciliados/HOST_TO_XML.mmc</responseWTXpath>
+        <responseMultiRegistro>true</responseMultiRegistro>
+    </formato>
+    <formato name="fmt_bm_Operaciones_PagaTiempo">
+        <requestWTXpath>/de/FormatosWTX/BM/OperacionespagaTiempo/XML_TO_HOST.mmc</requestWTXpath>
+        <responseWTXpath>/de/FormatosWTX/BM/OperacionespagaTiempo/HOST_TO_XML.mmc</responseWTXpath>
+        <responseMultiRegistro>true</responseMultiRegistro>
+    </formato>
+    <!-- GP13273 CMC -->
+	<!-- GP14553 CDA -->
+		<formato name="fmt_Validar_Cliente">
+			<requestWTXpath>/de/FormatosWTX/CDA/ValidarCliente/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/CDA/ValidarCliente/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="fmt_Actualizar_Datos">
+			<requestWTXpath>/de/FormatosWTX/CDA/ActualizarDatos/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/CDA/ActualizarDatos/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="fmt_Sarlaft_Consulta">
+			<requestWTXpath>/de/FormatosWTX/CDA/SarlaftConsulta/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/CDA/SarlaftConsulta/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>	 
+		<formato name="fmt_Personas_Consulta">
+			<requestWTXpath>/de/FormatosWTX/CDA/PersonasConsulta/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/CDA/PersonasConsulta/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="fmt_Alta_Modificacion_Personas">
+			<requestWTXpath>/de/FormatosWTX/CDA/AltaModificacionPersonas/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/CDA/AltaModificacionPersonas/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="fmt_Consulta_Comercial">
+			<requestWTXpath>/de/FormatosWTX/CDA/ConsultaComercial/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/CDA/ConsultaComercial/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<formato name="fmt_Actualizacion_Comercial">
+			<requestWTXpath>/de/FormatosWTX/CDA/ActualizacionComercial/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/CDA/ActualizacionComercial/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>	
+		<!-- GP14553 - CDA FIN -->
+		<!-- Inicio GP14627 Preaprobados -->
+		<formato name="fmt_bm_Consulta_Cifin">
+			<requestWTXpath>/de/FormatosWTX/BM/ConsultaCifin/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/ConsultaCifin/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<!-- Fin GP14627 Preaprobados -->
+		<!-- RIESGOS GP14627 - INICIO-->
+		<formato name="fmt_bm_Riesgos_Persona">
+			<requestWTXpath>/de/FormatosWTX/BM/RiesgosPersona/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/BM/RiesgosPersona/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<!-- RIESGOS GP14627 - FIN-->	
+		<!-- PSE GP13990 -->
+		<formato name="fmt_bm_Actualizar_Payment">
+			<requestWTXpath>/de/FormatosWTX/PSE/ActualizarPayment/XML_TO_HOST.mmc</requestWTXpath>
+			<responseWTXpath>/de/FormatosWTX/PSE/ActualizarPayment/HOST_TO_XML.mmc</responseWTXpath>
+			<responseMultiRegistro>true</responseMultiRegistro>
+		</formato>
+		<!-- PSE GP13990 -->
+	<!-- GP11382 MAQUINA RECAUDADORA EFRON INICIO  -->
+	<formato name="fmt_consultaFacturaMaquinaRecaudadora">  
+		<requestWTXpath>/de/FormatosWTX/MAQUINARECAUDADORA/VALIDARFACTURA_WTX/ENTRADA_XML_HOST_VF.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/MAQUINARECAUDADORA/VALIDARFACTURA_WTX/SALIDA_HOST_XML_VF.mmc</responseWTXpath>
+	<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="fmt_pagoFacturaMaquinaRecaudadora">  
+		<requestWTXpath>/de/FormatosWTX/MAQUINARECAUDADORA/GENERARCARGO_WTX/ENTRADA_XML_HOST_GP.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/MAQUINARECAUDADORA/GENERARCARGO_WTX/SALIDA_HOST_XML_GP.mmc</responseWTXpath>
+	<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+<!-- GP11382 MAQUINA RECAUDADORA EFRON FIN  -->
+	<!-- GP14991 - NOVATEC SOLUTIONS - INICIO -->
+	<formato name="ADNconsultaPF">
+		<requestWTXpath>/de/FormatosWTX/ADN/ADN_CONS_EST_PF_PET.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ADN/ADN_CONS_EST_PF_RES.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="ADNactivacion">
+		<requestWTXpath>/de/FormatosWTX/ADN/ADN_ACTIVACION_PET.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ADN/ADN_ACTIVACION_RES.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="ADNconsultaAC">
+		<requestWTXpath>/de/FormatosWTX/ADN/ADN_CONS_EST_AC_PET.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ADN/ADN_CONS_EST_AC_RES.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="ADNdisposicion">
+		<requestWTXpath>/de/FormatosWTX/ADN/ADN_DISPOSICION_PET.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ADN/ADN_DISPOSICION_RES.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="ADNconsultaInfoPago">
+		<requestWTXpath>/de/FormatosWTX/ADN/ADN_CONS_EST_AC_PAGO_PET.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ADN/ADN_CONS_EST_AC_PAGO_RES.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="ADNpago">
+		<requestWTXpath>/de/FormatosWTX/ADN/ADN_PAGO_PET.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ADN/ADN_PAGO_RES.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="ADNlistarActivos">
+		<requestWTXpath>/de/FormatosWTX/ADN/ADN_POS_GLOBAL_PET.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ADN/ADN_POS_GLOBAL_RES.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<formato name="ADNconsultaMovimientos">
+		<requestWTXpath>/de/FormatosWTX/ADN/ADN_CONS_MOVS_PET.mmc</requestWTXpath>
+		<responseWTXpath>/de/FormatosWTX/ADN/ADN_CONS_MOVS_RES.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP14991 - NOVATEC SOLUTIONS - FIN -->
+	<!-- GP13274  PAGATIEMPO INICIO-->
+	<formato name="fmt_pagoFacturaPagaTiempo_2">  
+		<requestWTXpath>/de/FormatosWTX/Pagatiempo/XML_HOST/XML_TO_HOST.mmc</requestWTXpath> 
+		<responseWTXpath>/de/FormatosWTX/Pagatiempo/XML_HOST/HOST_TO_XML.mmc</responseWTXpath>
+		<responseMultiRegistro>true</responseMultiRegistro>
+	</formato>
+	<!-- GP13274  PAGATIEMPO FIN-->
+	
+</FormatosWTX>
