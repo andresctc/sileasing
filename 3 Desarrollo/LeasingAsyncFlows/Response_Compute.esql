@@ -1,0 +1,42 @@
+CREATE COMPUTE MODULE Response_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		 CALL CopyMessageHeaders();
+		 --CALL CopyEntireMessage();
+		  
+		 SET OutputRoot.MQMD.CorrelId = Environment.MQMD.CorrelId;
+		  
+		 DECLARE MENSAJE CHARACTER;
+		 DECLARE POS1 INT 1;
+		 DECLARE POS2 INT 1;
+		 DECLARE MESSAGENAME CHARACTER;
+		 DECLARE cadena BLOB;
+		 
+		 SET MENSAJE = CAST(InputRoot."BLOB"."BLOB" AS CHARACTER CCSID 1208);
+		 SET POS1 = POSITION('<tramaRespuesta>' IN MENSAJE);
+		 SET POS2 = POSITION('</tramaRespuesta>' IN MENSAJE);
+		 SET MESSAGENAME = SUBSTRING(MENSAJE FROM POS1 FOR (POS2));
+		 SET POS2 = POSITION('</tramaRespuesta>' IN MESSAGENAME);
+		 SET MENSAJE = SUBSTRING(MESSAGENAME FROM 17 FOR (POS2-17));
+		 SET Environment.Mensaje = MENSAJE;
+		 SET cadena =  CAST(MENSAJE AS BLOB CCSID 1208);
+		 
+		 SET "OutputRoot"."BLOB"."BLOB" = cadena;
+		  
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;

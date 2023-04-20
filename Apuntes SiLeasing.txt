@@ -216,3 +216,23 @@ QLD.SLES.ENVIO.CO
 QMDCSOA1
 
 https://www.ibm.com/support/pages/ibm-integration-bus-failure-load-dtxwmqilil-file-when-deploying-message-flow-containing-wtx-map-node-due-incompatible-mq-icu-version
+
+https://www.royalcyber.com/blog/middleware/reverse-engineering-from-bar-files-to-create-application-projects/
+
+----------------------
+Flujo en colas
+Response:
+	entra QLD.SLES.ENVIO.CO
+		Responda: QL.SOA.PS9.MB.OUT
+			sale QL.SOA.PS9.IN
+				 vuelve a entrar QL.SOA.PS9.MB.OUT
+				 
+		Responda: QL.SOA.PS9.MB.OUT
+			termina: QLD.SLES.RESP.CO
+
+	AS400 -> asdñlkjfadñljsadfoipurqpiuofnñvad,fdsaurweqpiourlkj	
+
+	QL.SOA.PS9.IN -> <mensaje>asdfñlkfadsñlkfads</mensaje>	dsfasdfasdfasdf<tramaRespuesta>asdñlkjfadñljsadfoipurqpiuofnñvad,fdsaurweqpiourlkj	</tramaRespuesta>sfgdlkkñlgsedrñlkgserkñlngse
+
+	asdñlkjfadñljsadfoipurqpiuofnñvad,fdsaurweqpiourlkj	
+	
