@@ -4,7 +4,7 @@ CREATE COMPUTE MODULE Response_Compute
 		 CALL CopyMessageHeaders();
 		 --CALL CopyEntireMessage();
 		  
-		 SET OutputRoot.MQMD.CorrelId = Environment.MQMD.CorrelId;
+--		 SET OutputRoot.MQMD.CorrelId = Environment.MQMD.CorrelId; 
 		  
 		 DECLARE MENSAJE CHARACTER;
 		 DECLARE POS1 INT 1;

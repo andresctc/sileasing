@@ -17,6 +17,7 @@ CREATE COMPUTE MODULE Request_SaveMQMD
 		
 		SET Environment.MQMD = InputRoot.MQMD;
 		SET Environment.MQMD.CorrelId = InputRoot.MQMD.MsgId;
+		SET OutputRoot.MQMD.CorrelId = InputRoot.MQMD.MsgId;
 		
 		RETURN TRUE;
 	END;
