@@ -6,28 +6,28 @@
     <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/LeasingAsyncFlows/icons/full/obj16/Request.gif"/>
     <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/LeasingAsyncFlows/icons/full/obj30/Request.gif"/>
     <composition>
-      <nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="181,85" queueName="QLD.SLES.ENVIO.CO">
+      <nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="63,26" queueName="QLD.SLES.ENVIO.CO">
         <translation xmi:type="utility:ConstantString" string="AS400_OUT"/>
       </nodes>
-      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="756,85" queueName="QL.SOA.PS9.IN">
+      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="638,28" queueName="QL.SOA.PS9.IN">
         <translation xmi:type="utility:ConstantString" string="MQ_PS9_IN"/>
       </nodes>
-      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="405,85" computeExpression="esql://routine/#Request_SaveMQMD.Main">
-        <translation xmi:type="utility:ConstantString" string="SaveMQMD"/>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="290,27" computeExpression="esql://routine/#Request_SaveMQMD.Main">
+        <translation xmi:type="utility:ConstantString" string="RQ_SaveMQMD"/>
       </nodes>
-      <nodes xmi:type="ComIbmMQHeader.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="498,86" mqmdAAAOptions="Modify header" mqmdCodedCharSetId="Inherit" mqmdFormat="Inherit" mqmdMsgType="MQMT_DATAGRAM" mqmdExpiry="Inherit" mqmdFeedback="Inherit" mqmdPersistence="MQPER_PERSISTENT" mqmdMsgId="$Root/MQMD/MsgId" mqmdCorrelId="Inherit" mqmdReplyToQ="QL.SOA.PS9.MB.OUT" mqmdReplyToQMgr="QMDCSOA1">
-        <translation xmi:type="utility:ConstantString" string="MQ Header Reply2Q"/>
+      <nodes xmi:type="ComIbmMQHeader.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="381,28" mqmdAAAOptions="Modify header" mqmdCodedCharSetId="Inherit" mqmdFormat="Inherit" mqmdMsgType="MQMT_DATAGRAM" mqmdExpiry="Inherit" mqmdFeedback="Inherit" mqmdPersistence="MQPER_PERSISTENT" mqmdMsgId="$Root/MQMD/MsgId" mqmdCorrelId="Inherit" mqmdReplyToQ="QL.SOA.PS9.MB.OUT" mqmdReplyToQMgr="QMDCSOA1">
+        <translation xmi:type="utility:ConstantString" string="RQ_Header_Reply2Q"/>
       </nodes>
-      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="578,219" queueName="ERROR" transactionMode="no" persistenceMode="yes" validateMaster="none">
-        <translation xmi:type="utility:ConstantString" string="MQ Error Output"/>
+      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="449,146" queueName="ERROR" transactionMode="no" persistenceMode="yes" validateMaster="none">
+        <translation xmi:type="utility:ConstantString" string="RQ_MQ_Error_Output"/>
       </nodes>
-      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_10" location="389,218" destination="file" filePath="/log/LeasingAsync/LeasingTrace.txt" pattern="*****************************************************************************************************************&#xD;&#xA;************************************* INICIO LOG REQUEST OUT ERROR **********************************************&#xD;&#xA;Arbol Errores            : ${ExceptionList}&#xD;&#xA;Arbol Root                : ${Root}&#xD;&#xA;Trama Mensaje QM : ${Root.BLOB.BLOB}&#xD;&#xA;*************************************** FIN LOG REQUEST OUT ERROR ************************************************&#xD;&#xA;*****************************************************************************************************************">
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_10" location="214,146" destination="file" filePath="/log/LeasingAsync/LeasingTrace.txt" pattern="*****************************************************************************************************************&#xD;&#xA;************************************* INICIO LOG REQUEST OUT ERROR **********************************************&#xD;&#xA;Arbol Errores            : ${ExceptionList}&#xD;&#xA;Arbol Root                : ${Root}&#xD;&#xA;Trama Mensaje QM : ${Root.BLOB.BLOB}&#xD;&#xA;*************************************** FIN LOG REQUEST OUT ERROR ************************************************&#xD;&#xA;*****************************************************************************************************************">
         <translation xmi:type="utility:ConstantString" string="RQ_Trace_Error"/>
       </nodes>
-      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_11" location="627,85" destination="file" filePath="/log/LeasingAsync/LeasingTrace.txt" pattern="************************************** INICIO LOG REQUEST OUT OK ************************************************&#xD;&#xA;Arbol Root                   : ${Root}&#xD;&#xA;Out MsgId                    : ${Root.MQMD.MsgId}&#xD;&#xA;Out CorrelID                 : ${Root.MQMD.CorrelId}&#xD;&#xA;Trama Mensaje QM     : ${Root.XMLNSC.requestTransaccion.trama}&#xD;&#xA;**************************************** FIN LOG REQUEST OUT OK *************************************************&#xD;&#xA;*****************************************************************************************************************">
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_11" location="507,28" destination="file" filePath="/log/LeasingAsync/LeasingTrace.txt" pattern="************************************** INICIO LOG REQUEST OUT OK ************************************************&#xD;&#xA;Arbol Root                   : ${Root}&#xD;&#xA;Out MsgId                    : ${Root.MQMD.MsgId}&#xD;&#xA;Out CorrelID                 : ${Root.MQMD.CorrelId}&#xD;&#xA;Trama Mensaje QM     : ${Root.XMLNSC.requestTransaccion.trama}&#xD;&#xA;**************************************** FIN LOG REQUEST OUT OK *************************************************&#xD;&#xA;*****************************************************************************************************************">
         <translation xmi:type="utility:ConstantString" string="RQ_Trace_OUT_OK"/>
       </nodes>
-      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_7" location="296,87" destination="file" filePath="/log/LeasingAsync/LeasingTrace.txt" pattern="*****************************************************************************************************************&#xD;&#xA;************************************** INICIO LOG REQUEST IN OK *************************************************&#xD;&#xA;Arbol Root                      : ${Root}&#xD;&#xA;In MsgId                          : ${Root.MQMD.MsgId}&#xD;&#xA;In CorrelID                       : ${Root.MQMD.CorrelId}&#xD;&#xA;Trama Mensaje QM       : ${Root.BLOB.BLOB}S &#xD;&#xA;***************************************** FIN LOG REQUEST IN OK *************************************************">
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_7" location="178,27" destination="file" filePath="/log/LeasingAsync/LeasingTrace.txt" pattern="*****************************************************************************************************************&#xD;&#xA;************************************** INICIO LOG REQUEST IN OK *************************************************&#xD;&#xA;Arbol Root                      : ${Root}&#xD;&#xA;In MsgId                          : ${Root.MQMD.MsgId}&#xD;&#xA;In CorrelID                       : ${Root.MQMD.CorrelId}&#xD;&#xA;Trama Mensaje QM       : ${Root.BLOB.BLOB}S &#xD;&#xA;***************************************** FIN LOG REQUEST IN OK *************************************************">
         <translation xmi:type="utility:ConstantString" string="RQ_Trace_IN_OK"/>
       </nodes>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_4" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
@@ -40,6 +40,16 @@
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_5" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_7" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
     </composition>
     <propertyOrganizer/>
-    <stickyBoard/>
+    <stickyBoard>
+      <stickyNote location="16,113" association="FCMComposite_1_1">
+        <body xmi:type="utility:ConstantString" string="  QLD.SLES.ENVIO.CO"/>
+      </stickyNote>
+      <stickyNote location="445,228" association="FCMComposite_1_6">
+        <body xmi:type="utility:ConstantString" string="         ERROR"/>
+      </stickyNote>
+      <stickyNote location="607,118" association="FCMComposite_1_2">
+        <body xmi:type="utility:ConstantString" string="  QL.SOA.PS9.IN"/>
+      </stickyNote>
+    </stickyBoard>
   </eClassifiers>
 </ecore:EPackage>

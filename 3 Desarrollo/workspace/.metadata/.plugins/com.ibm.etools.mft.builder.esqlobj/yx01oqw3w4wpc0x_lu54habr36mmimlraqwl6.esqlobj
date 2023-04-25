@@ -1,0 +1,66 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+	SET OutputRoot.MQMD = InputRoot.MQMD;
+	SET OutputRoot.Properties = NULL;
+	Call AddExceptionData();
+    END;
+	
+	CREATE PROCEDURE AddExceptionData() BEGIN
+	CREATE NEXTSIBLING OF OutputRoot.MQMD DOMAIN('XMLNSC') NAME 'XMLNSC';
+	SET OutputRoot.XMLNSC.Error.BrokerName  = SQL.BrokerName;
+	DECLARE ERef REFERENCE TO OutputRoot.XMLNSC.Error;
+	SET ERef.MessageFlowLabel = SQL.MessageFlowLabel; 
+    SET ERef.DTSTAMP =   CURRENT_TIMESTAMP;  
+	SET ERef.StatusCode = -1;
+     
+    -- Add some exception data for error and fault
+		DECLARE Error INTEGER;
+		DECLARE Text CHARACTER;
+		DECLARE Label CHARACTER;
+		DECLARE I INTEGER 1;
+		DECLARE K INTEGER;
+		DECLARE start REFERENCE TO InputExceptionList.*[1];
+
+		WHILE start.Number IS NOT NULL DO 
+			SET Label = start.Label;
+			SET Error = start.Number;
+			IF Error = 3001 THEN
+				SET Text = start.Insert.Text;
+			ELSE
+				SET Text = start.Text;
+			END IF;
+			-- Don't include the "Caught exception and rethrowing message"
+			IF Error <> 2230 THEN
+				-- Process inserts
+				DECLARE Inserts Character;
+				DECLARE INS Integer;
+				SET Inserts = '';
+				-- Are there any inserts for this exception
+				IF EXISTS (start.Insert[]) THEN
+					-- If YES add them to inserts string
+				 	SET Inserts = Inserts || COALESCE(start.Insert[1].Text,'NULL')|| ' / ';
+				 	SET K = 1;
+				 	INSERTS: LOOP
+						IF CARDINALITY(start.Insert[])> K 
+						THEN 
+							SET Inserts = Inserts || COALESCE(start.Insert[K+1].Text,'NULL')|| ' / ';
+						-- No more inserts to process
+						ELSE LEAVE INSERTS;
+						END IF;
+					SET K = K+1;
+					END LOOP INSERTS;
+				END IF;
+				SET ERef.Exception[I].Label = Label;
+				SET ERef.Exception[I].Error = Error;
+				SET ERef.Exception[I].Text = Text;
+				Set ERef.Exception[I].Inserts = COALESCE(Inserts, '');
+				
+				SET I = I+1; 
+			END IF;
+			-- Move start to the last child of the field to which it currently points
+			MOVE start LASTCHILD;
+		END WHILE;
+
+	END;
+	
+

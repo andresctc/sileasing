@@ -1,0 +1,35 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		-- This is first compute - initialise to indicate Request Leg
+		SET Environment.Variables.RRMode = 'Request';
+		SET Environment.Variables.RequestLoggingOn = RequestLoggingOn;
+	    -- Check that the MQMD Header includes a REPLYTOQ
+		IF LENGTH(InputRoot.MQMD.ReplyToQ) = 0 THEN
+			THROW USER EXCEPTION SEVERITY 3 MESSAGE 2372 VALUES('No MQ reply address provided, in the Message Correlator for WebSphere MQ: request-response with persistence pattern');
+		END IF;
+
+	
+		-- Copy the incoming original MQMD
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+
+		-- Copy MsgId to CorrelId as the Backend reply application would do
+		-- This enables the MQGet node in the Reply flow to retrieve the
+		-- corresponding store message by CorrelId even if the requestor did
+		-- not send the message as a MQSeries request message
+		SET OutputRoot.MQMD.CorrelId = InputRoot.MQMD.MsgId;
+
+		-- Note that we're not copying the message body it is not required
+		-- to be stored, we can retrieve the reply to queue from just the MQMD	
+	    
+	    -- Also save the broker queue manager name to an environment variable so that it can be used in the MQMD header node 
+		-- when sending to the provider
+		SET Environment.Variables.BrokerQueueManager = SQL.QueueManagerName;
+		
+		RETURN TRUE;
+	END;
+

@@ -1,0 +1,16 @@
+CREATE COMPUTE MODULE HandleMQGetWarning
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- The MQGet Node received a MQ Warning
+		-- The Tree will contain just a MQMD and any message content received 
+		-- in a BLOB, no parsing will be performed.
+		-- This could occur if the get options were set to accept truncated
+		-- messages. We have not set that option here.
+		-- Throw a user exception
+		DECLARE reasonStr CHAR;
+		SET Environment.Variables.StatusCode = -3; 
+		SET reasonStr = 'Failure to recover reply address in the Message Correlator for WebSphere MQ: request-response with persistence pattern';
+		THROW USER EXCEPTION SEVERITY 3 MESSAGE 2372 VALUES(reasonStr);
+		RETURN TRUE;
+	END;
+END MODULE;

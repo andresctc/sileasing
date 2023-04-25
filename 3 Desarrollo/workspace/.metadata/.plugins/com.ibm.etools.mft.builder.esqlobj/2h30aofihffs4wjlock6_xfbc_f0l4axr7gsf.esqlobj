@@ -1,0 +1,15 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputRoot = InputRoot;
+		-- Specify the reply-to queue in the request set to the Backend
+		-- reply application to be the input queue of the reply flow
+		-- SET OutputRoot.MQMD.ReplyToQ = '<attr node="entry/target/response" name="queueName"/>';
+		SET OutputRoot.MQMD.ReplyToQ = 'MRRC.GETRESPONSE.IN';
+		-- Queue Manager for reply is broker queue manager
+		SET OutputRoot.MQMD.ReplyToQMgr = SQL.QueueManagerName;
+		-- SET Request mode so logging checks are applied correctly
+
+		SET OutputRoot.MQMD.Expiry = -1;
+		
+		RETURN TRUE;
+	END;

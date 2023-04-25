@@ -1,0 +1,11 @@
+CREATE COMPUTE MODULE HandleMissingStoredMsg
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- The MQGet Node failed to get a message from the Store Queue
+		-- Throw a user exception
+		DECLARE reasonStr CHAR;
+		SET reasonStr = 'Failure to recover reply address in the Message Correlator for WebSphere MQ: request-response with persistence pattern';
+		THROW USER EXCEPTION SEVERITY 3 MESSAGE 2372 VALUES(reasonStr);
+		RETURN TRUE;
+	END;
+END MODULE;

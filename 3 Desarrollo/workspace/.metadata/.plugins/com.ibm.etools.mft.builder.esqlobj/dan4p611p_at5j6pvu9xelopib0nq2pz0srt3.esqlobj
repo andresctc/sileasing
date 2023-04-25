@@ -1,0 +1,12 @@
+CREATE COMPUTE MODULE SetResponseMode
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		SET Environment.MQMD = InputRoot.MQMD;
+		
+		SET Environment.Variables.RRMode = 'Response';
+		SET Environment.Variables.ResponseLoggingOn = ResponseLoggingOn;
+
+		RETURN TRUE;
+		END;
+END MODULE;

@@ -1,0 +1,7 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+-- Do not write a second error message if this message has already been backed out
+	IF Root.MQMD.BackoutCount > 0 THEN RETURN FALSE; 		
+	ELSE RETURN ErrorLoggingOn;
+	END IF;
+	END;

@@ -1,0 +1,10 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		SET Environment.MQMD = InputRoot.MQMD;
+		
+		SET Environment.Variables.RRMode = 'Response';
+		SET Environment.Variables.ResponseLoggingOn = ResponseLoggingOn;
+
+		RETURN TRUE;
+		END;

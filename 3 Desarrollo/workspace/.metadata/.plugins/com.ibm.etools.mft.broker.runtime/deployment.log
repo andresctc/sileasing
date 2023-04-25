@@ -1,0 +1,79 @@
+TransferenciasAdapter>>TESTNODE_Andres Torres>>ClientesLeasing2023>>2>>1680279868933
+2087<<Runtime Response<<2023-03-31 11:24:36.209 COT<<TESTNODE_Andres Torres<<e5ca308d-85fc-4eae-9c5f-302d904da0eb
+4041<<Runtime Response<<2023-03-31 11:24:36.209 COT<<ClientesLeasing2023<<ddec721c-6c50-4cc4-9142-f0c6d07487d9
+1301<<Runtime Response<<2023-03-31 11:24:36.209 COT<<TransferenciasAdapter<<SerfinanzaFramework<<TransferenciasAdapter
+2871<<Administration Result<<2023-03-31 11:24:36.209 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/GeneratedBarFiles/TransferenciasAdapterproject.generated.bar<<BAR<<ClientesLeasing2023<<ExecutionGroup<<FAILED
+SerfinanzaFramework.bar>>TESTNODE_Andres Torres>>ClientesLeasing2023>>2>>1680279968633
+2087<<Runtime Response<<2023-03-31 11:26:13.114 COT<<TESTNODE_Andres Torres<<e5ca308d-85fc-4eae-9c5f-302d904da0eb
+4041<<Runtime Response<<2023-03-31 11:26:13.114 COT<<ClientesLeasing2023<<ddec721c-6c50-4cc4-9142-f0c6d07487d9
+2683<<Runtime Response<<2023-03-31 11:26:13.114 COT<<PolicyManager
+2871<<Administration Result<<2023-03-31 11:26:13.114 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/demo_servicio_ace-develop/SerfinanzaFramework/SerfinanzaFramework.bar<<BAR<<ClientesLeasing2023<<ExecutionGroup<<FAILED
+TransferenciasAPI>>TESTNODE_Andres Torres>>ClientesLeasing2023>>2>>1680280755717
+2087<<Runtime Response<<2023-03-31 11:39:17.122 COT<<TESTNODE_Andres Torres<<e5ca308d-85fc-4eae-9c5f-302d904da0eb
+4041<<Runtime Response<<2023-03-31 11:39:17.122 COT<<ClientesLeasing2023<<ddec721c-6c50-4cc4-9142-f0c6d07487d9
+1301<<Runtime Response<<2023-03-31 11:39:17.122 COT<<TransferenciasAPI<<SerfinanzaFramework<<TransferenciasAPI
+2871<<Administration Result<<2023-03-31 11:39:17.124 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/GeneratedBarFiles/TransferenciasAPIproject.generated.bar<<BAR<<ClientesLeasing2023<<ExecutionGroup<<FAILED
+SerfinanzaFramework.bar>>TESTNODE_Andres Torres>>ClientesLeasing2023>>2>>1680280780083
+2087<<Runtime Response<<2023-03-31 11:39:40.575 COT<<TESTNODE_Andres Torres<<e5ca308d-85fc-4eae-9c5f-302d904da0eb
+4041<<Runtime Response<<2023-03-31 11:39:40.575 COT<<ClientesLeasing2023<<ddec721c-6c50-4cc4-9142-f0c6d07487d9
+2683<<Runtime Response<<2023-03-31 11:39:40.575 COT<<PolicyManager
+2871<<Administration Result<<2023-03-31 11:39:40.575 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/demo_servicio_ace-develop/SerfinanzaFramework/SerfinanzaFramework.bar<<BAR<<ClientesLeasing2023<<ExecutionGroup<<FAILED
+SerfinanzaFramework.bar>>TESTNODE_Andres Torres>>ClientesLeasing2023>>0>>1680281607691
+2871<<Administration Result<<2023-03-31 11:53:30.955 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/demo_servicio_ace-develop/SerfinanzaFramework/SerfinanzaFramework.bar<<BAR<<ClientesLeasing2023<<ExecutionGroup<<COMPLETE
+TransferenciasAdapter>>TESTNODE_Andres Torres>>ClientesLeasing2023>>0>>1680281628817
+2871<<Administration Result<<2023-03-31 11:53:54.256 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/GeneratedBarFiles/TransferenciasAdapterproject.generated.bar<<BAR<<ClientesLeasing2023<<ExecutionGroup<<COMPLETE
+Leasing.bar>>TESTNODE_Andres Torres>>ClientesLeasing2023>>2>>1680282043882
+2087<<Runtime Response<<2023-03-31 12:00:45.499 COT<<TESTNODE_Andres Torres<<e5ca308d-85fc-4eae-9c5f-302d904da0eb
+4041<<Runtime Response<<2023-03-31 12:00:45.499 COT<<ClientesLeasing2023<<ddec721c-6c50-4cc4-9142-f0c6d07487d9
+2241<<Runtime Response<<2023-03-31 12:00:45.499 COT<<DTXPlugInNode<<mqsi.Response
+2871<<Administration Result<<2023-03-31 12:00:45.500 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/demo_servicio_ace-develop/SerfinanzaFramework/Leasing.bar<<BAR<<ClientesLeasing2023<<ExecutionGroup<<FAILED
+Leasing.bar>>TESTNODE_Andres Torres>>default>>2>>1680290082963
+2087<<Runtime Response<<2023-03-31 14:14:51.168 COT<<TESTNODE_Andres Torres<<e5ca308d-85fc-4eae-9c5f-302d904da0eb
+4041<<Runtime Response<<2023-03-31 14:14:51.168 COT<<default<<5c39134d-ad7b-41fe-bf49-a405294a8427
+2241<<Runtime Response<<2023-03-31 14:14:51.168 COT<<DTXPlugInNode<<mqsi.Response
+2871<<Administration Result<<2023-03-31 14:14:51.168 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/demo_servicio_ace-develop/SerfinanzaFramework/Leasing.bar<<BAR<<default<<ExecutionGroup<<FAILED
+Leasing.bar>>MBDCSOA1>>ClientesLeasing>>2>>1680292219730
+2087<<Runtime Response<<2023-03-31 14:50:20.989 COT<<MBDCSOA1<<10ab75cf-cd8b-4f16-989b-a8a220c0609d
+4041<<Runtime Response<<2023-03-31 14:50:20.989 COT<<ClientesLeasing<<a66bb64b-ec4f-447d-b70c-c314d61fcf26
+2241<<Runtime Response<<2023-03-31 14:50:20.989 COT<<DTXPlugInNode<<mqsi.Response
+2871<<Administration Result<<2023-03-31 14:50:20.990 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<Z:/Proyectos/BBVA/IIB/workspace/demo_servicio_ace-develop/SerfinanzaFramework/Leasing.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<FAILED
+LeasingAsyncFlows>>TESTNODE_Andres Torres>>default>>0>>1681329807693
+2871<<Administration Result<<2023-04-12 15:03:31.959 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681338806717
+2871<<Administration Result<<2023-04-12 17:33:29.719 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681399626159
+2871<<Administration Result<<2023-04-13 10:27:12.759 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681400818334
+2871<<Administration Result<<2023-04-13 10:49:57.996 COT<<root[Default]<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681402594793
+2871<<Administration Result<<2023-04-13 11:16:41.995 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681404338546
+2871<<Administration Result<<2023-04-13 11:45:40.318 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681404504984
+2871<<Administration Result<<2023-04-13 11:48:27.424 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681408310275
+2871<<Administration Result<<2023-04-13 12:51:51.001 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681413496496
+2871<<Administration Result<<2023-04-13 14:18:17.131 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681413825005
+2871<<Administration Result<<2023-04-13 14:23:47.327 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681417151766
+2871<<Administration Result<<2023-04-13 15:19:13.292 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681418664804
+2871<<Administration Result<<2023-04-13 15:46:57.935 COT<<root[Default]<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681419698478
+2871<<Administration Result<<2023-04-13 16:04:54.466 COT<<root[Default]<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681478991288
+2871<<Administration Result<<2023-04-14 08:29:54.526 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681479371565
+2871<<Administration Result<<2023-04-14 08:36:17.035 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681479498240
+2871<<Administration Result<<2023-04-14 08:38:19.221 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681932427582
+2871<<Administration Result<<2023-04-19 14:27:10.554 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681933926468
+2871<<Administration Result<<2023-04-19 14:52:08.272 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681940388836
+2871<<Administration Result<<2023-04-19 16:39:49.910 COT<<DESKTOP-2VG8A8I\Andres Torres<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE
+LeasingAsyncFlows>>MBDCSOA1>>ClientesLeasing>>0>>1681941290771
+2871<<Administration Result<<2023-04-19 16:57:49.994 COT<<root[Default]<<deploy<<C:/Users/Andres Torres/IBM/IIBT10/workspace/GeneratedBarFiles/LeasingAsyncFlowsproject.generated.bar<<BAR<<ClientesLeasing<<ExecutionGroup<<COMPLETE

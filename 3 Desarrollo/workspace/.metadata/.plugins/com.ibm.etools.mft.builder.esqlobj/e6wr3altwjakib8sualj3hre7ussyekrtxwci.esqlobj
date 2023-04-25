@@ -1,0 +1,8 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputRoot = InputRoot;
+		
+		SET Environment.Variables.RRMode = 'Request';
+		
+		RETURN TRUE;
+	END;

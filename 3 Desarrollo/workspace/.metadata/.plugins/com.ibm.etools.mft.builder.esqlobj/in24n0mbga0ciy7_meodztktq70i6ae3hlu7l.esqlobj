@@ -1,0 +1,11 @@
+CREATE COMPUTE MODULE Request_Initialise
+
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot = InputRoot;
+		
+		SET Environment.Variables.RRMode = 'Request';
+		
+		RETURN TRUE;
+	END;
+END MODULE;

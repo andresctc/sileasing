@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681328907890_10" label="[LeasingAsyncFlows]" name="[LeasingAsyncFlows]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LeasingAsyncFlows" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681414381093_2" label="[LeasingFlows]" name="[LeasingFlows]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LeasingFlows" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1680215345607_0" label="Window Working Set" name="Aggregate for window 1680215345607"/>
+</workingSetManager>

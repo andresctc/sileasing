@@ -1,0 +1,14 @@
+CREATE COMPUTE MODULE Request_Build_Error_Message
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+-- Copy MQMD which contains reply address
+	SET OutputRoot.MQMD = InputRoot.MQMD;
+-- Set CorrelId to message ID so requester can retrieve by correlId
+	SET OutputRoot.MQMD.CorrelId = InputRoot.MQMD.MsgId;
+-- Set up Error response
+	CREATE NEXTSIBLING OF OutputRoot.MQMD DOMAIN('XMLNSC') NAME 'XMLNSC';
+	SET OutputRoot.XMLNSC.Error.Status = -1;
+	SET OutputRoot.XMLNSC.Error.Text = 'Failed to send message, in the Message Correlator for WebSphere MQ: request-response with persistence pattern';	
+	RETURN TRUE;
+	END;
+END MODULE;

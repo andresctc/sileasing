@@ -1,0 +1,9 @@
+CREATE FILTER MODULE ErrorQ_check
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+-- Do not write a second error message if this message has already been backed out
+	IF Root.MQMD.BackoutCount > 0 THEN RETURN FALSE; 		
+	ELSE RETURN ErrorLoggingOn;
+	END IF;
+	END;
+END MODULE;

@@ -1,0 +1,10 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+-- Do not send a reply if this message has already been backed out
+	IF Root.MQMD.BackoutCount > 0 THEN RETURN FALSE; END IF;
+-- Only send a reply if in request mode (do not know where to go if error is in response flow)
+	IF  Environment.Variables.RRMode = 'Request' 
+	THEN RETURN TRUE;
+	ELSE RETURN FALSE;
+	END IF;
+	END;
